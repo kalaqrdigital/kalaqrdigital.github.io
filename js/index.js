@@ -28,21 +28,6 @@ window.sr = ScrollReveal();
 	});
 
 
-	sr.reveal('.piepag', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px', //distancia
-		reset: 1000
-
-	}); 
-	sr.reveal('.piepag2', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px', //distancia
-		reset: 1000
-
-	}); 
-
 sr.reveal('.piepagina', {
 		duration: 1000, //tiempo
 		delay:500,
