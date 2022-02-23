@@ -11,7 +11,7 @@ window.sr = ScrollReveal();
 
 	
 
-	sr.reveal('.atrevete', {
+	sr.reveal('.lleva', {
 		duration: 1500, //tiempo
 		origin: 'right', //origen
 		distance: '-100px', //distancia
@@ -19,7 +19,7 @@ window.sr = ScrollReveal();
 
 	});
 
-	sr.reveal('.catalogo', {
+	sr.reveal('.titulo', {
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
@@ -27,26 +27,27 @@ window.sr = ScrollReveal();
 
 	});
 
-	sr.reveal('.buttonsCatalogo', {
-		duration: 1500, //tiempo
-		origin: 'top', //origen
-		distance: '-100px', //distancia
-		
 
-	});
-
-	sr.reveal('.precios', {
-		duration: 1500, //tiempo
-		origin: 'top', //origen
-		distance: '-100px', //distancia
-		reset: 1000
-
-	});
-
-	sr.reveal('.piepagina', {
+	sr.reveal('.piepag', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
-		distance: '-100px', //distancia
+		distance: '300px', //distancia
+		reset: 1000
+
+	}); 
+	sr.reveal('.piepag2', {
+		duration: 1500, //tiempo
+		origin: 'bottom', //origen
+		distance: '300px', //distancia
+		reset: 1000
+
+	}); 
+
+sr.reveal('.piepagina', {
+		duration: 1000, //tiempo
+		delay:500,
+		origin: 'left', //origen
+		distance: '100px', //distancia
 		reset: 1000
 
 	}); 
@@ -59,13 +60,6 @@ window.sr = ScrollReveal();
 
 	}); 
 
-	sr.reveal('.pricing-table', {
-		duration: 1500, //tiempo
-		origin: 'top', //origen
-		distance: '-100px', //distancia
-	
-
-	}); 
 
 	
 
