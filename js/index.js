@@ -26,13 +26,6 @@ window.sr = ScrollReveal();
 		reset: 1000
 
 	});
-sr.reveal('.catalogo', {
-		duration: 1500, //tiempo
-		origin: 'right', //origen
-		distance: '-100px', //distancia
-		
-
-	});
 
 sr.reveal('.piepagina', {
 		duration: 1000, //tiempo
