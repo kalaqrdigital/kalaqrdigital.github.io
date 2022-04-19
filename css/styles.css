@@ -4,7 +4,27 @@
     overflow-x: hidden !important;
     
 }
-
+/*BARRA DE NAVEGACION A PANTALLA COMPLETA
+/*@media (max-width: 1000px) {
+    .breadcrumbs {
+        margin-top: 72px;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .navbar-collapse {
+        height: 100vh;
+    }
+    .nav-link {
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 3rem
+    }
+    .engtoggle {
+        justify-content: center;
+        align-items: center;
+    }
+}*/
 p{
   margin-bottom: 0px;
   margin-left: : 0px;
