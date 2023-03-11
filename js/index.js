@@ -1,5 +1,32 @@
 window.sr = ScrollReveal();
 
+sr.reveal('.tituloInvitaciones', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.cel', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.precios2', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 	sr.reveal('.logo', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen

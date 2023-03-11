@@ -87,10 +87,38 @@ nav{
   width: 100%;
 }
 
+.nav {
+  background-color: black;
+  color:white;
+  font-family: 'Cinzel', serif;
+}
+.nav .nav-item .nav-link{
+  background-color: black;
+  color:white;
+}
+.nav .nav-item .nav-link:hover{
+  
+  color:#9B7A07;
+}
 .codigoqr{
   margin-top:55px;
 }
-
+.tituloInvitaciones{
+  font-family: 'Cinzel', serif; 
+  font-size: 45px;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .tituloInvitaciones{
+  font-family: 'Cinzel', serif; 
+  font-size: 40px;
+}
+}
+@media (max-width:320px){
+.tituloInvitaciones{
+  font-family: 'Cinzel', serif; 
+  font-size: 30px;
+}
+}
 .scroll{
   display:block;
   width:100%;
@@ -98,6 +126,7 @@ nav{
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+
 scroll-page{
   display:flex;
   align-items: center;
@@ -123,9 +152,40 @@ ul{
 
     }
     .nav-link: hover {
-      color:black;
+      color:red;
     
     
+}
+.demos{
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  border-color: transparent;
+
+  color:white;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btnDemos{
+  text-decoration:none;
+  height: 50px;
+  font-size: 20px;
+border-color: white;  
+background-color:black; 
+color:white; 
+border-radius: 15px;
+}
+
+
+.btnDemos:hover{
+  text-decoration:none;
+  color: white;
+  background-color: gray;
+  border-color: #9B7A07;
+ 
 }
 .atrevete{
   margin-top: 50px;
@@ -133,7 +193,7 @@ ul{
 
 .inicio{
 width: 100%;
-  background:#005BC0; 
+  background:black; 
  
 z-index: -1;
 margin-top: 0px;
@@ -187,7 +247,7 @@ margin-top: 0px;
     }
 .nosotros img{
   border-radius: 40px;
-   background: rgba(24,23,23,0.7);
+
 }
 .desarrollamos{
 
@@ -268,7 +328,7 @@ h4{
   font-size: 2.0rem;
 }
 .pricing-table .block-heading h2 {
-  color:#3b99e0;
+  color:black;
 }
 
 .pricing-table .block-heading p {
@@ -288,7 +348,7 @@ h4{
 .pricing-table .item {
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
-  border-top: 3px solid #005BC0;
+  border-top: 3px solid #9B7A07;
   border-bottom: : 2px solid #005BC0;
   border-left: : 2px solid #005BC0;
   border-right: : 1px solid #005BC0;
@@ -338,9 +398,18 @@ h4{
 
 .pricing-table .price h4 {
   margin: 15px 0;
+  margin-top:50px;
   font-size: 45px;
   text-align: center;
-  color: #005BC0; 
+  color: black; 
+  font-weight: bold;
+}
+.pricing-table .price2 h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  text-align: center;
+  color: black; 
+  font-weight: bold;
 }
 
 .pricing-table .buy-now .button {
@@ -350,7 +419,21 @@ h4{
   padding: 9px 0; 
   background-color: white; 
 }
-
+@media (max-width:390px){
+.price{
+  margin-top: 0px;
+}
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .price{
+  margin-top:0px;
+}
+}
+@media (max-width:320px){
+.price{
+  margin-top: 0px;
+}
+}
 
 
 .float{
@@ -388,7 +471,7 @@ h4{
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#002A8F;
+    background-color:#9B7A07;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -440,14 +523,14 @@ h4{
   content:" ";
   width:60px;height:60px;
   border-radius:100%;
-  display:block;background:linear-gradient(45deg,#00B5F5,#002A8F);
+  display:block;background:linear-gradient(45deg,black,black);
   transition:all 265ms ease-out
 }
 .social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
 .social-icons a:hover i{transform:scale(2.2);
   -ms-transform:scale(2.2);
   -webkit-transform:scale(2.2);
-  color:#00B5F5;background:-webkit-linear-gradient(45deg,#00B5F5,#002A8F);
+  color:#9B7A07;background:-webkit-linear-gradient(45deg,#9B7A07,#9B7A07);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   transition:all 265ms ease-in
@@ -461,10 +544,10 @@ h4{
 
 }
 .pie{
-  background: #0054AE;
+  background: black;
   margin-bottom: 0px;
   font-size: 1.2rem;
-  color:black;
+  color:white;
   position:relative;
   z-index: -1;
   text-decoration:none;
