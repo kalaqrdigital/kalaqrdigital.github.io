@@ -103,20 +103,31 @@ nav{
 .codigoqr{
   margin-top:55px;
 }
+.tituloContenedor{
+  margin-top: 55px;
+}
 .tituloInvitaciones{
   font-family: 'Cinzel', serif; 
   font-size: 45px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
   .tituloInvitaciones{
   font-family: 'Cinzel', serif; 
   font-size: 40px;
+
+}
+.tituloContenedor{
+  margin-top: 50px;
 }
 }
 @media (max-width:320px){
 .tituloInvitaciones{
   font-family: 'Cinzel', serif; 
   font-size: 30px;
+}
+.tituloContenedor{
+  margin-top: 40px;
 }
 }
 .scroll{
@@ -168,6 +179,37 @@ ul{
   background-color: transparent;
   text-align: center;
 }
+.btnCatalogo{
+   text-decoration:none;
+  height: 55px;
+  background-color:white; 
+  color:black;  
+  border-top: 5px solid ;
+  border-bottom: 5px solid ;
+  border-right: 5px solid ;
+  border-left: 5px solid ;
+  border-color: #9B7A07;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnCatalogo:hover{
+  text-decoration:none;
+  color: white;
+  background-color: black;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9B7A07;
+ 
+}
 
 .btnDemos{
   text-decoration:none;
@@ -177,13 +219,20 @@ border-color: white;
 background-color:black; 
 color:white; 
 border-radius: 15px;
+display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .btnDemos:hover{
   text-decoration:none;
-  color: white;
-  background-color: gray;
+  color: black;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
   border-color: #9B7A07;
  
 }

@@ -50,7 +50,7 @@ sr.reveal('.precios2', {
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
-		reset: 1000
+		
 
 	});
 
@@ -59,7 +59,7 @@ sr.reveal('.piepagina', {
 		delay:500,
 		origin: 'left', //origen
 		distance: '100px', //distancia
-		reset: 1000
+		
 
 	}); 
 
@@ -67,7 +67,7 @@ sr.reveal('.piepagina', {
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '-100px', //distancia
-		reset: 1000
+		
 
 	}); 
 
@@ -104,4 +104,22 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
+});
+
+ $(document).ready(function () {
+  $(".btnCatalogo").on('click', function (event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function () {
+
+
+      });
+    }
+  });
 });
