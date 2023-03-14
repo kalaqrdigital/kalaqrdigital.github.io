@@ -1,5 +1,30 @@
 window.sr = ScrollReveal();
 
+sr.reveal('.btnDigitales', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.btnDigitales2', {
+		duration: 2000, //tiempo
+		delay:350,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.inicio1', {
+		duration: 1000, //tiempo
+		origin: 'top', //origen
+		distance: '100px', //distancia
+
+
+	}); 
 sr.reveal('.tituloInvitaciones', {
 		duration: 2000, //tiempo
 		//delay:1500,

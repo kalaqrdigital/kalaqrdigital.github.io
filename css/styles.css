@@ -179,6 +179,144 @@ ul{
   background-color: transparent;
   text-align: center;
 }
+.btnDigitales{
+  text-decoration:none;
+  height: 120px;
+  background-color:black; 
+  color:white;  
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: black;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+
+.btnDigitales:hover{
+  text-decoration:none;
+  color: black;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9B7A07;
+ 
+}
+.btnDigitales2{
+  text-decoration:none;
+  height: 120px;
+  background-color:black; 
+  color:white;  
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: black;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnDigitales2:hover{
+  text-decoration:none;
+  color: black;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9B7A07;
+ 
+}
+.imagenInicio{
+  width: 70%;
+
+}
+@media (min-width: 1200px) { /*laptop*/
+  .imagenInicio{
+  width: 50%;
+
+}
+.btnDigitales{
+  text-decoration:none;
+  height: 120px;
+  background-color:black; 
+  color:white;  
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: black;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 100px;
+}
+}
+@media (max-width:320px){/*fold*/
+.imagenInicio{
+  width: 70%;
+
+}
+.btnDigitales{
+  text-decoration:none;
+  height: 90px;
+  background-color:black; 
+  color:white;  
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: black;
+  border-radius: 15px;
+  font-size: 10px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.btnDigitales2{
+  text-decoration:none;
+  height: 90px;
+  background-color:black; 
+  color:white;  
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: black;
+  border-radius: 15px;
+  font-size: 10px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+ display:flex;
+  justify-content: center;
+  align-items: center;
+}
+}
 .btnCatalogo{
    text-decoration:none;
   height: 55px;
@@ -243,6 +381,14 @@ display:flex;
 .inicio{
 width: 100%;
   background:black; 
+ 
+z-index: -1;
+margin-top: 0px;
+
+}
+.inicio1{
+width: 100%;
+  background:transparent; 
  
 z-index: -1;
 margin-top: 0px;
