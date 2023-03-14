@@ -184,10 +184,10 @@ ul{
   height: 55px;
   background-color:white; 
   color:black;  
-  border-top: 5px solid ;
-  border-bottom: 5px solid ;
-  border-right: 5px solid ;
-  border-left: 5px solid ;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
   border-color: #9B7A07;
   border-radius: 15px;
   font-size: 20px;
