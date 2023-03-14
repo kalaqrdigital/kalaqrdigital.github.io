@@ -3,16 +3,32 @@ window.sr = ScrollReveal();
 sr.reveal('.btnDigitales', {
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		origin: 'right', //origen
+		distance: '200px' //distancia
 
 
 	}); 
 sr.reveal('.btnDigitales2', {
 		duration: 2000, //tiempo
 		delay:350,
-		origin: 'top', //origen
+		origin: 'left', //origen
+		distance: '100px' //distancia
+
+
+	}); 
+sr.reveal('.imagenInicio', {
+		duration: 2000, //tiempo
+		delay:00,
+		origin: 'right', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.imagenInicio2', {
+		duration: 2000, //tiempo
+		delay:350,
+		origin: 'right', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
 

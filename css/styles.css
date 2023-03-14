@@ -92,6 +92,7 @@ nav{
   color:white;
   font-family: 'Cinzel', serif;
 }
+
 .nav .nav-item .nav-link{
   background-color: black;
   color:white;
@@ -99,6 +100,7 @@ nav{
 .nav .nav-item .nav-link:hover{
   
   color:#9B7A07;
+  
 }
 .codigoqr{
   margin-top:55px;
@@ -247,8 +249,16 @@ ul{
   width: 70%;
 
 }
+.imagenInicio2{
+  width: 70%;
+
+}
 @media (min-width: 1200px) { /*laptop*/
   .imagenInicio{
+  width: 50%;
+
+}
+.imagenInicio{
   width: 50%;
 
 }
@@ -275,6 +285,10 @@ ul{
 }
 @media (max-width:320px){/*fold*/
 .imagenInicio{
+  width: 70%;
+
+}
+.imagenInicio2{
   width: 70%;
 
 }
@@ -320,13 +334,13 @@ ul{
 .btnCatalogo{
    text-decoration:none;
   height: 55px;
-  background-color:white; 
-  color:black;  
+  background-color:black; 
+  color:white;  
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #9B7A07;
+  border-color: white;
   border-radius: 15px;
   font-size: 20px;
   font-family: 'Open Sans', serif;
@@ -339,13 +353,13 @@ ul{
 
 .btnCatalogo:hover{
   text-decoration:none;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: white;
+  border-color: #9B7A07;
  
 }
 
