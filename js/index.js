@@ -164,3 +164,19 @@ $(document).ready(function(){
     }
   });
 });
+
+	$("#pills-profile-tab").on("click", function(){
+  	$("#pills-home-tab").css("color", "white")
+    	
+});
+  
+	$("#pills-contact-tab").on("click", function(){
+  	$("#pills-home-tab").css("color", "white")
+    	
+});
+  
+$("#pills-home-tab").on("click", function(){
+  	$(this).css("color", "#9B7A07")
+    	
+});
+
