@@ -111,6 +111,13 @@ sr.reveal('.piepagina', {
 		
 
 	}); 
+	sr.reveal('.home', {
+		duration: 1500, //tiempo
+		origin: 'left', //origen
+		distance: '-100px', //distancia
+		
+
+	}); 
 
 
 	

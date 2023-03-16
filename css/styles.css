@@ -350,14 +350,7 @@ ul{
   height: 15px;
   width: 200px;
 }
-/* Standard syntax */
-@keyframes rebote {
-  0%   {left:0px; top:0px;}
-  25%  {left:0px; top:0px;}
-  50%  {left:0px; top:-7px;}
-  75%  {left:0px; top:-5px;}
-  100% {left:0px; top:0px;}
-}
+
 
 .btnDigitales2 img{
   position: relative;
@@ -728,9 +721,37 @@ h4{
   margin-right: -1px;
 }
 
+.home{
+  position:fixed;
+  width:50px;
+  height:50px;
+  
+  right:10px;
+  bottom:70px;
+  background-color:gray;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:20px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.home:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
+}
+
+.my-home{
+  margin-top:11px;
+  margin-right: -1px;
+}
+
 #scroll {
     position:fixed;
-    bottom:70px;
+    bottom:130px;
     right:10px;
     cursor:pointer;
     width:50px;
