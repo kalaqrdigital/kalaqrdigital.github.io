@@ -106,6 +106,7 @@ sr.reveal('.piepagina', {
 
 	sr.reveal('.float', {
 		duration: 1500, //tiempo
+		delay:2000,
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 		
@@ -113,6 +114,7 @@ sr.reveal('.piepagina', {
 	}); 
 	sr.reveal('.home', {
 		duration: 1500, //tiempo
+		delay:2500,
 		origin: 'left', //origen
 		distance: '-100px', //distancia
 		
@@ -153,6 +155,20 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll2').fadeIn(); 
+        } else { 
+            $('#scroll2').fadeOut(); 
+        } 
+    }); 
+    $('#scroll2').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
 
  $(document).ready(function () {
   $(".btnCatalogo").on('click', function (event) {
