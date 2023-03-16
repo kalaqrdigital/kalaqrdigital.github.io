@@ -331,6 +331,61 @@ ul{
   align-items: center;
 }
 }
+.btnDigitales img{
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.btnDigitales span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:-7px;}
+  75%  {left:0px; top:-5px;}
+  100% {left:0px; top:0px;}
+}
+
+.btnDigitales2 img{
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.btnDigitales2 span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:-7px;}
+  75%  {left:0px; top:-5px;}
+  100% {left:0px; top:0px;}
+}
 .btnCatalogo{
    text-decoration:none;
   height: 55px;
