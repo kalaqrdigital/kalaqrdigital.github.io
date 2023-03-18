@@ -73,9 +73,9 @@ z-index: 99px;
 .playpause.playing .button {
    clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
 }
-.nombres1{
+.nombres{
 font-family: 'Tangerine', cursive;
-  margin-top:80px;
+  margin-top:120px;
   color:#9B7A07;
   font-size: 100px;
   font-weight: 570;
@@ -124,7 +124,7 @@ margin-top: -40px;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
-.nombres1{
+.nombres{
 font-family: 'Tangerine', cursive;
   margin-top:80px;
   color:#9B7A07;
@@ -168,10 +168,10 @@ margin-top: -40px;
 
 @media (max-width:320px){
 
-.nombres1{
+.nombres{
 font-family: 'Tangerine', cursive;
   margin-top:80px;
-  color:#9B7A07;
+  color:#E5CA5E;
   font-size: 75px;
   font-weight: 570;
 
@@ -188,7 +188,7 @@ font-family: 'Tangerine', cursive;
 
 margin-top: -40px;
   margin-bottom: 30px;
-  color:#9B7A07;
+  color:#E5CA5E;
   font-size: 75px;
 ;
 
@@ -208,16 +208,27 @@ margin-top: -40px;
   margin-top: 10px;
   margin-bottom: 0px;
 }
+
+
 }
 
+@media (min-width: 1200px) { /*laptop*/
+  .nombres{
+font-family: 'Tangerine', cursive;
+  margin-top:40px;
+  color:#E5CA5E;
+  font-size: 85px;
+  font-weight: 570;
 
+}
+}
 .simply-section {
-  background: #9B7A07;
+  background: #E5CA5E;
   width: 120px;
   height: 80px;
   margin: 0 50px;
   margin:5px;
-  border-radius: 10px;
+  border-radius: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -246,7 +257,7 @@ position: center;
 
 }
 .nosCasamos{
-font-family: 'Dancing Script', cursive;
+font-family: 'Cinzel', cursive;
   margin-top:;
   color:white;
   font-size: 30px;
@@ -290,73 +301,95 @@ font-family: 'Dancing Script', cursive;
 
 }
 }
+.imagen2{
+  
+  background-color:#E5CA5E ;
+ border-top: 7px solid #E5CA5E;
+  border-bottom: 7px solid #E5CA5E;
+  border-right: 7px solid #E5CA5E;
+  border-left: 7px solid #E5CA5E;
+  border-color: #E5CA5E;
+  width: 100%;
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+.collage{
+  margin-top: -40px;
+  margin-bottom: -100px;
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  text-align: center;
+  z-index: 99;
+}
 .dia{
-  margin-top: -100px;
+  margin-top: -40px;
  font-family: 'Cormorant Garamond', serif;
   font-size: 170px;
-  margin-bottom: -10px;
-  color:#9B7A07;
+  color:#E5CA5E;
 }
 .mes{
-  font-family: 'Arizonia', cursive;
-  font-size: 50px;
-  color:white;
+  border-bottom: 5px solid black;
+  font-family: 'Cinzel', cursive;
+  font-size: 35px;
+  color:black;
 
 }
 .año{
-  margin-top: -40px;
-font-family: 'Arizonia', cursive;
-  font-size: 50px;
-  color:white;
+font-family: 'Cinzel', cursive;
+  font-size: 35px;
+  color:black;
 }
 .dondeycuandotitulo{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 26px;
+  font-family: 'Cinzel', cursive;
+  font-size: 22px;
 }
 .hora{
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Livvic', sans-serif;
   font-size: 50px;
-  color:#9B7A07;
+  color:#E5CA5E;
 }
 .lugar{
  font-family: 'Cinzel Decorative', cursive;
-  font-size: 20px;
+  font-size: 18px;
 }
 .dondeycuando{
-  background-color: white;
+  background-color: black;
 }
 .dondeyCuando{
-font-family: 'Tangerine', cursive;
+font-family: 'Cinzel Decorative', cursive;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 65px;
+  color:black;
+  font-size: 40px;
 
 }
-.padres{
-   box-shadow: 0 0 20px #184547;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
-  border-color: white;
+.padresypadrinos{
+  border-top: 6px solid #E5CA5E;
+  border-bottom: 6px solid #E5CA5E;
+  border-right: 6px solid #E5CA5E;
+  border-left: 6px solid #E5CA5E;
+  border-color: #E5CA5E;
 
   
-  background-color: #184547;
+  background-color: white;
   opacity: 1;
   text-align: center;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 18px;
+  font-family: 'Arima Madurai', cursive;  font-size: 18px;
   line-height:2;
 }
 .nompadres{
-  font-family: 'Tangerine', cursive;
-  font-size: 45px;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 35px;
     color:black;
     font-weight: 570;
 }
@@ -365,47 +398,47 @@ font-family: 'Tangerine', cursive;
  font-size:80px;
  margin-top: -18px;
  margin-bottom: -20px;
-    color:#9B7A07;
+    color:#E5CA5E;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .dondeyCuando{
-font-family: 'Tangerine', cursive;
+font-family: 'Cinzel Decorative', cursive;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 65px;
+  color:black;
+  font-size: 40px;
 
 }
 .dia{
-  margin-top: -100px;
- font-family: 'Cormorant Garamond', serif;
+  margin-top: 0px;
+ font-family: 'Cinzel', serif;
   font-size: 170px;
   margin-bottom: -10px;
-  color:#9B7A07;
+  color:#E5CA5E;
 }
 }
 @media (max-width:320px){
 
 .dondeyCuando{
-font-family: 'Tangerine', cursive;
+font-family: 'Cinzel Decorative', cursive;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 65px;
+  color:#E5CA5E;
+  font-size: 35px;
 
 }
 .dia{
-  margin-top: -100px;
- font-family: 'Cormorant Garamond', serif;
+  margin-top: 0px;
+  font-family: 'Cinzel', serif;
   font-size: 170px;
   margin-bottom: -10px;
-  color:#9B7A07;
+  color:#E5CA5E;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 20px;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
+  font-family: 'Arima Madurai', cursive;
   font-size: 18px;
   line-height:2;
 }
@@ -420,31 +453,37 @@ font-family: 'Tangerine', cursive;
  font-size:60px;
  margin-top: -18px;
  margin-bottom: -20px;
-    color:#9B7A07;
+    color:#E5CA5E;
+}
+
+.hora{
+   font-family: 'Livvic', sans-serif;
+  font-size: 35px;
+  color:#E5CA5E;
 }
 
 }
 
 .familiaboleto{
-font-family: 'Dancing Script', cursive;
-  font-size: 45px;
+font-family: 'Cinzel', cursive;
+  font-size: 40px;
 
 }
 .apellidos{
-font-family: 'EB Garamond', serif;
-  font-size: 38px;
+font-family: 'Open Sans', cursive;
+  font-size: 32px;
   border-bottom: 3px solid black;
 }
 
 
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
+font-family: 'Arima Madurai', cursive;
   font-size: 30px;
 
 }
 .numMesa{
   font-size: 25px;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Cinzel Decorative', sans-serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
@@ -512,8 +551,7 @@ font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 font-family: 'Open Sans', sans-serif;
 }
-
-.ceremoniaReligiosa{
+.padres{
    box-shadow: 0 0 20px white;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
@@ -525,30 +563,40 @@ font-family: 'Open Sans', sans-serif;
   background-color: 184547;
   text-align: center;
 }
+.ceremoniaReligiosa{
+  border-top: 6px solid #E5CA5E;
+  border-bottom: 6px solid #E5CA5E;
+  border-right: 6px solid #E5CA5E;
+  border-left: 6px solid #E5CA5E;
+  border-color: #E5CA5E;
+
+  
+  background-color:white;
+  text-align: center;
+}
 
 .vestimenta{
 
-  border-top: 3px solid black;
-  border-bottom: 3px solid white;
-  border-right: 3px solid white;
-  border-left: 3px solid white;
-  border-color: #9B7A07;
+  border-top: 6px solid #E5CA5E;
+  border-bottom: 6px solid #E5CA5E;
+  border-right: 6px solid #E5CA5E;
+  border-left: 6px solid #E5CA5E;
+  border-color: #E5CA5E;
 
-  color:white;
-  background-color: transparent;
+  color:black;
+  background-color: white;
   text-align: center;
 }
 
 .boletos{
 
-  box-shadow: 0 0 20px white;
-  border-top: 3px solid black;
-  border-bottom: 3px solid white;
-  border-right: 3px solid white;
-  border-left: 3px solid white;
+  border-top: 6px solid #E5CA5E;
+  border-bottom: 6px solid #E5CA5E;
+  border-right: 6px solid #E5CA5E;
+  border-left: 6px solid #E5CA5E;
   
   border-radius: 15px 15px 15px 15px;
-  border-color: #9B7A07;
+  border-color: #E5CA5E;
 
   color:black;
   
@@ -556,12 +604,12 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .carousel{
-  border-top: 5px solid black;
-  border-bottom: 5px solid white;
-  border-right: 5px solid white;
-  border-left: 5px solid white;
+  border-top: 6px solid black;
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+  border-left: 6px solid white;
   
-  border-color: #9B7A07;
+  border-color: #E5CA5E;
 
   color:black;
   
@@ -579,8 +627,8 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .textodondeycuando{
-  font-size: 15px;
-font-family: 'Noto Serif Khojki', serif;
+  font-size: 18px;
+font-family: 'Arima Madurai', cursive;
 
 }
 .carousel2 {
@@ -664,10 +712,10 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 }
 
 .textoasistencia{
-  font-family: 'Maitree', serif;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 400;
   color:black;
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 50px;
 
 }
@@ -705,14 +753,14 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   text-decoration:none;
   background-color: gray;
   color:white;
-  border-color: #9B7A07;
+  border-color: #E5CA5E;
 }
 
 
 .btn:hover{
   text-decoration:none;
   color: black;
-  border-color: #9B7A07;
+  border-color: #E5CA5E;
   background-color:white; 
  
 }
@@ -779,8 +827,8 @@ color:white;
 
 .btnHoteles:hover{
   text-decoration:none;
-  color: #9B7A07;
-  border-color: #9B7A07;
+  color: #E5CA5E;
+  border-color: #E5CA5E;
  
 }
 
@@ -914,25 +962,7 @@ margin-top: 0px;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
-.imagen2{
-  
-  background-color:#9B7A07 ;
- border-top: 7px solid #9B7A07;
-  border-bottom: 7px solid #9B7A07;
-  border-right: 7px solid #9B7A07;
-  border-left: 7px solid #9B7A07;
-  border-color: #9B7A07;
-  width: 100%;
-}
-.collage{
-  margin-top: -40px;
-  margin-bottom: -100px;
-  border-color: black;
-  color:black;
-  background-color: transparent;
-  text-align: center;
-  z-index: 99;
-}
+
 
 .pie{
   background: #621132;
@@ -968,19 +998,18 @@ margin-bottom:;}
 
 .form-register {
   width: 100%;
-  background: #D3D3D3 ;
+  background: white ;
   padding: 30px;
   margin: auto;
   margin-top:;
   border-radius: 4px;
   font-family: 'calibri', serif;
-  color: #9B7A07;
-  box-shadow: 7px 13px 37px #9B7A07;
-  border-top: 1px solid #9B7A07;
-  border-bottom: 1px solid #9B7A07;
-  border-right: 1px solid #9B7A07;
-  border-left: 1px solid #9B7A07;
-  border-color: #9B7A07;
+  color: #E5CA5E;
+  border-top: 6px solid #E5CA5E;
+  border-bottom: 6px solid #E5CA5E;
+  border-right: 6px solid #E5CA5E;
+  border-left: 6px solid #E5CA5E;
+  border-color: #E5CA5E;
 }
 
 .controls {
@@ -991,8 +1020,8 @@ margin-bottom:;}
   margin-bottom: 16px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #9B7A07;
-  border-left: 3px solid #9B7A07;
+  border-bottom: 3px solid #E5CA5E;
+  border-left: 3px solid #E5CA5E;
   
 font-family: 'calibri', serif;
   font-size: 18px;
@@ -1036,8 +1065,8 @@ font-family: 'calibri', serif;
   font-size: 20px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #9B7A07;
-  border-left: 3px solid #9B7A07;
+  border-bottom: 3px solid #E5CA5E;
+  border-left: 3px solid #E5CA5E;
 }
 
 .custom-select select {
@@ -1057,12 +1086,12 @@ font-family: 'calibri', serif;
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #9B7A07 transparent transparent transparent;
+  border-color: #E5E5E5 transparent transparent transparent;
 }
 
 /* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #9B7A07 transparent;
+  border-color: transparent transparent #E5E5E5 transparent;
   top: 7px;
 }
 
@@ -1071,7 +1100,7 @@ font-family: 'calibri', serif;
   color: black;
   margin-left: 10px;
   padding: ;
-  border: 1px solid #9B7A07;
+  border: 1px solid #E5E5E5;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
