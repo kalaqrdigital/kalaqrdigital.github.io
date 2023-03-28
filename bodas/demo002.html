@@ -505,6 +505,7 @@ $(document).ready(function(){
   <script src="js/script.js"></script>
 
   <script>
+         let comprobar = "1";
         let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
         let form = document.forms['submit-form'];
 
@@ -513,12 +514,39 @@ $(document).ready(function(){
             fetch(scriptURL, {
                 method: 'POST',
                 body: new FormData(form)
+
             })
             .then((res) => {
+                
                 console.log(res);
                 if(res.status === 200){
-                    form.reset();
-                    alert('Datos enviados correctamente.');
+
+                   const myButton = document.getElementById('botonForm');
+    myButton.disabled = true;
+    myButton.style.opacity = 0.7;
+    myButton.textContent = 'Enviando espere por favor...';
+ 
+    //simulación de espera para ejecución de un proceso
+    setTimeout(function() {
+        console.log('Espera por favor...');
+        form.reset();
+        alert('Datos enviados correctamente.');
+                     
+                       
+        myButton.textContent = 'Enviado';
+        myButton.style.opacity = 0.1;
+        myButton.disabled = true;
+    }, 3500);
+                    
+                     
+document.getElementById("boletos").disabled=true;
+                      document.getElementById("nombres").disabled=true;
+                       document.getElementById("telefono").disabled=true;
+                        document.getElementById("asistira").disabled=true;
+                         document.getElementById("boletos").disabled=true;
+                         document.getElementById("mensaje").disabled=true;
+                          document.getElementById("botonForm").disabled=true;
+    
                 }
             })
             .catch((error) => {
