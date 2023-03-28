@@ -328,25 +328,30 @@ $(document).ready(function(){
 <div class="invitado col-12" >
 <h5 class='dondeyCuando col-12 col-lg-12 text-center text-white mt-5 mb-4' >RSVP</h5> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:white;  font-family: 'Arima Madurai', cursive;"><b>Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del</b> <b>01 DE NOVIEMBRE DE 2023.</b></h2>
-        <form class="form-register mt-4 col-md-8" action="https://formsubmit.co/kala980108@hotmail.com" method="POST">
+
+        <form class="form-register mt-4 col-md-8" name="submit-form">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>Nombre completo del invitado</b></h2>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="">
+    <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>Teléfono</b></h2>
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="">
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>Email</b></h2>
-    <input class="controls" type="email" name="correo" id="correo" placeholder="">
+    <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
-   <div class="custom-select col-12 mb-3">
-  <select>
-    <option value="0">Sí voy a ir.</option>
-    <option value="1">Sí voy a ir.</option>
-    <option value="2">No voy a ir.</option>
+  
+  <select name="¿Asistirá?" id="asistira" class="custom-select" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
+    <option id="Sí" value="Sí">Sí voy a ir.</option>
+    <option id="No" value="No">No voy a ir.</option>
   </select>
-</div>
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: font-family: 'Arima Madurai', cursive;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
-    <input class="controls" type="text" name="boletos" id="correo" placeholder="">
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'font-family: 'Arima Madurai', cursive;"><b>Mensaje para la quinceañera</b></h2>
-    <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="mensaje" id="nombres" placeholder=""></textarea>
+<input type="hidden"  name="Contador" value="1">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
+  <select name="Boletos a utilizar" class="custom-select" id="boletos">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+    
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left"  style="color:black;  font-family: 'Arima Madurai', cursive;"><b>Mensaje para los novios</b></h2>
+    <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="nombres" placeholder=""></textarea>
+
     <div class="row justify-content-center">
     <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center"><i class="fas fa-envelope"></i> Enviar</button> 
 </div>
@@ -361,7 +366,7 @@ $(document).ready(function(){
 
     
 </div>
-      
+
   <div class="row justify-content-center" style="background-color: white">
                   
                 <img class="col-6 col-lg-3 mb-3 mt-4" src="../img/logotipoConCodigo.png">  
@@ -488,8 +493,6 @@ $(document).ready(function(){
                )
     </script>
 
-
-
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -500,5 +503,48 @@ $(document).ready(function(){
     <script src="js/countdown.js"></script>
   <script src="//maps.googleapis.com/maps/api/js"></script>
   <script src="js/script.js"></script>
+
+  <script>
+        let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
+        let form = document.forms['submit-form'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then((res) => {
+                console.log(res);
+                if(res.status === 200){
+                    form.reset();
+                    alert('Datos enviados correctamente.');
+                }
+            })
+            .catch((error) => {
+                console.error('Error', error.message)
+            });
+        });
+
+function habilitar(value)
+        {
+            if(value=="Sí" || value==true)
+            {
+                // habilitamos
+                document.getElementById("boletos").disabled=false;
+            }else if(value=="No" || value==false){
+                // deshabilitamos
+                
+                document.getElementById("boletos").disabled=true;
+                 $(document).ready(function () {
+
+                $('.asistira" option:2').text("0");
+
+            });
+            }
+        }
+
+    </script>
+
 </body>
 </html>
