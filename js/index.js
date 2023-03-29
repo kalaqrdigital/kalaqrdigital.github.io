@@ -171,7 +171,7 @@ $(document).ready(function(){
 
 
  $(document).ready(function () {
-  $(".btnCatalogo").on('click', function (event) {
+  $(".button").on('click', function (event) {
 
     if (this.hash !== "") {
       event.preventDefault();
