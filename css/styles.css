@@ -85,7 +85,7 @@ nav{
   top:0;
   text-align: center;
   width: 100%;
-  box-shadow: 1px 0px 20px #000;
+  box-shadow: 1px 0px 20px #696969;
 }
 
 .nav {
@@ -444,13 +444,13 @@ display:flex;
 .inicio{
 
    
-   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #E5E5E5 2px, #E5E5E5 30px),
-      repeating-linear-gradient(45deg, #ECECEC 0px , #ECECEC 10px, #E5E5E5 10px, #E5E5E5 35px);
+   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #DCDCDC 2px, #DCDCDC 30px),
+      repeating-linear-gradient(45deg, #ECECEC 0px , #ECECEC 10px, #DCDCDC 10px, #DCDCDC 35px);
 
 
 }
 .lleva{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .inicio1{
 width: 100%;
@@ -865,8 +865,8 @@ h4{
 }
 .pie{
   margin:0;
-   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #E5E5E5 2px, #E5E5E5 30px),
-      repeating-linear-gradient(45deg, #ECECEC 0px , #ECECEC 10px, #E5E5E5 10px, #E5E5E5 35px);
+   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #DCDCDC 2px, #DCDCDC 30px),
+      repeating-linear-gradient(45deg, #ECECEC 0px , #ECECEC 10px, #DCDCDC 10px, #DCDCDC 35px);
   margin-bottom: 0px;
   font-size: 1.2rem;
   color:black;
@@ -1002,6 +1002,21 @@ h4{
 box-shadow: 5px 5px 40px #000;
 
    background: #9B7A07;
+  opacity: 1;
+  text-align: center;
+
+}
+.bodas{
+  border-top: 3px solid #DCDCDC;
+  border-bottom: 3px solid #DCDCDC;
+  border-right: 3px solid #DCDCDC;
+  border-left: 3px solid #DCDCDC;
+  border-color: white;
+  color:white;
+  outline: 5px solid #DCDCDC;
+box-shadow: 5px 5px 40px #696969;
+
+   background: #DCDCDC;
   opacity: 1;
   text-align: center;
 
