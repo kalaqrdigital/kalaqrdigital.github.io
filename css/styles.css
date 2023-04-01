@@ -1272,5 +1272,23 @@ a {
     
 }
 
+#obtenerAhora{
+  background-color: #ABABAB; 
+  color:white; 
+  border-color: white; 
+  letter-spacing: 3px; 
+  font-weight: 700;
+}
 
+#obtenerAhora:hover{
+  background-color: white; 
+  color:#ABABAB; 
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #ABABAB; 
+  letter-spacing: 3px; 
+  font-weight: 700;
+}
 
