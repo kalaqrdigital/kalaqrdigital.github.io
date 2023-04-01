@@ -1182,7 +1182,7 @@ a {
 }
 
 .btn-menu {
-  display: none;
+  
   padding: 20px;
   background: #0d2c44;
   color:#fff;
@@ -1258,8 +1258,9 @@ a {
   .contenedor-menu {
     margin-left: -45px;
     width: 170%;
-    position: ;
+    
     top:0;
+    z-index: 1000;
     
   }
 
@@ -1270,3 +1271,6 @@ a {
   .contenedor-menu .menu {
     
 }
+
+
+
