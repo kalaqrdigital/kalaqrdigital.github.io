@@ -94,7 +94,34 @@ sr.reveal('.precios2', {
 		
 
 	});
+		sr.reveal('.tituloSistemaControl', {
+		duration: 1500, //tiempo
+		origin: 'top', //origen
+		distance: '-100px', //distancia
+		
 
+	});
+sr.reveal('.celular', {
+		duration: 1500, //tiempo
+		origin: 'left', //origen
+		distance: '-100px', //distancia
+		
+
+	});
+sr.reveal('.derecha', {
+		duration: 700, //tiempo
+		origin: 'right', //origen
+		distance: '-100px', //distancia
+		
+
+	});
+sr.reveal('.izquierda', {
+		duration: 700, //tiempo
+		origin: 'left', //origen
+		distance: '-100px', //distancia
+		
+
+	});
 sr.reveal('.piepagina', {
 		duration: 1000, //tiempo
 		delay:500,
