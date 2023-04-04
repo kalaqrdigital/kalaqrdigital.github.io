@@ -5,8 +5,8 @@ background-color: white;
  margin: 0;
   overflow-x: hidden;
 
-}
 
+}
 p{
   margin-bottom: 0px;
   margin-left: : 0px;
@@ -17,7 +17,7 @@ img{
   width: 100%;
 }
 a{
-  display: inline-block;
+   display: inline-block;
  
   text-decoration: none;
 
