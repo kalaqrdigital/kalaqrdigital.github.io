@@ -242,7 +242,15 @@ sr.reveal('.textoSeccion3', {
 		
 
 	});
+	sr.reveal('.linea', {
+		duration: 700, //tiempo
+		///delay:1000,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+		
 
+	});
 	///////////////////////////////////////////////////////////////////////////////////////////7
 	// Initialize and add the map
 const playpause = document.querySelector('.playpause');

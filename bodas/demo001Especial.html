@@ -56,11 +56,6 @@ $(document).ready(function(){
         document.getElementById("musica1").play();
     }
 </script>
-<script>
-        setTimeout(function(){
-            $('.loader_bg').fadeToggle();
-        }, 2000);
-    </script>
     <title>Eduardo & Mariana - ¡Nos vamos a casar!</title>
     <link rel="shortcut icon" href="../img/CODIGO LOGOTIPO.png"/>
 </head>
@@ -85,11 +80,12 @@ $(document).ready(function(){
                         <h4 class='nuestraBoda col-11 col-lg-12 text-center ml-3'>NOS VAMOS A CASAR </h4>
                         <div class="text-center "> 
         <img class="text-center col-7 col-md-7 ml-3 mt-0 mb-4" src="../img/bodasimg/ornamentablanca.png" > 
-    </div>   
+    </div>   <div class="container">
                          <h5 class='nombres1 col-lg-12 text-center' >Eduardo</h5>  
                          <h5 class='and1 col-lg-12 text-center' >&</h5> 
                          <h5 class='nombres2 col-lg-12 text-center' >Mariana</h5> 
-<div class="container">
+                     </div>
+<div class="container mt-0">
     <div class="row justify-content-center ml-3">
 <div class="playpause mb-5 ml-4" onclick="PlayAudio()" >
     <div class="button col-md-5"></div>
@@ -105,6 +101,8 @@ $(document).ready(function(){
             </div>
 
         </div>
+
+
 <h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >Los Novios</h5> 
         <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/bodasimg/ornamenta.png" > 
@@ -241,12 +239,14 @@ $(document).ready(function(){
 
     </div></div>
     <br>
-</div></div><br>
- <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Itinerario</h5> 
+</div></div>
+ 
+ 
+<section class="timeline mb-5" style=" background-image: url(../img/bodasimg/demo002/fondo9.jpg);"><br>
+    <h5 class='dondeyCuando col-12 col-lg-12 text-center text-white mt-4 mb-0' >Itinerario</h5> 
       <div class="text-center "> 
-        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/bodasimg/ornamentablanca.png" > 
     </div>
-<section class="timeline mb-5" style=" background-image: url(../img/bodasimg/demo002/fondo9.jpg);">
   <ul>
     <li>
       <div class="linea">
@@ -275,6 +275,7 @@ $(document).ready(function(){
   </ul>
 </section>
 <br>
+
  <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >¿Donde Hospedarte?</h5> 
       <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
@@ -328,21 +329,20 @@ $(document).ready(function(){
 
 
 
-      <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Confirmar asistencia</h5> 
+      <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-2 mb-0' >Confirmar asistencia</h5> 
       <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
     </div>
         <h2 class="respetuosamente col-12 col-lg-12 mt-2 text-center" >Respetuosamente te pedimos</h2>
          <p class='tespero col-12 col-lg-12 mt-4 mb-5 text-center' >**Los niños se quedan en casa.**</p> 
-  
     <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4">  
         <div class="justify-content-center mb-2"><br>
-            <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
-            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>
-            <h5 class='invitacionpara col-12 col-lg-12 mt-3 text-center' >Invitación para:</h5>
-            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4</h5>
-            <h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
-              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>
+           <!-- <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
+            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>-->
+            <h5 class='invitacionpara col-12 col-lg-12 mt-3 text-center' style="font-size: 40px;" >Invitación para:</h5>
+            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4 personas</h5>
+            <!--<h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
+              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>-->
             <p style="font-size: 100px;"><i class=" fas fa-ticket-alt "></i></p>
                 <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" >
@@ -352,7 +352,9 @@ $(document).ready(function(){
     <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
 
 </div>
+-->
 <div class="invitado col-12" >
+    <!--
 <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
         <form class="form-register mt-4 col-md-8" name="submit-form">
@@ -383,6 +385,23 @@ $(document).ready(function(){
   </form> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
   <hr>
+-->
+<p class='textoasistencia col-12 col-lg-12 mb-3 mt-2 text-center text-black' ><i class="fa fa-whatsapp mr-2"></b></i>CONFIRMAR POR WHATSAPP<p> 
+    <div class=" logos1 row justify-content-center align-items-center mb-3"> 
+            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> (618) 203 7550</a> 
+    </div>
+        <div class=" logos1 row justify-content-center align-items-center mb-5"> 
+            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> (618) 203 7550</a> 
+    </div>
+
+<p class='textoasistencia col-12 col-lg-12 mb-2 mt-2 text-center text-black' ><i class="fas fa-phone-alt mr-2"></i>CONFIRMAR POR LLAMADA<p> 
+   <div class=" logos1 row justify-content-center align-items-center mb-3"> 
+            <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><i class="fas fa-phone-alt mr-2"></i>  (618) 203 7550</a> 
+    </div>
+        <div class=" logos1 row justify-content-center align-items-center mb-5"> 
+            <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><i class="fas fa-phone-alt mr-2"></i> (618) 203 7550</a> 
+    </div>
+
  <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-black' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
          <div class=" logos1 row justify-content-center align-items-center mb-5"> 
             <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp "></b></i> WhatsApp</a> 
