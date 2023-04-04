@@ -981,7 +981,7 @@ h4{
   content:" ";
   width:60px;height:60px;
   border-radius:100%;
-  display:block;background:linear-gradient(45deg,black,black);
+  display:block;background:linear-gradient(45deg,#323232,#323232);
   transition:all 265ms ease-out
 }
 .social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
@@ -1003,11 +1003,11 @@ h4{
 }
 .pie{
   margin:0;
-   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #DCDCDC 2px, #DCDCDC 30px),
-      repeating-linear-gradient(45deg, #DCDCDC 0px , #DCDCDC 10px, #DCDCDC 10px, #DCDCDC 35px);
+   background: repeating-linear-gradient(90deg, transparent 0px , transparent 2px, #323232 2px, #323232 30px),
+      repeating-linear-gradient(45deg, #323232 0px , #323232 10px, #323232 10px, #323232 35px);
   margin-bottom: 0px;
   font-size: 1.2rem;
-  color:black;
+  color:white;
   position:relative;
   z-index: -1;
   text-decoration:none;
@@ -1293,11 +1293,11 @@ letter-spacing: 4px;
   border-left: 3px solid #E5CA5E;
   border-color: white;
   color:white;
-  outline: 5px solid #9B7A07;
+  outline: 5px solid #323232;
 box-shadow: 5px 5px 40px #000;
 border-top-right-radius: 30px 30px;
 border-bottom-left-radius: 30px 30px;
-   background: #9B7A07;
+   background: #323232;
   opacity: 1;
   text-align: center;
 
