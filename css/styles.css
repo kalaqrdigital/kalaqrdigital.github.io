@@ -1169,6 +1169,20 @@ letter-spacing: 4px;
   color:black; 
   font-size:17px;
 }
+ .tituloCatInvitaciones{
+  font-family: 'Cinzel', serif; margin-top: 90px;
+  border-top: 3px solid #DCDCDC;
+  border-bottom: 3px solid #DCDCDC;
+  border-right: 3px solid #DCDCDC;
+  border-left: 3px solid #DCDCDC;
+  border-color: white;
+  color:white;
+  outline: 5px solid #323232;
+box-shadow: 5px 5px 40px #000;
+   background: #323232;
+  opacity: 1;
+  text-align: center;
+}
 @media (max-width:320px){/*fold*/
   .social-icons i{color:#fff;
   position:absolute;top:13px;
@@ -1217,6 +1231,7 @@ letter-spacing: 4px;
   font-family: 'Cinzel', serif;
   font-size:25px;
 }
+
   .button {
   text-decoration:none;
   background-color:#9B7A07;
