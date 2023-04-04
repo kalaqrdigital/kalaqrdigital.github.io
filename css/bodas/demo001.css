@@ -764,6 +764,35 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
  
 }
 
+.btnWhatsNovios{
+  text-decoration:none;
+  color:white;
+  background-color: #9B7A07;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9B7A07;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhatsNovios:hover{
+  text-decoration:none;
+  background-color: #fff;
+  color: #9B7A07;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9B7A07;
+ 
+}
 
 .btnHoteles{
   text-decoration:none;
