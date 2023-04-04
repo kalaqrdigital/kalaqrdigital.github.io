@@ -231,8 +231,13 @@ display:flex;
 
 
 .btnDemos:hover{
+  border-top: 2px solid black;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: #323232;  
   text-decoration:none;
-  color: black;
+  color: #323232;
   background-color: white;
 
   
@@ -261,11 +266,16 @@ display:flex;
   text-decoration:none;
   color: white;
   background-color: black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: #fff;  
+  
   
  
  
 }
-
 .demos{
 
   border-top: 3px solid black;
@@ -433,33 +443,7 @@ display:flex;
  
  
 }
-.btnDemos3{
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  font-family: 'Oswald', sans-serif;
-  text-decoration:none;
-  height: 30px;
-  font-size: 10px;
-border-color: white;  
-background-color:black; 
-color:white; 
-border-radius: 15px;
-display:flex;
-  justify-content: center;
-  align-items: center;
-}
 
-
-.btnDemos3:hover{
-  border-color: #323232;  
-  text-decoration:none;
-  color: #323232;
-  background-color: white;
-  
- 
- 
-}
 .imagenInicio{
   width: 70%;
 
