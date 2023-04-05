@@ -4,21 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bodas/demo002.css">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Cormorant:wght@300&family=Galada&family=Katibeh&family=Meera+Inimai&family=Pinyon+Script&family=Rouge+Script&family=Waterfall&display=swap" rel="stylesheet">
    
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima+Madurai:wght@100&family=Arizonia&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Livvic:wght@100&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&family=Pinyon+Script&family=Tangerine&family=Tiro+Kannada&display=swap" rel="stylesheet">
 
-    
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
+</script>
 <script>
     function PlayAudio(){
         document.getElementById("musica1").play();
     }
 </script>
+<script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script>
     <title>Alejandro & Lisseth - ¡NOS CASAMOS!</title>
     <link rel="shortcut icon" href="../img/CODIGO LOGOTIPO.png"/>
 </head>
@@ -86,10 +128,10 @@
           <h6 class='col-12 col-lg-12 mt-3 mb-5 text-center' style="color:#9B7A07;">_______________________</h6>
 
 
-    </div></div>
+    </div></div><br>
 
 
-<br><div class="container col-12 mb-4" style="background-size: cover;  background-color:white; z-index: -2 "><br>   
+<div class="container col-12 mb-4" style="background-size: cover;  background-color:white; z-index: -2 "><br>   
         <h5 class='dondeyCuando col-12 col-lg-12 mt-5 mb-0 text-center text-dark' >¿Cuando?</h5> 
         <div class="text-center "> 
         <img class="text-center col-11 col-lg-3 mr-2 mt-0 mb-0 ornamenta" src="../img/bodasimg/demo002/ornamenta.svg" > 
@@ -172,34 +214,10 @@
         <div class="text-center "> 
         <img class="text-center col-11 col-lg-3 mt-0 mb-0 ml-2" src="../img/bodasimg/demo002/ornamentablanca.svg" > 
     </div>
-
-
+ 
  <img class="col-12 col-md-5 mt-4 imagen1 justify-content-center" src="../img/bodasimg/portada.jpg"  >
  <div class="container col-11 col-md-4 collage">  
-    
-             <!-- CARRUSEL-->
- <div id="carouselExampleControls" class="carousel slide mb-3 mt-0" data-ride="carousel">
-  <div class="carousel-inner justify-content-center align-items-center">
-    <div class="carousel-item active ">
-       <img class="d-block w-100" src="../img/bodasimg/2.jpg" alt="First slide" height="212px">
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../img/bodasimg/novios.jpg" alt="Second slide" height="212px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../img/bodasimg/4.jpg" alt="Third slide" height="212px">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true" id="precios" ></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div></div>
+            <img class="imagen2" src="../img/bodasimg/2.jpg" alt="">
    
 </div>
  <img class="imagen3 col-12 col-md-5 mt-5 mb-4 text-md-right" src="../img/bodasimg/3.jpg">
@@ -228,6 +246,8 @@
     <br>
       </div>
 </div><br>
+ 
+
 <div class="container" style="z-index: -2">
  <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0 text-white' >¿Donde Hospedarte?</h5> 
       <div class="text-center "> 
@@ -240,7 +260,7 @@
 
   <h5 class='nosCasamos col-12 col-md-12 mb-4 mt-4 text-center' style="color:white;">HOTELES</h5>
        
-<div id="slider2" class="carousel slide mb-5 " data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide mb-5 " data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="../img/bodasimg/hotel1.png" alt="First slide" height="400px">
@@ -275,20 +295,19 @@
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#slider2" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div></div><br>
-<div class="container col-12" style="background-color: white; z-index: -2;">
-<section class="timeline mb-0" style=" background-color:white"><br>
-    <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4' >Itinerario</h5> 
+<section class="timeline mb-5" style=" background-color:white"><br>
+    <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Itinerario</h5> 
       <div class="text-center "> 
-        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/bodasimg/ornamenta.png" > 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
     </div>
   <ul>
     <li>
@@ -317,33 +336,33 @@
   </li>
   </ul>
 </section>
-<br>
-      <h5 class='dondeyCuando col-12 col-lg-12 text-center text-dark mt-4 mb-0' >Confirmar asistencia</h5> 
+<div class="container col-12" style=""><br>
+      <h5 class='dondeyCuando col-12 col-lg-12 text-center text-white mt-2 mb-0' >Confirmar asistencia</h5> 
       <div class="text-center "> 
-        <img class="text-center col-11 col-lg-3 mt-0 mb-4" src="../img/bodasimg/demo002/ornamenta.svg" > 
+        <img class="text-center col-11 col-lg-3 mt-0 mb-4" src="../img/bodasimg/demo002/ornamentablanca.svg" > 
     </div>
-        <h2 class="respetuosamente col-12 col-lg-12 mt-2 text-center text-dark" >Respetuosamente te pedimos</h2>
-         <p class='tespero col-12 col-lg-12 mt-4 mb-5 text-center text-dark' style="font-size: 20px;"><b>**Los niños se quedan en casa.**</b></p> 
+        <h2 class="respetuosamente col-12 col-lg-12 mt-2 text-center text-white" >Respetuosamente te pedimos</h2>
+         <p class='tespero col-12 col-lg-12 mt-4 mb-5 text-center text-white' style="font-size: 20px;"><b>**Los niños se quedan en casa.**</b></p> 
   
-    <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4">  
+    <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4" style="background-color: white;">  
         <div class="justify-content-center mb-2"><br>
-            <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
-            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' ><b>Huizar Graciano</b></h5>
-            <h5 class='invitacionpara col-12 col-lg-12 mt-4 text-center' >Invitación para:</h5>
-            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4</h5>
-            <h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
-              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>
+            <!--<h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
+            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' ><b>Huizar Graciano</b></h5>-->
+            <h5 class='invitacionpara col-12 col-lg-12 mt-4 text-center' style="font-size: 40px;">Invitación para:</h5>
+            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4 personas</h5>
+            <!--<h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
+              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>-->
             <p style="font-size: 100px;"><i class=" fas fa-ticket-alt "></i></p>
                 <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" >
     </div>
         </div>
     </div>
-    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Arima Madurai', cursive;">Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:white;  font-family: 'Arima Madurai', cursive;">Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
 
-</div>
 
-<div class="invitado col-12" >
+
+<!--<div class="invitado col-12" >
 <h5 class='dondeyCuando col-12 col-lg-12 text-center text-white mt-5 mb-4' >RSVP</h5> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:white;  font-family: 'Arima Madurai', cursive;"><b>Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del</b> <b>01 DE NOVIEMBRE DE 2023.</b></h2>
 
@@ -354,13 +373,13 @@
     <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
   
-  <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
+  <select name="¿Asistirá?" id="asistira" class="custom-select" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
     <option id="Sí" value="Sí">Sí voy a ir.</option>
     <option id="No" value="No">No voy a ir.</option>
   </select>
 <input type="hidden"  name="Contador" value="1">
     <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:black;  font-family: 'Arima Madurai', cursive;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
-  <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: black; font-size: 20px; height: 45px;">
+  <select name="Boletos a utilizar" class="custom-select" id="boletos" style="color: black; font-size: 20px; height: 45px;">
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -375,7 +394,23 @@
 </div>
   </form> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:white;  font-family: 'Arima Madurai', cursive;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
+-->
 
+<p class='textoasistencia col-12 col-lg-12 mb-3 mt-2 text-center text-white' style="font-size: 25px;"><i class="fa fa-whatsapp mr-2"></b></i>POR WHATSAPP<p> 
+    <div class=" logos1 row justify-content-center align-items-center mb-3"> 
+            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> CON ALEJANDRO</a> 
+    </div>
+        <div class=" logos1 row justify-content-center align-items-center mb-5"> 
+            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> CON LISSETH</a> 
+    </div>
+
+<p class='textoasistencia col-12 col-lg-12 mb-2 mt-2 text-center text-white' style="font-size: 25px;"><i class="fas fa-phone-alt mr-2"></i>POR LLAMADA<p> 
+   <div class=" logos1 row justify-content-center align-items-center mb-3"> 
+            <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6" style=""><i class="fas fa-phone-alt mr-2"></i>  CON ALEJANDRO</a> 
+    </div>
+        <div class=" logos1 row justify-content-center align-items-center mb-5"> 
+            <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6" style=""><i class="fas fa-phone-alt mr-2"></i> CON LISSETH</a> 
+    </div>
  <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-white' ><b>¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.</b><p> 
          <div class=" logos1 row justify-content-center align-items-center mb-5"> 
             <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp "></b></i> WhatsApp</a> 
@@ -589,38 +624,6 @@ function habilitar(value)
             });
             }
         }
-  (function () {
-  "use strict";
-
-  // define variables
-  var items = document.querySelectorAll(".timeline li");
-
-  // check if an element is in viewport
-  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
-  function isElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-
-  function callbackFunc() {
-    for (var i = 0; i < items.length; i++) {
-      if (isElementInViewport(items[i])) {
-        items[i].classList.add("in-view");
-      }
-    }
-  }
-
-  // listen for events
-  window.addEventListener("load", callbackFunc);
-  window.addEventListener("resize", callbackFunc);
-  window.addEventListener("scroll", callbackFunc);
-})();
 
     </script>
 

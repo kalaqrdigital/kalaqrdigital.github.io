@@ -10,6 +10,15 @@ window.sr = ScrollReveal();
 
 
 	}); 
+	sr.reveal('.foto', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 sr.reveal('#textolibre', {
 		duration: 2000, //tiempo
 		//delay:1500,

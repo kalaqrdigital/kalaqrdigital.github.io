@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bodas/demo001.css">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Cormorant:wght@300&family=Galada&family=Katibeh&family=Meera+Inimai&family=Pinyon+Script&family=Rouge+Script&family=Waterfall&display=swap" rel="stylesheet">
    
 <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anek+Kannada:wght@500&family=Cormorant+Garamond:wght@300;500&family=Crete+Round&family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Maitree:wght@500&family=Nunito+Sans&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
@@ -16,50 +17,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo&family=Fredoka+One&family=Headland+One&family=Paytone+One&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&family=Tangerine&display=swap" rel="stylesheet">
 
-    <script type='text/javascript'>
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-
-    $('a[href^="#"]').click(function() {
-    var destino = $(this.hash);
-    if (destino.length == 0) {
-      destino = $('a[name="' + this.hash.substr(1) + '"]');
-    }
-    if (destino.length == 0) {
-      destino = $('html');
-    }
-    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
-    return false;
-  });
-
- $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-   
-});
-
-
-</script>
+    
 <script>
     function PlayAudio(){
         document.getElementById("musica1").play();
     }
 </script>
-<script>
-        setTimeout(function(){
-            $('.loader_bg').fadeToggle();
-        }, 2000);
-    </script>
     <title>Eduardo & Mariana - ¡Nos vamos a casar!</title>
     <link rel="shortcut icon" href="../img/CODIGO LOGOTIPO.png"/>
 </head>
@@ -151,7 +114,7 @@ $(document).ready(function(){
         <h6 class='and col-12 col-lg-12 text-center'  >&</h6> 
         <h6 class='nompadres col-12 col-lg-12 mt-0 text-center' >Julia M. Avalos Barrios</h6>
         
-        <p class='tespero col-12 col-lg-12 mt-5 mb-4 text-center' >¡Tenemos del honor de invitarles a la celebración de nuestro Enlace Matrimonial!</p> 
+        <p class='tespero col-12 col-lg-12 mt-5 mb-4 text-center' style="font-size:15px">¡Tenemos del honor de invitarles a la celebración de nuestro Enlace Matrimonial!</p> 
           <h6 class='col-12 col-lg-12 mt-3 mb-5 text-center' style="color:#9B7A07;">_______________________</h6>
 
 
@@ -374,53 +337,54 @@ $(document).ready(function(){
     <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
 
 </div>
-<div class="invitado col-12" >
-<h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
-<h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
-        <form class="form-register mt-4 col-md-8" name="submit-form">
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Nombre completo del invitado</b></h2>
-    <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Teléfono</b></h2>
-    <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
-    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
+ 
 
-  <select name="¿Asistirá?" id="asistira" class="custom-select" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
-    <option id="Sí" value="Sí">Sí voy a ir.</option>
-    <option id="No" value="No">No voy a ir.</option>
-  </select>
-  <input type="hidden"  name="Contador" value="1">
-    <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
-    <select name="Boletos a utilizar" class="custom-select" id="boletos" style="color: black; font-size: 20px; height: 45px;">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-  </select>
-    <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Mensaje para los novios</b></h2>
-    <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="nombres" placeholder=""></textarea>
-    
-    <div class="row justify-content-center">
-    <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm"><i class="fas fa-envelope" ></i> Enviar</button> 
-</div>
-  </form> 
-<h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
-  <hr>
- <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-black' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
-         <div class=" logos1 row justify-content-center align-items-center mb-5"> 
-            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp "></b></i> WhatsApp</a> 
-    </div>  <br>
-     <h4 class='dondeyCuando col-12 col-lg-12 text-center ' >¡Te Esperamos!</h4> <br><br>
+<div class="container col-12" >
+        <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
+        <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
+    <form class="form-register mt-4 col-md-8" name="submit-form">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Nombre completo del invitado</b></h2>
+        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Teléfono</b></h2>
+        <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
 
+        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
+                <option id="Sí" value="Sí">Sí voy a ir.</option>
+                <option id="No" value="No">No voy a ir.</option>
+        </select>
+        <input type="hidden" name="Contador" value="1">
+            <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
+            <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: black; font-size: 20px; height: 45px;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:black;  font-family: 'Noto Serif Khojki', serif;"><b>Mensaje para los novios</b></h2>
+        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="nombres" placeholder=""></textarea>
     
+        <div class="row justify-content-center">
+            <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm"><i class="fas fa-envelope" ></i> Enviar</button> 
+        </div>
+    </form> 
+    <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
+    <hr>
+    <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-black' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
+    <div class=" logos1 row justify-content-center align-items-center mb-5"> 
+        <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp "></b></i> WhatsApp</a> 
+    </div> <br>
+     <h4 class='dondeyCuando col-12 col-lg-12 text-center ' >¡Te Esperamos!</h4> <br><br>   
 </div>
-      
-  <div class="row justify-content-center" style="background-color: white">
-                  
-                <img class="col-6 col-lg-3 mb-3 mt-3" src="../img/logotipoConCodigo.png">  
-        </div> 
-        
-    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+     <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 </a> 
+
+<div class="row justify-content-center" style="background-color: white">           
+    <img class="col-6 col-lg-3 mb-3 mt-3" src="../img/logotipoConCodigo.png">  
+</div> 
+        
+    
 
    <div id="particles-js"></div>
 

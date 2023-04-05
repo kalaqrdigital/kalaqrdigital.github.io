@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bodas/demo001.css">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Cormorant:wght@300&family=Galada&family=Katibeh&family=Meera+Inimai&family=Pinyon+Script&family=Rouge+Script&family=Waterfall&display=swap" rel="stylesheet">
    
 <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anek+Kannada:wght@500&family=Cormorant+Garamond:wght@300;500&family=Crete+Round&family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Maitree:wght@500&family=Nunito+Sans&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
@@ -16,40 +17,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo&family=Fredoka+One&family=Headland+One&family=Paytone+One&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&family=Tangerine&display=swap" rel="stylesheet">
 
-    <script type='text/javascript'>
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-
-    $('a[href^="#"]').click(function() {
-    var destino = $(this.hash);
-    if (destino.length == 0) {
-      destino = $('a[name="' + this.hash.substr(1) + '"]');
-    }
-    if (destino.length == 0) {
-      destino = $('html');
-    }
-    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
-    return false;
-  });
-
- $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-   
-});
-
-
-</script>
 <script>
     function PlayAudio(){
         document.getElementById("musica1").play();

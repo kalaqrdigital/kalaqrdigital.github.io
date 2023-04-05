@@ -17,7 +17,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo&family=Fredoka+One&family=Headland+One&family=Paytone+One&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&family=Tangerine&display=swap" rel="stylesheet">
 
-    
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
+</script>
 <script>
     function PlayAudio(){
         document.getElementById("musica1").play();
@@ -52,7 +85,7 @@
                          <h5 class='and1 col-lg-12 text-center' >&</h5> 
                          <h5 class='nombres2 col-lg-12 text-center' >Mariana</h5> 
                      </div>
-<!--<div class="container mt-0">
+<div class="container mt-0">
     <div class="row justify-content-center ml-3">
 <div class="playpause mb-5 ml-4" onclick="PlayAudio()" >
     <div class="button col-md-5"></div>
@@ -62,24 +95,20 @@
       <source src="musica.mp3" type="audio/mpeg">
   </audio>
 </div>
-</div>-->
+</div>
 
 
             </div>
 
         </div>
-        <div class="container col-12 mt-5 mb-5">  
-        <div class="justify-content-center"> 
-        <h5 class='porqueformas col-lg-12 mt-3 text-center' >El mejor tipo de amor es aquel que despierta el alma y nos hace aspirar a más, nos enciende el corazón y nos trae paz a la mente, y eso es lo que tú me has dado.</h5>  
 
-    </div></div>
-<!--GALERIA
+
 <h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >Los Novios</h5> 
         <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/bodasimg/ornamenta.png" > 
     </div>
  <!-- CARRUSEL-->
- <!--<img class="col-12 col-md-5 mt-4 imagen1 justify-content-center" src="../img/bodasimg/1.png"  >
+ <img class="col-12 col-md-5 mt-4 imagen1 justify-content-center" src="../img/bodasimg/1.png"  >
  <div class="container collage col-10 col-md-4 ">  
             <img class="imagen2 " src="../img/bodasimg/2.jpg" alt="">
 </div>
@@ -104,7 +133,7 @@
 
 
     </div></div>
--->
+
 
 
 
@@ -210,8 +239,8 @@
 
     </div></div>
     <br>
-</div></div><br>
- <!--ITINERIARIO
+</div></div>
+ 
  <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Itinerario</h5> 
       <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
@@ -243,9 +272,9 @@
       </div>
   </li>
   </ul>
-</section>-->
+</section>
 <br>
-<!-- SUGERENCIA HOSPEDAJE
+
  <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >¿Donde Hospedarte?</h5> 
       <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/bodasimg/ornamenta.png" > 
@@ -297,7 +326,7 @@
   </a>
 </div><br>
 
--->
+
 
       <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-2 mb-0' >Confirmar asistencia</h5> 
       <div class="text-center "> 
@@ -305,13 +334,12 @@
     </div>
         <h2 class="respetuosamente col-12 col-lg-12 mt-2 text-center" >Respetuosamente te pedimos</h2>
          <p class='tespero col-12 col-lg-12 mt-4 mb-5 text-center' >**Los niños se quedan en casa.**</p> 
-  <!--
     <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4">  
         <div class="justify-content-center mb-2"><br>
-            <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
+           <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
             <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>
             <h5 class='invitacionpara col-12 col-lg-12 mt-3 text-center' >Invitación para:</h5>
-            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4</h5>
+            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4 </h5>
             <h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
               <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>
             <p style="font-size: 100px;"><i class=" fas fa-ticket-alt "></i></p>
@@ -323,9 +351,8 @@
     <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
 
 </div>
--->
+
 <div class="invitado col-12" >
-    <!--
 <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
         <form class="form-register mt-4 col-md-8" name="submit-form">
@@ -356,8 +383,8 @@
   </form> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:black;  font-family: 'Noto Serif Khojki', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
   <hr>
--->
-<p class='textoasistencia col-12 col-lg-12 mb-3 mt-2 text-center text-black' ><i class="fa fa-whatsapp mr-2"></b></i>POR WHATSAPP<p> 
+
+<!--<p class='textoasistencia col-12 col-lg-12 mb-3 mt-2 text-center text-black' ><i class="fa fa-whatsapp mr-2"></b></i>CONFIRMAR POR WHATSAPP<p> 
     <div class=" logos1 row justify-content-center align-items-center mb-3"> 
             <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> (618) 203 7550</a> 
     </div>
@@ -365,13 +392,13 @@
             <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> (618) 203 7550</a> 
     </div>
 
-<p class='textoasistencia col-12 col-lg-12 mb-2 mt-2 text-center text-black' ><i class="fas fa-phone-alt mr-2"></i>POR LLAMADA<p> 
+<p class='textoasistencia col-12 col-lg-12 mb-2 mt-2 text-center text-black' ><i class="fas fa-phone-alt mr-2"></i>CONFIRMAR POR LLAMADA<p> 
    <div class=" logos1 row justify-content-center align-items-center mb-3"> 
             <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><i class="fas fa-phone-alt mr-2"></i>  (618) 203 7550</a> 
     </div>
         <div class=" logos1 row justify-content-center align-items-center mb-5"> 
             <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6 ml-2" style=""><i class="fas fa-phone-alt mr-2"></i> (618) 203 7550</a> 
-    </div>
+    </div>-->
 
  <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-black' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
          <div class=" logos1 row justify-content-center align-items-center mb-5"> 

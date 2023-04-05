@@ -943,6 +943,7 @@ margin-top: 0px;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+
 .imagen2{
   
   background-color:#9B7A07 ;
@@ -1057,7 +1058,7 @@ font-family: 'calibri', serif;
 }
 
 /* The container must be positioned relative: */
-.custom-select {
+.custom-select2 {
   background-color: #E5E5E5;
   color: #9B7A07;
   position: relative;
@@ -1069,7 +1070,7 @@ font-family: 'calibri', serif;
   border-left: 3px solid #9B7A07;
 }
 
-.custom-select select {
+.custom-select2 select {
   display: none; /*hide original SELECT element: */
 }
 

@@ -182,6 +182,7 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
