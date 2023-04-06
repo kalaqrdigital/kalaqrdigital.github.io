@@ -984,13 +984,13 @@ margin-left: -10px;
 }
 .btnWhatsNovios{
   text-decoration:none;
-  color:white;
-  background-color: #E5CA5E;
+  color:#6F7163;
+  background-color: #D6D0B4;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #E5CA5E;
+  border-color: #D6D0B4;
   height: 45px;
   font-size: 15px;
   font-weight: bold;
@@ -1452,6 +1452,10 @@ audio::-webkit-media-controls-mute-button {
   background-color: #9D927A;
   border-radius: 50%;
 }
+audio::-webkit-media-controls-play-button{
+  background-color: #D6D0B4;
+  color:white;
+}
 audio::-webkit-media-controls-play-button:hover {
   background-color: #D6D0B4;
 }
@@ -1469,7 +1473,7 @@ audio::-webkit-media-controls-timeline {
   margin-right: 10px;
 }
 audio::-webkit-media-controls-volume-slider {
-  background-color: #D6D0B4;
+  background-color: transparent;
   border-radius: 25px;
   padding-left: 8px;
   padding-right: 8px;
