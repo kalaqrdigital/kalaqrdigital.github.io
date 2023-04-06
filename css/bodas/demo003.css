@@ -50,7 +50,21 @@ position: center;
 z-index: 99px;
 
 }
+.playpause {
 
+}
+
+.playpause:hover {
+
+}
+
+.playpause .button {
+
+}
+
+.playpause.playing .button {
+
+}
 .nombres1{
 font-family: 'Great Vibes', cursive;
   margin-top:0px;
