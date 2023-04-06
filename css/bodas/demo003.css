@@ -1457,7 +1457,7 @@ audio::-webkit-media-controls-panel {
   box-shadow: 2px 2px 2px #696969;
 }
 audio::-webkit-media-controls-mute-button {
-  background-color: #D6D0B4;
+  background-color: #9D927A;
   border-radius: 50%;
 }
 audio::-webkit-media-controls-play-button:hover {
