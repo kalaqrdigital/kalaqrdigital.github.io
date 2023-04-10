@@ -371,12 +371,18 @@
     <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="nombres" placeholder=""></textarea>
 
     <div class="row justify-content-center">
-    <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm"><i class="fas fa-envelope"></i> Enviar</button> 
+    <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope"></i> Enviar</button> 
 </div>
+<div class="row justify-content-center">
+        <div id="loading" class="spinner-border ml-2" role="status" style="display: none; margin-top: -40px;">
+                <span class="sr-only">Loading...</span>
+        </div>
+       </div> 
+       
   </form> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="color:white;  font-family: 'Arima Madurai', cursive;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
 
- <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-white' ><b>¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.</b><p> 
+ <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-white' ><b>¿Dudas sobre nuestro evento? Puedes pedir información a través de nuestro chat de WhatsApp.</b><p> 
          <div class=" logos1 row justify-content-center align-items-center mb-5"> 
             <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp "></b></i> WhatsApp</a> 
     </div>  <br>
@@ -522,12 +528,23 @@
   <script src="//maps.googleapis.com/maps/api/js"></script>
   <script src="js/script.js"></script>
 
-   <script>
-
+    <script>
+ function bloquear(){
+     document.getElementById("loading").style.display = "block";
+     document.getElementById("botonForm").style.opacity = 0.7;
+     document.getElementById("botonForm").textContent = 'Enviando espere por favor...';
+          document.getElementById("botonForm").style.zIndex=-100;
+      setTimeout(function () {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("botonForm").disabled = false;
+        
+        
+        }, 3000);
+ }
          let comprobar = "1";
         let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
         let form = document.forms['submit-form'];
-
+ 
         form.addEventListener('submit', e => {
             e.preventDefault();
             fetch(scriptURL, {
@@ -539,7 +556,7 @@
                 
                 console.log(res);
                 if(res.status === 200){
-
+                       
                    const myButton = document.getElementById('botonForm');
     myButton.disabled = true;
     myButton.style.opacity = 0.7;
@@ -553,7 +570,7 @@
                      
                        
         myButton.textContent = 'Enviado';
-        myButton.style.opacity = 0.1;
+        myButton.style.opacity = 0;
         myButton.disabled = true;
     }, 3500);
                     
@@ -572,6 +589,7 @@ document.getElementById("boletos").disabled=true;
                 console.error('Error', error.message)
             });
         });
+
 function habilitar(value)
         {
             if(value=="Sí" || value==true)
