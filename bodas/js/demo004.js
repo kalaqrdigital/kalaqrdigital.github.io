@@ -1,142 +1,7 @@
 window.sr = ScrollReveal();
 
-		
-		sr.reveal('.musica2', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		distance: '300px' //distancia
-
-
-	}); 
-
-		sr.reveal('.imagenPortada', {
-		duration: 2000, //tiempo
-		delay:500,
-		//delay:1500,
-		origin: 'top', //origen
-		distance: '500px' //distancia
-
-
-	}); 
-		sr.reveal('.nuestraBoda', {
-		duration: 1500, //tiempo
-		delay:500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-		
-
-	});
-	sr.reveal('.and1', {
-		duration: 1500, //tiempo
-		delay:700,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-		
-
-	});
-	sr.reveal('.nombres1', {
-		duration: 2000, //tiempo
-		delay:500,
-		origin: 'bottom', //origen
-		distance: '30px' //distancia
-
-
-	}); 
-	sr.reveal('.nombres2', {
-		duration: 2000, //tiempo
-		delay:500,
-		origin: 'top', //origen
-		distance: '30px' //distancia
-
-
-	});
-	sr.reveal('.fechaInicio', {
-		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-	});  
-		sr.reveal('.cuentaRegresiva', {
-		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-	});  
-		sr.reveal('.cuentaRegresiva2', {
-		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-	}); 
-		sr.reveal('.cuentaRegresiva3', {
-		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-	}); 
-		sr.reveal('.flores1', {
-		duration: 2000, //tiempo
-		delay:500,
-		origin: 'top', //origen
-		distance: '30px' //distancia
-
-
-	}); 
-		sr.reveal('.flores3', {
-		duration: 2000, //tiempo
-		delay:500,
-		origin: 'bottom', //origen
-		distance: '30px' //distancia
-
-
-	}); 
-	sr.reveal('.foto', {
-		rotate: {
-        x: 100,
-        z: 100
-    },
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	});
-	sr.reveal('#salonIglesia', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'bottom', //origen
-		distance: '50px' //distancia
-
-
-	});  
-	sr.reveal('.lugar', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'bottom', //origen
-		distance: '50px' //distancia
-
-
-	}); 
-		sr.reveal('#location', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		distance: '50px' //distancia
-
-
-	}); 
-			sr.reveal('.hora', {
+	
+	sr.reveal('.nombres', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
@@ -145,47 +10,6 @@ window.sr = ScrollReveal();
 
 
 	}); 
-					sr.reveal('#icono', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-						sr.reveal('.mujeres', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'left', //origen
-		distance: '50px' //distancia
-
-
-	}); 
-							sr.reveal('.hombres', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'right', //origen
-		distance: '50px' //distancia
-
-
-	}); 
-		sr.reveal('#adultos', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'left', //origen
-		distance: '50px' //distancia
-
-
-	});
-	sr.reveal('#mesa', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'right', //origen
-		distance: '50px' //distancia
-
-
-	});				
 sr.reveal('#textolibre', {
 		duration: 2000, //tiempo
 		//delay:1500,
@@ -195,7 +19,22 @@ sr.reveal('#textolibre', {
 
 
 	}); 
+	sr.reveal('.nuestraBoda', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
 
+	});
+		sr.reveal('.dondeycuandotitulo', {
+		duration: 2500, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
+
+	});
 	sr.reveal('.textoNosCasamos', {
 		duration: 2000, //tiempo
 		//delay:1500,
@@ -231,11 +70,20 @@ sr.reveal('#textolibre', {
 
 
 	}); 
+			sr.reveal('#cuenta', {
+		duration: 1500, //tiempo
+		//delay:800,
+		origin: 'bottom', //origen
+		distance: '100px', //distancia
+		
+
+	});
 	sr.reveal('.ceremoniaReligiosa', {
 		duration: 1500, //tiempo
 		///delay:1000,
 		origin: 'top', //origen
-		distance: '200px' //distancia
+		scale: 0.30,
+		distance: '-0' //distancia
 		
 
 	});
@@ -247,11 +95,20 @@ sr.reveal('#textolibre', {
 		
 
 	});
+	sr.reveal('.vestimenta', {
+		duration: 1500, //tiempo
+		///delay:1000,
+		origin: 'top', //origen
+		scale: 0.30,
+		distance: '-0' //distancia
+		
 
+	});
 	sr.reveal('.imagen1', {
-		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
+		duration: 1000, //tiempo
+		//delay:800,
+		origin: 'top', //origen
+		distance: '300px', //distancia
 		
 
 	});
@@ -265,69 +122,24 @@ sr.reveal('#textolibre', {
 
 	});
 		sr.reveal('.imagen3', {
-		duration: 2000, //tiempo
+		duration: 1000, //tiempo
+		//delay:500,
 		origin: 'bottom', //origen
-		distance: '300px' //distancia
+		distance: '200px', //distancia
 		
 
 	});
-	sr.reveal('.familiaboleto', {
+
+			sr.reveal('.apellidos', {
 		duration: 1500, //tiempo
-		delay:100,
+		//delay:700,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
 
 
 	}); 
-			sr.reveal('.apellidos', {
-		duration: 1500, //tiempo
-		//delay:700,
-		origin: 'bottom', //origen
-		distance: '90px' //distancia
 
-
-	}); 
-				sr.reveal('.invitacionpara', {
-		duration: 1500, //tiempo
-		//delay:700,
-		origin: 'top', //origen
-		distance: '90px' //distancia
-
-
-	}); 
-	sr.reveal('#amazonliverpool', {
-			duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-
-	}); 
-	sr.reveal('#hotel1', {
-			duration: 2000, //tiempo
-		origin: 'top', //origen
-		distance: '300px' //distancia
-
-
-
-	}); 
-	sr.reveal('#hotel2', {
-			duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '300px' //distancia
-
-
-
-	}); 
-	sr.reveal('#hotel3', {
-			duration: 2000, //tiempo
-		origin: 'top', //origen
-		distance: '400px' //distancia
-
-
-
-	}); 
 			sr.reveal('.form-register', {
 		duration: 1000, //tiempo
 		//delay:800,
@@ -355,12 +167,10 @@ sr.reveal('.nosCasamos', {
 	});
 
 sr.reveal('.dondeyCuando', {
-		duration: 2000, //tiempo
-		//delay:1500,
+		duration: 1500, //tiempo
 		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
+		distance: '-100px', //distancia
+		
 
 	});
 
@@ -391,8 +201,9 @@ sr.reveal('.Tituloasistenciaespero', {
 sr.reveal('.nompadres', {
 		duration: 1500, //tiempo
 		//delay:700,
-		origin: 'left', //origen
-		distance: '100px' //distancia
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 
 
 	}); 
@@ -408,7 +219,7 @@ sr.reveal('.tiendas', {
 
 
 
-sr.reveal('.textilibre', {
+sr.reveal('.textoSeccion3', {
 		duration: 1500, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
