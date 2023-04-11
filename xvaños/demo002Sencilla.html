@@ -1,0 +1,677 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/xvaños/demo002.css">
+    <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Cormorant:wght@300&family=Galada&family=Katibeh&family=Meera+Inimai&family=Pinyon+Script&family=Rouge+Script&family=Waterfall&display=swap" rel="stylesheet">
+   
+<link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anek+Kannada:wght@500&family=Cormorant+Garamond:wght@300;500&family=Crete+Round&family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Maitree:wght@500&family=Nunito+Sans&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo&family=Fredoka+One&family=Headland+One&family=Paytone+One&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
+</script>
+<script>
+    function PlayAudio(){
+        document.getElementById("musica1").play();
+    }
+</script>
+<script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script>
+	<title>María José - ¡Mis XV Años!</title>
+	<link rel="shortcut icon" href="img/xv.png"/>
+</head>
+<!--<body>
+    <div class="row justify-content-center">
+    <h1 class='desactivado col-11 text-center' ><li class='mr-1 far fa-times-circle'></li>DESACTIVADO TEMPORALMENTE<li class='ml-1 far fa-tired'></li>
+        </h1> 
+</div>-->
+<body translate="no">
+<!--<div class="loader_bg">
+    <div class="loader"><img class="col-12 col-lg-9" src="img/xv.png"></div>
+     <div class="progress">
+        <div class="loading-bar indeterminate" ng-style="{'background-color': view.code.color1 || view.color1}"></div>
+    </div>
+</div>-->
+
+
+<div class="portada col-12" style="background-size: cover ; background-image: url(../img/xvañosimg/portada1.png);  position: relative;"  >
+    
+                    <div class="row justify-content-center">
+
+                        <h4 class='nuestraBoda col-12 col-lg-12 text-center ml-3 text-white' id="barraFria">MIS XV AÑOS </h4>
+                        <div class="text-center "> 
+        <img class="text-center col-7 col-md-7 ml-3 mt-0 mb-4" src="../img/xvañosimg/ornamenta.png" > 
+    </div>   
+                         <h5 class='nombres col-lg-12 text-center' >María José</h5>  
+
+<div class="playpause mb-5 ml-3" onclick="PlayAudio()" >
+    <div class="button" ></div>
+
+</div>  
+ <audio id="musica1" volume="80" loop> 
+      <source src="../bodas/musica.mp3" type="audio/mpeg">
+  </audio>
+
+
+            </div>
+
+        </div>
+
+<section class="cuando col-12 mb-0" style="background-color: black; color:white; position: relative; z-index: -2" > 
+<div id="particles-js2"></div><br><br>
+<h5 class='textoNosCasamos col-12 col-lg-12 mt-0 mb-0 text-center'>Hay momentos en la vida que imaginamos, soñamos y esperamos, uno de esos momentos a llegado...</h5>  
+<!--<div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-3 mb-5" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+ <!-- <div class="container col-12 mt-0 padres mb-5">  
+        <div class="justify-content-center"> 
+        <h5 class='porqueformas col-lg-12 mt-5 text-center' >PORQUE FORMAS PARTE ESCENCIAL EN MI VIDA...</h5>    
+        <h6 class='tespero col-12 col-lg-12 mt-5 mb-5 text-center' >Te espero para celebrar este día tan especial para mí en compañía de mis padres...</h6> 
+        <h6 class='nompadres col-12 col-lg-12 mt-5 text-center' >Oscar Barron</h6>
+        <h6 class='and col-12 col-lg-12 text-center'  ><b>&</b></h6> 
+        <h6 class='nompadres col-12 col-lg-12 mt-0 text-center' >Beatriz Gloria</h6>
+        <p class='tespero col-12 col-lg-12 mt-5 mb-4 text-center' >¡Tenemos del honor de invitarte a la celebración de mis XV años!</p> 
+          <h6 class='col-12 col-lg-12 mt-3 mb-5 text-center' >_______________________</h6>
+
+
+    </div></div>
+
+
+  
+<!--<h3 class='estasinvitado col-12 col-lg-12 mt-0 mb-2 text-center'>¡Estás Invitado!</h3> -->
+<br>
+        <h5 class='dondeyCuando col-12 col-lg-12 mt-5 mb-0 text-center' >¿Cuando?</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4 ornamenta" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+        <div class="container col-12 mt-2 mb-0">  
+                <div class="justify-content-center">
+                        <h5 class='dia col-lg-12 mt-2 text-center' >16</h5> 
+                </div>
+
+        </div>
+        <div class="row justify-content-center">
+                        <h5 class='mes col-5 col-lg-5  ml-1 text-center' >DIC</h5> 
+                        <h5 class='año col-5 col-lg-5 ml-4 text-center' >2023</h5> 
+                </div>
+        <p class='textodondeycuando col-12 col-lg-12 mt-3 mb- text-center' >Queremos que seas parte de este momento tan importante.</p> 
+        <p class='col-12 col-lg-12 mt-3 mb- text-center' style="font-size:20px; font-family: 'Abril Fatface', cursive;">SOLO FALTAN...</p> 
+        <div class="col-12 text-center mb-0" id="cuenta"></div> 
+        <br><br>
+        
+</section>
+
+<div class="invitado col-12 mb-0 mt-0"> 
+    
+        <br><br>
+        <h5 class='dondeyCuando col-12 col-lg-12 mt-0 mb-0 text-center' >¿Dónde?</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+
+         <div class="container col-12 col-md-8 mt-2 ceremoniaReligiosa mb-4" style="background-size: cover ; background-image: url(../img/xvañosimg/fondo1.png)">  
+        <div class="justify-content-center"> 
+        <h5 class='dondeycuandotitulo col-lg-12 mt-3 text-center' >CEREMONIA</h5>    
+        <p style="font-size: 100px;"><i class="fas fa-church"></i></p>  
+        <h6 class='lugar col-12 col-lg-12 mt-2 text-center' ><b>Santuario de Guadalupe</b></h6> 
+        <p class='hora col-12 col-lg-12 mt-2 text-center' >18:00 hrs.</p>
+        <p class='textodondeycuando col-12 col-lg-12 mt-2 mb-4 text-center' >Prolongacion S/N, Zona Centro, 34000 Durango</p>  
+   
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.7338523250837!2d-104.68097818578308!3d24.040448783552495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc83685a5e403%3A0xd63146324039d752!2sSantuario%20de%20Guadalupe!5e0!3m2!1ses!2smx!4v1676954207824!5m2!1ses!2smx" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-4 mapas"></iframe>
+
+    <a href="https://maps.app.goo.gl/rws3DJR4YkXdLhk77" class="btn btn-dark col-8 mb-5"><i class="fas fa-location-arrow"></i> COMO LLEGAR</a>  
+
+    </div></div>
+
+    <div class="container col-12 col-md-8 mt-2 ceremoniaReligiosa mb-5" style="background-size: cover ; background-image: url(../img/xvañosimg/fondo3.png)">  
+        <div class="justify-content-center"> 
+        <h5 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' >RECEPCIÓN</h5>      
+        <p style="font-size: 100px;"><i class=" fas fa-glass-cheers"></i></p>   
+        <h6 class='lugar col-12 col-lg-12 mt-2 text-center' ><b>Salón de eventos #212</b></h6> 
+        <p class='hora col-12 col-lg-12 mt-2 text-center' >21:00 hrs.</p>
+        <p class='textodondeycuando col-12 col-lg-12 mt-2 mb-4 text-center' >C. México 212, Guadalupe, 34220 Durango, Dgo.</p>  
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.624467652215!2d-104.62549258578298!3d24.044304383403603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7fc17e819af%3A0x6d4be96fd12d81f!2sSal%C3%B3n%20de%20eventos%20%23212!5e0!3m2!1ses!2smx!4v1676954091600!5m2!1ses!2smx" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-4 mapas"></iframe>
+
+    <a href="https://maps.app.goo.gl/y12G1tPAnzcepa5v7" class="btn btn-dark col-8 mb-5"><i class="fas fa-location-arrow "></i> COMO LLEGAR</a>  
+
+
+
+    </div></div></div>
+
+
+<div class="invitado col-12" style="background-size: 100%; background-image: url(../img/xvañosimg/fondo2.png); z-index: -2" ><br>
+        <h5 class='dondeyCuando col-12 col-lg-12 text-center' >Código de Vestimenta</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+    <h5 class='nosCasamos col-12 col-md-12 mb-4 mt-4 text-center' >Casual - Formal</h5>
+        <div class="container col-12 col-md-8 mt-2 vestimenta mb-5">  
+        <div class="row justify-content-center"> 
+           
+        <img class="col-8 col-lg-3 mt-4 justify-content-center" src="../img/xvañosimg/vestido.png" > 
+        <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>MUJERES</b></h5> 
+        <h5 class='textodondeycuando col-12 col-lg-12  mb-4 text-center' >Vestido Largo, corto, conjunto formal.</h5>    
+        </div></div>
+        <div class="container col-12 col-md-8 mt-2 vestimenta mb-5">  
+        <div class="row justify-content-center">     
+        <img class="imagen col-8 col-lg-3 mt-4" src="../img/xvañosimg/traje.png" > 
+        <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>HOMBRES</b></h5>  
+        <h5 class='textodondeycuando col-12 col-lg-12 mb-4 text-center' >Traje, vestimenta casual.</h5>   
+
+    </div></div>
+    <br>
+</div></div><br>
+<h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >Mesa de Regalos</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" >El mejor regalo que nos puedes brindar es tu presencia, pero si gustas hacernos un presente, puedes realizarlo a través de nuestra mesa de regalos.</h2>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-3 text-center" >!Gracias¡</h2>
+
+       <div class="container col-12 justify-content-center mb-5 mt-5">   
+         <div class="row justify-content-center align-items-center" > 
+        <a class="tiendas col-10 col-md-6 mb-4 ml-3" href="https://mesaderegalos.liverpool.com.mx/"><img class="" src="../img/xvañosimg/liverpool.jpg"> </a>
+        <a class="tiendas col-10 col-md-6 mb-5 ml-3" href="https://wap-mesa-regalos.sears.com.mx/"><img class="" src="../img/xvañosimg/sears.png"> </a>
+    </div>  
+      </div>
+
+     <!-- <div class="container col-10 col-md-7 cuentaRegresiva2">
+    <div class="container col-12 col-md-8 text-center mb-4"> 
+        <div class="justify-content-center mb-5"> <br>
+          <p style=" font-family: 'Arapey', serif; color:#fff; font-size: 20px; letter-spacing: 6px;" class="mb-4"><b>ITINERARIO</b></p>
+         <p style="font-size: 30px; color:#fff"><i class="fa fa-arrow-down mt-5 mb-2 flecha"></i> </p>
+        <br>
+        </div></div> </div>
+<div class="container col-12">
+    <div class="container col-12 col-md-7 mb-2 itinerario">
+    <div class="col-12 col-md-8 text-left mb-0 itinerario"> 
+        <div class="justify-content-left"> <br>
+          <p style=" font-family: 'Arapey', serif; color:#184547; font-size: 20px;"><i class="fas fa-camera mr-4" style="font-size: 40px; color:#184547"></i><br><b>SESIÓN DE FOTOS</b></p>
+        <p class="mt-2"style="font-size: 15px; font-family: 'Playfair Display', serif; color:#000; "><b>5:30 HRS.</b> En la casa del novio ejemplo</p><br>
+</div></div> </div>
+
+
+
+<div class="container col-12 col-md-7 mb-2 itinerario">
+    <div class="col-12 col-md-8 text-left mb-0 itinerario"> 
+        <div class="justify-content-left">
+        <p style="   font-family: 'Arapey', serif; color:#184547; font-size: 20px;"><i class="fas fa-feather-alt mr-4 mt-4" style="font-size: 40px; color:#184547"></i><br><b>CEREMONIA CIVIL</b></p>
+        <p class="mt-2"style="font-size: 15px; font-family: 'Playfair Display', serif; color:#000; "><b>6:30 HRS.</b> En el jardín principal del salón ejemplo</p><br>
+</div></div> </div>
+
+<div class="container col-12 col-md-7  mb-2 itinerario">
+    <div class=" col-12 col-md-8 text-left mb-0"> 
+        <div class="justify-content-left">
+       <p style="   font-family: 'Arapey', serif; color:#184547; font-size: 19px;"><i class="fas fa-church mr-4 mt-4" style="font-size: 40px; color:#184547"></i><br><b>CEREMONIA RELIGIOSA</b></p>
+        <p class="mt-2"style="font-size: 15px; font-family: 'Playfair Display', serif; color:#000; "><b>7:30 HRS.</b> En la iglesia ejemplo</p><br>
+</div></div> </div>
+
+<div class="container col-12 col-md-7  mb-5 itinerario">
+    <div class=" col-12 col-md-8 text-left mb-4"> 
+        <div class="justify-content-left">
+        <p style="   font-family: 'Arapey', serif; color:#184547; font-size: 20px;"><i class="fas fa-glass-cheers mr-4 mt-4" style="font-size: 40px; color:#184547"></i><br><b>RECEPCIÓN</b></p>
+        <p class="mt-2" style="font-size: 15px; font-family: 'Playfair Display', serif; color:#000; "><b>9:00 HRS.</b> En el salón ejemplo</p><br>
+
+        </div></div> </div>
+<br>
+</div>
+
+
+<h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >La Quinceañera</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+ <!-- CARRUSEL-->
+ <!--<img class="col-12 col-md-5 mt-4 imagen1 justify-content-center" src="../img/xvañosimg/1.jpeg"  >
+ <div class="container col-10 col-md-4 collage">  
+        <div class="imagen2 row justify-content-center text-md-right justify-md-content-right"> 
+            <img class=" mt-2 mb-2 ml-3 " src="../img/xvañosimg/2.jpeg" alt="">
+        </div>
+</div>
+ <img class="imagen3 col-12 col-md-5 mt-2 mb-5 text-md-right" src="../img/xvañosimg/3.jpeg">
+
+ <div class="container"><br>
+ <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-0 mb-0 '>Recomendación de hospedaje...</h5> 
+      <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+
+        <h2 class="textodondeycuando col-12 col-lg-12 mt-3 text-center">Te sugerimos hospedarte en los siguientes lugares.</h2>
+
+    <div id="ww_7b8fb506e63f1" v='1.3' loc='auto' a='{"t":"horizontal","lang":"es","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"rgba(255,255,255,1)","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://tiempolargo.com/" id="ww_7b8fb506e63f1_u" target="_blank">tiempolargo.com</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_7b8fb506e63f1"></script>
+
+        </div>
+
+
+<div class="row justify-content-center align-items-center mt-3" id="hotel1">
+        <div class="col-11 ml-3 col-md-4 mt-0" >
+            <img class="mt-4" src="../img/bodasimg/hotel1.png"  > 
+            </div>
+        <div class="text-center align-items-center col-11 col-md-4 mr-2 ml-4" style="background-color:#fff" > 
+           <p class="" style="height:70px; color:#000;   font-family: 'Dancing Script', cursive; font-size:35px; display:flex;
+  justify-content: center; align-items: center;"  >Hotel Fiesta Inn</p>
+        </div>
+        <div  class="justify-content-center col-7 col-md-2 ml-3">
+    <a href="https://maps.app.goo.gl/wTU3BSE5xM1WLhRY9" class="btnComoLlegar btn-dark  mb-4" style="">VER INFO...</a>  
+</div> 
+    </div>
+
+    <div class="row justify-content-center align-items-center mt-3" id="hotel2">     
+        <div class="col-11 ml-3 col-md-4 mt-md-4">
+            <img class=" mt-0" src="../img/bodasimg/hotel2.png"  >
+            </div>
+        <div class="text-center align-items-center col-11 col-md-4 mr-2 ml-4" style="background-color:#fff" > 
+            <p class="" style="height:70px; color:#000;   font-family: 'Dancing Script', cursive; font-size:35px; display:flex;
+  justify-content: center; align-items: center;"  >Hotel Misión Express</p>
+            </div>
+                 <div class="justify-content-center col-7 col-md-2 ml-3">
+    <a href="https://maps.app.goo.gl/ZZSy9V7F2G3kZdCm6" class="btnComoLlegar btn-dark  mb-4" style="">VER INFO...</a>  
+</div>
+</div>
+
+<div class="row justify-content-center align-items-center mt-3" id="hotel3">
+<div class="col-11 ml-3 col-md-4 mt-md-4">
+           <img class="mt-0" src="../img/bodasimg/hotel3.png"  >
+            </div>
+        <div class="text-center align-items-center col-11 col-md-4 mr-2 ml-4" style="background-color:#fff" > 
+            <p class="" style="height:70px; color:#000;   font-family: 'Dancing Script', cursive; font-size:35px; display:flex;
+  justify-content: center; align-items: center;"  >Hotel Holiday Inn</p>
+            </div>
+                 <div class="justify-content-center col-7 col-md-2 ml-3 mb-5">
+    <a href="https://maps.app.goo.gl/yeAUWf2jC4CgXg7fA" class="btnComoLlegar btn-dark  mb-4" style="">VER INFO...</a>  
+</div>
+        
+    </div>
+-->
+         
+  
+  <!--  <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4"  style="background-size: cover ; background-image: url(../img/xvañosimg/portada1.png);">  
+        <div class="justify-content-center mb-2"><br>
+            <!--<h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
+            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>-->
+          <!--  <h4 class='invitacionpara col-12 col-lg-12 mt-3 text-center' >Invitación para:</h4>
+            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4</h5>
+            <!--<h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
+              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>-->
+            <!--<p style="font-size: 100px;"><i class=" fas fa-ticket-alt "></i></p>
+                <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/xvañosimg/ornamenta.png" >
+    </div>
+        </div>
+    </div>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" >Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
+-->
+
+<div class="invitado col-12" style="background-color: black; color:white; position: relative;"><br>
+    <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Confirmar asistencia</h5> 
+      <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="../img/xvañosimg/ornamenta.png" > 
+    </div>
+<!--<h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
+<h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
+        <form class="form-register mt-4 col-md-8" name="submit-form" id="form-register">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left">Nombre completo del invitado</h2>
+        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" >Teléfono</h2>
+        <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left">¿Podrás asistir? Selecciona una opción</h2>
+  
+        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" onchange="habilitar(this.value);">
+                <option id="Sí" value="Sí">Sí asistiré.</option>
+                <option id="No" value="No">No asistiré.</option>
+        </select>
+        <input type="hidden"  name="Contador" value="1">
+        <h2 class="formulario col-12 col-lg-12 mt-4 text-left">De los boletos asignados ¿Cuántos vas a utilizar?</h2>
+        <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+        </select>
+    
+        <h2 class="formulario col-12 col-lg-12 mt-4 text-left" >Mensaje para los novios</h2>
+        <textarea class="controls" type="text" name="Mensaje" id="nombres" style="widht: 100%; height: 100px"></textarea>
+
+        <div class="row justify-content-center">
+            <button type="submit" class="btnForm col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope mr-2"></i> ENVIAR</button> 
+        </div>
+        <div class="row justify-content-center">
+        <div id="loading" class="spinner-border ml-2" role="status" style="display: none; margin-top: -40px; color:#fff">
+                <span class="sr-only">Loading...</span>
+        </div>
+       </div> 
+       
+    
+            
+    </form> 
+<div class="row justify-content-center" id="respuestaEnviada">
+        <h2 class=" col-12 col-lg-12 mt-5 text-center" style="font-size: 24px; color:#fff; font-family: 'Cormorant Garamond', serif;"><i class="fa fa-check mr-2"></i>Respuesta enviada</b></h2>
+       </div>
+  <hr>-->
+  <p class='textoasistencia col-12 col-lg-12 mb-3 mt-4 text-center' style="font-size: 25px; color:#fff; font-family: 'Arapey', serif;"><i class="fa fa-whatsapp mr-2"></b></i>POR WHATSAPP<p> 
+    <div class=" logos1 row justify-content-center align-items-center mb-5 ml-2" > 
+            <a  href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhatsNovios text-center align-items-center col-6" style=""><b><i class="fa fa-whatsapp mr-2"></b></i> 618 203 7550</a> 
+    </div>
+
+<p class='textoasistencia col-12 col-lg-12 mb-3 mt-2 text-center ' style="font-size: 25px; color:#fff; font-family: 'Arapey', serif;"><i class="fas fa-phone-alt mr-2"></i>POR LLAMADA<p> 
+   <div class=" logos1 row justify-content-center align-items-center mb-5 ml-2"> 
+            <a  href="tel:6182037550" class="btnWhatsNovios text-center align-items-center col-6" style=""><i class="fas fa-phone-alt mr-2"></i>  618 203 7550</a> 
+    </div>
+    
+  <!--<h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="font-size: 23px; color:#fff;  font-family: 'Cormorant Garamond', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</h2>-->
+ <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center text-white' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
+         <div class=" logos1 row justify-content-center align-items-center mb-5 ml-2" > 
+            <a href="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia." class="btnWhats text-center align-items-center col-6" style="border-color: #25D366; border-width:4px; border-radius: 7px"><b><i class="fa fa-whatsapp mr-1"></b></i> WhatsApp</a> 
+    </div>  <br>
+     <h4 class='dondeyCuando col-12 col-lg-12 text-center ' >¡TE ESPERAMOS!</h4> <br><br>
+
+    
+</div>
+      
+<div class="row justify-content-center" style="background-color: white">
+                  
+                <img class="col-6 col-lg-3 mb-3 mt-4" src="../img/logotipoConCodigo.png">  
+        </div> 
+        
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+</a> 
+
+   <div id="particles-js"></div>
+
+    <script src="js/particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+  "particles": {
+    "number": {
+      "value": 25,
+      "density": {
+        "enable": false,
+        "value_area": 788.3699662577651
+      }
+    },
+    "color": {
+      "value": "#13575A"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.7,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": .5,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 24,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 500,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 3,
+      "direction": "bottom",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 0.5
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 4,
+        "duration": 0.3,
+        "opacity": 1,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+               )
+    </script>
+
+
+
+	<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/simplyCountdown.min.js"></script>
+    <script src="js/countdown.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js"></script>
+  <script src="js/script.js"></script>
+  <script>
+
+ function bloquear(){
+     document.getElementById("loading").style.display = "block";
+     document.getElementById("botonForm").style.opacity = 0.7;
+     document.getElementById("botonForm").textContent = 'Enviando espere por favor...';
+          document.getElementById("botonForm").style.zIndex=-100;
+         
+      setTimeout(function () {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("botonForm").disabled = false;
+        
+        
+        }, 3000);
+ }
+
+ 
+    document.getElementById("respuestaEnviada").style.display = "none";
+         let comprobar = "1";
+        let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
+        let form = document.forms['submit-form'];
+ 
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+
+            })
+            .then((res) => {
+                
+                console.log(res);
+                if(res.status === 200){
+                       
+                   const myButton = document.getElementById('botonForm');
+    myButton.disabled = true;
+    myButton.style.opacity = 0.7;
+    myButton.textContent = 'Enviando espere por favor...';
+ 
+    //simulación de espera para ejecución de un proceso
+    setTimeout(function() {
+        console.log('Espera por favor...');
+        form.reset();
+        alert('Datos enviados correctamente.');
+        document.getElementById("form-register").style.display = "none"; 
+        document.getElementById("respuestaEnviada").style.display = "block";
+        myButton.textContent = 'Enviado';
+        myButton.style.opacity = 0;
+        myButton.disabled = true;
+    }, 3500);      
+                     
+document.getElementById("boletos").disabled=true;
+                      document.getElementById("nombres").disabled=true;
+                       document.getElementById("telefono").disabled=true;
+                        document.getElementById("asistira").disabled=true;
+                         document.getElementById("boletos").disabled=true;
+                         document.getElementById("mensaje").disabled=true;
+                          document.getElementById("botonForm").disabled=true;
+    
+                }
+            })
+            .catch((error) => {
+                console.error('Error', error.message)
+            });
+        });
+
+
+ 
+
+
+function habilitar(value)
+        {
+            if(value=="Sí" || value==true)
+            {
+                // habilitamos
+                document.getElementById("boletos").disabled=false;
+            }else if(value=="No" || value==false){
+                // deshabilitamos
+                
+                document.getElementById("boletos").disabled=true;
+                 $(document).ready(function () {
+
+                $('.asistira" option:2').text("0");
+
+            });
+            }
+        }
+  (function () {
+  "use strict";
+
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
+
+pentitle="SCSS Arrow Animation";
+    </script>
+</body>
+</html>

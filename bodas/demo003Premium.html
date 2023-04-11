@@ -31,7 +31,7 @@
     <h1 class='desactivado col-11 text-center' ><li class='mr-1 far fa-times-circle'></li>DESACTIVADO TEMPORALMENTE<li class='ml-1 far fa-tired'></li>
         </h1> 
 </div>-->
-<body translate="no"  style="background-color:#6F7163" >
+<body translate="no"  style="background-color:#6F7163" onload="verificar()" >
 <!--<div class="loader_bg">
     <div class="loader"><img class="col-12 col-lg-9" src="img/xv.png"></div>
      <div class="progress">
@@ -424,7 +424,7 @@
         <h5 class='dondeyCuando col-12 col-lg-12 text-center mt-5 mb-4' style="color:#6F7163;" >RSVP</h5> 
         <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" style="font-size: 17px; color:#6F7163;  font-family: 'Playfair Display', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del<b> 01 DE NOVIEMBRE DE 2023.</b></h2>
 
-    <form class="form-register mt-4 col-md-8" name="submit-form">
+    <form class="form-register mt-4 col-md-8" name="submit-form" id="form-register">
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;"><b>Nombre completo del invitado</b></h2>
         <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;"><b>Teléfono</b></h2>
@@ -432,8 +432,8 @@
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
   
         <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: #6F7163; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
-                <option id="Sí" value="Sí">Sí voy a ir.</option>
-                <option id="No" value="No">No voy a ir.</option>
+                <option id="Sí" value="Sí">Sí asistiré.</option>
+                <option id="No" value="No">No asistiré.</option>
         </select>
         <input type="hidden"  name="Contador" value="1">
         <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
@@ -453,10 +453,15 @@
         <div class="row justify-content-center">
         <div id="loading" class="spinner-border ml-2" role="status" style="display: none; margin-top: -40px; color:#6F7163">
                 <span class="sr-only">Loading...</span>
-        </div>
-       </div> 
+        </div></div>
+        
+       
        
     </form> 
+    <div class="row justify-content-center" id="respuestaEnviada">
+        <h2 class=" col-12 col-lg-12 mt-5 text-center" style="font-size: 22px; color:#6F7163;  font-family: 'Playfair Display', serif;"><i class="fa fa-check mr-2"></i>Respuesta enviada</b></h2>
+       </div>
+
     <h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="font-size: 18px; color:#6F7163;  font-family: 'Playfair Display', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>
 
     <p class='textoasistencia col-12 col-lg-12 mb-4 mt-5 text-center' style="font-size: 17px; color:#6F7163;  font-family: 'Playfair Display', serif;"><b>¿Dudas sobre nuestro evento? Puedes pedir información a través de nuestro chat de WhatsApp.</b><p> 
@@ -602,11 +607,13 @@
   <script src="js/script.js"></script>
 
    <script>
+
  function bloquear(){
      document.getElementById("loading").style.display = "block";
      document.getElementById("botonForm").style.opacity = 0.7;
      document.getElementById("botonForm").textContent = 'Enviando espere por favor...';
           document.getElementById("botonForm").style.zIndex=-100;
+         
       setTimeout(function () {
         document.getElementById("loading").style.display = "none";
         document.getElementById("botonForm").disabled = false;
@@ -614,6 +621,9 @@
         
         }, 3000);
  }
+
+ 
+    document.getElementById("respuestaEnviada").style.display = "none";
          let comprobar = "1";
         let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
         let form = document.forms['submit-form'];
@@ -640,14 +650,14 @@
         console.log('Espera por favor...');
         form.reset();
         alert('Datos enviados correctamente.');
-                     
-                       
+        document.getElementById("form-register").style.display = "none"; 
+        document.getElementById("respuestaEnviada").style.display = "block";
         myButton.textContent = 'Enviado';
         myButton.style.opacity = 0;
         myButton.disabled = true;
     }, 3500);
                     
-                     
+                      
 document.getElementById("boletos").disabled=true;
                       document.getElementById("nombres").disabled=true;
                        document.getElementById("telefono").disabled=true;
