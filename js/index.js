@@ -109,14 +109,14 @@ sr.reveal('.celular', {
 
 	});
 sr.reveal('.derecha', {
-		duration: 700, //tiempo
+		duration: 2000, //tiempo
 		origin: 'right', //origen
 		distance: '-100px', //distancia
 		
 
 	});
 sr.reveal('.izquierda', {
-		duration: 700, //tiempo
+		duration: 2000, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
 		
