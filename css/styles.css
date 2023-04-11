@@ -829,6 +829,27 @@ h4{
   padding: 9px 0; 
   background-color: white; 
 }
+.hagamos{
+  font-family: 'Playfair Display', serif;  
+  color:#9B7A07;
+  font-size:27px;
+}
+.contacto2{
+  font-family: 'Montserrat', sans-serif;  
+  font-size:17px;
+}
+.horario{
+font-family: 'Montserrat', sans-serif; 
+font-size:17px
+}
+.laviernes{
+font-family: 'Montserrat', sans-serif; 
+font-size:15px;
+}
+.contacto3{
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+}
 @media (max-width:390px){
 .price{
   margin-top: 0px;
@@ -842,6 +863,26 @@ h4{
 @media (max-width:320px){
 .price{
   margin-top: 0px;
+}
+.contacto2{
+  font-family: 'Montserrat', sans-serif;  font-size:12px;
+}
+.contacto3{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+.horario{
+font-family: 'Montserrat', sans-serif; 
+font-size:13px
+}
+.laviernes{
+font-family: 'Montserrat', sans-serif; 
+font-size:12px;
+}
+.hagamos{
+  font-family: 'Playfair Display', serif;  
+  color:#9B7A07;
+  font-size:20px;
 }
 }
 
@@ -1210,7 +1251,7 @@ box-shadow: 5px 5px 40px #000;
   content:" ";
   width:40px;height:40px;
   border-radius:100%;
-  display:block;background:linear-gradient(45deg,black,black);
+  display:block;background:linear-gradient(45deg,#323232,#323232);
   transition:all 265ms ease-out
 }
   .textoCatalogo{

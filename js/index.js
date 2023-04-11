@@ -68,6 +68,15 @@ sr.reveal('.precios2', {
 
 
 	}); 
+sr.reveal('.hagamos', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 	sr.reveal('.logo', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
@@ -119,6 +128,48 @@ sr.reveal('.izquierda', {
 		duration: 2000, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
+		
+
+	});
+sr.reveal('.izquierda2', {
+		duration: 2000, //tiempo
+		origin: 'bottom', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.codigo', {
+		duration: 2000, //tiempo
+		origin: 'right', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.contacto2', {
+		duration: 2000, //tiempo
+		origin: 'left', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.contacto3', {
+		duration: 2000, //tiempo
+		origin: 'bottom', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.horario', {
+		duration: 2000, //tiempo
+		origin: 'top', //origen
+		distance: '100px', //distancia
+		
+
+	});
+sr.reveal('.laviernes', {
+		duration: 2000, //tiempo
+		origin: 'top', //origen
+		distance: '100px', //distancia
 		
 
 	});
