@@ -43,7 +43,7 @@ div.container-fluid{
 
 .portada{
 width: 100%;
-height: 700px;
+
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -183,7 +183,7 @@ font-family: 'Great Vibes', cursive;
 }
   .portada{
 width: 30%;
-height: 700px;
+
 margin-top: 0px;
 margin-bottom: 20px;
 position: center;
@@ -1463,3 +1463,41 @@ time {
   }
 }
 
+audio::-webkit-media-controls-panel {
+
+  background-color: #fff;
+  border-color:#fff ;
+ 
+  
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: #D6D0B4;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #D6D0B4;
+  border-radius: 50%;
+  color:white;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #D6D0B4;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #000;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #000;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: #D6D0B4;
+  color:white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+audio::-webkit-media-controls-seek-back-button{
+  background-color: #D6C5B2;
+  border-radius: 50%;
+  color:white;
+}
