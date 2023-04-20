@@ -1223,10 +1223,10 @@ letter-spacing: 4px;
 }
  .tituloCatInvitaciones{
   font-family: 'Cinzel', serif; margin-top: 90px;
-  border-top: 3px solid #DCDCDC;
-  border-bottom: 3px solid #DCDCDC;
-  border-right: 3px solid #DCDCDC;
-  border-left: 3px solid #DCDCDC;
+  border-top: 2px solid #DCDCDC;
+  border-bottom: 2px solid #DCDCDC;
+  border-right: 2px solid #DCDCDC;
+  border-left: 2px solid #DCDCDC;
   border-color: white;
   color:white;
   outline: 5px solid #323232;
@@ -1662,4 +1662,63 @@ a {
   50%  {left:0px; top:-7px;}
   75%  {left:0px; top:-5px;}
   100% {left:0px; top:0px;}
+}
+.breadcrumb
+{
+  background: #fff;
+
+}
+.breadcrumb_list
+{
+   padding:0px 0;
+   margin:0px 0;
+}
+.breadcrumb_list li
+{
+  list-style-type:none;
+  display:inline;
+  margin:0px 2px;
+}
+.breadcrumb_list a
+{
+  color:red;
+  font-size:15px;
+  text-decoration:none;
+  font-family: "Arial";
+}
+.breadcrumb_list a:visited
+{
+  color:#b3b3b3;
+}
+.breadcrumb_list a:hover{
+  color:#000;
+}
+.li-0:after
+{
+  content:" ";
+  padding-left:24px;
+}
+.li-1:after
+{
+  content:"/";
+  padding-left:10px;
+  color:#b3b3b3;
+}
+.li-2:after
+{
+  content:"-";
+  padding-left:20px;
+  color:#b3b3b3;
+}
+.li-3:after
+{
+  content:'\2192';
+  padding-left:13px;
+  color:#b3b3b3;
+}
+.li-4:after
+{
+  content:'\00bb';
+  padding-left:20px;
+  color:#b3b3b3;
 }

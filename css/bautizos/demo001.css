@@ -692,31 +692,6 @@ align-items: center;
 
 }
 
-.hotel1{
-  border-top: 0px solid #E5CA5E;
-  border-bottom: 0px solid #E5CA5E;
-  border-right: 0px solid #E5CA5E;
-  border-left: 0px solid #E5CA5E;
-  box-shadow: 0 0 10px #868787;
-
-
-  background-color:white;
-  text-align: center;
-
-}
-
-.hotel2{
-  border-top: 0px solid #E5CA5E;
-  border-bottom: 0px solid #E5CA5E;
-  border-right: 0px solid #E5CA5E;
-  border-left: 0px solid #E5CA5E;
-  box-shadow: 0 0 10px #868787;
-
-
-  background-color:white;
-  text-align: center;
-
-}
 
 .portadaBautizo{
   border-top: 2px solid #E5CA5E;
@@ -1026,12 +1001,12 @@ box-shadow: 0 0 10px gray;
 .btnWhatsNovios{
   text-decoration:none;
   color:white;
-  background-color: #9B7A07;
+  background-color: #8F9677;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #9B7A07;
+  border-color: #8F9677;
   height: 45px;
   font-size: 15px;
   font-weight: bold;

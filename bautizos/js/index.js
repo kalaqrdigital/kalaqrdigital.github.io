@@ -148,7 +148,7 @@ sr.reveal('.diaBautizo', {
 		
 
 	});
-		sr.reveal('.hotel1', {
+		sr.reveal('.hotel4', {
 		duration: 1500, //tiempo
 		//delay:1500,
 		origin: 'left', //origen
@@ -156,7 +156,7 @@ sr.reveal('.diaBautizo', {
 		
 
 	});
-			sr.reveal('.hotel2', {
+			sr.reveal('.hotel3', {
 		duration: 1500, //tiempo
 		//delay:1500,
 		origin: 'right', //origen
@@ -175,12 +175,13 @@ sr.reveal('.diaBautizo', {
 	sr.reveal('.vestimenta', {
 		duration: 1500, //tiempo
 		///delay:1000,
-		origin: 'top', //origen
-		scale: 0.30,
-		distance: '-0' //distancia
+		origin: 'left', //origen
+		
+		distance: '150px' //distancia
 		
 
 	});
+	
 	sr.reveal('.imagen1', {
 		duration: 1000, //tiempo
 		//delay:800,
