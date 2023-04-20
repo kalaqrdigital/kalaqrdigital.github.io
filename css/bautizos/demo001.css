@@ -662,6 +662,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
 }
+
 .formulario{
   margin-left: -10px;
   font-size: 15px;
@@ -677,7 +678,34 @@ display:flex;
 justify-content: center; 
 align-items: center;
 }
+
 .ceremoniaReligiosa{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  box-shadow: 0 0 10px #868787;
+
+
+  background-color:white;
+  text-align: center;
+
+}
+
+.hotel1{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  box-shadow: 0 0 10px #868787;
+
+
+  background-color:white;
+  text-align: center;
+
+}
+
+.hotel2{
   border-top: 0px solid #E5CA5E;
   border-bottom: 0px solid #E5CA5E;
   border-right: 0px solid #E5CA5E;

@@ -2,15 +2,45 @@ window.sr = ScrollReveal();
 
 	
 	sr.reveal('.nombres1', {
+		rotate: {
+        x: 50,
+        z: 100
+    },
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		origin: 'left', //origen
+		distance: '100px' //distancia
 
 
 	}); 
-sr.reveal('.nombres2', {
+sr.reveal('.imagenP', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+sr.reveal('.mibautizo', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.music', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.diaBautizo', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
@@ -23,11 +53,40 @@ sr.reveal('.nombres2', {
 	sr.reveal('.nuestraBoda', {
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
+		origin: 'left', //origen
 		distance: '100px', //distancia
 		
 
 	});
+	
+	sr.reveal('.cuentaRegresiva', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+
+	sr.reveal('.mesaregalos', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+	sr.reveal('.boletos', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
 		sr.reveal('.dondeycuandotitulo', {
 		duration: 2500, //tiempo
 		//delay:1500,
@@ -79,20 +138,29 @@ sr.reveal('.nombres2', {
 
 
 	}); 
-			sr.reveal('#cuenta', {
-		duration: 1500, //tiempo
-		//delay:800,
-		origin: 'bottom', //origen
-		distance: '100px', //distancia
-		
-
-	});
+	
 	sr.reveal('.ceremoniaReligiosa', {
 		duration: 1500, //tiempo
 		///delay:1000,
 		origin: 'top', //origen
 		scale: 0.30,
 		distance: '-0' //distancia
+		
+
+	});
+		sr.reveal('.hotel1', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		distance: '150px', //distancia
+		
+
+	});
+			sr.reveal('.hotel2', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'right', //origen
+		distance: '150px', //distancia
 		
 
 	});
@@ -176,9 +244,13 @@ sr.reveal('.nosCasamos', {
 	});
 
 sr.reveal('.dondeyCuando', {
+	rotate: {
+        x: 50,
+        z: 100
+    },
 		duration: 1500, //tiempo
-		origin: 'top', //origen
-		distance: '-100px', //distancia
+		origin: 'left', //origen
+		distance: '100px', //distancia
 		
 
 	});
