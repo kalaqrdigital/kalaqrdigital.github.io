@@ -73,11 +73,22 @@ z-index: 99px;
 .playpause.playing .button {
    clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
 }
+.mibautizo{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+color:#868787;
+  
+  font-size: 20px;
+
+
+
+
+}
 .nombres1{
 font-family: 'Great Vibes', cursive;
-  margin-top:320px;
-  color:#9B7A07;
-  font-size: 90px;
+ 
+  color:#8F9677;
+  font-size: 65px;
   font-weight: 570;
 
 }
@@ -104,7 +115,7 @@ margin-top: -40px;
   margin-top:0px;
   color:white;
   font-size: 13px;
-background-color: #9D927A; 
+background-color: #909779; 
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -118,7 +129,7 @@ align-items: center;
  font-family: 'Arapey', serif;
  letter-spacing: 4px;
   margin-top:0px;
-  color:#9D927A;
+  color:#8F9677;
   font-size: 22px;
 
 
@@ -173,35 +184,17 @@ align-items: center;
     display: block;
   margin: auto;
   }
-  .nombres1{
-font-family: 'Great Vibes', cursive;
-  margin-top:300px;
-  color:#9B7A07;
-  font-size: 90px;
-  font-weight: 570;
+ 
 
-}
-  .portada{
-width: 30%;
-
-margin-top: 0px;
-margin-bottom: 20px;
-position: center;
-justify-content: center;
-z-index: 99px;
-  margin-left:auto;
-    margin-right: auto;
-
-}
 
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .nombres1{
 font-family: 'Great Vibes', cursive;
-  margin-top:320px;
-  color:#9B7A07;
-  font-size: 90px;
+ 
+  color:#8F9677;
+  font-size: 65px;
   font-weight: 570;
 
 }
@@ -228,7 +221,7 @@ margin-top: -40px;
   margin-top:0px;
   color:white;
   font-size: 13px;
-background-color: #9D927A; 
+background-color: #909779; 
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -238,11 +231,11 @@ align-items: center;
 
 }
 .diaBautizo{
-  font-size: 18px;
+   font-size: 18px;
  font-family: 'Arapey', serif;
  letter-spacing: 4px;
   margin-top:0px;
-  color:#9D927A;
+  color:#8F9677;
   font-size: 22px;
 
 
@@ -257,13 +250,24 @@ align-items: center;
 }
 
 @media (max-width:320px){
+.mibautizo{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+color:#868787;
+  
+  font-size: 16px;
 
+
+
+
+}
 .nombres1{
 font-family: 'Great Vibes', cursive;
-  margin-top:230px;
-  color:#9B7A07;
-  font-size: 55px;
+ 
+  color:#8F9677;
+  font-size: 38px;
   font-weight: 570;
+
 
 }
 .and1{
@@ -284,12 +288,12 @@ margin-top: -40px;
 
 }
 .nuestraBoda{
-font-family: 'Arapey', serif;
+ font-family: 'Arapey', serif;
  letter-spacing: 4px;
   margin-top:0px;
   color:white;
   font-size: 10px;
-background-color: #9D927A; 
+background-color: #909779; 
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -300,10 +304,11 @@ align-items: center;
 
 }
 .diaBautizo{
+ font-size: 18px;
  font-family: 'Arapey', serif;
  letter-spacing: 4px;
   margin-top:0px;
-  color:#9D927A;
+  color:#8F9677;
   font-size: 15px;
 
 
@@ -423,7 +428,8 @@ font-family: 'Arizonia', cursive;
 }
 .dondeycuandotitulo{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 26px;
+  font-size: 22px;
+  color:#909779;
 }
 .hora{
     font-family: 'Cinzel', cursive;
@@ -444,10 +450,10 @@ align-items: center;
   background-color: white;
 }
 .dondeyCuando{
-font-family: 'Great Vibes', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 55px;
+  color:#909779;
+  font-size: 30px;
 
 }
 .dondeyCuandoMesa{
@@ -476,35 +482,36 @@ align-items: center;
   text-align: center;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
+ font-family: 'Lora', serif;
+  font-size: 20px;
+  color:#868787;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-size: 22px;
   line-height:2;
+  color:#868787;
 }
 .nompadres{
-  font-family: 'Tangerine', cursive;
-  font-size: 45px;
-    color:black;
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 30px;
+    color:#868787;
     font-weight: 570;
 }
 .and{
-  font-family: 'Arizonia', cursive;
- font-size:80px;
- margin-top: -18px;
- margin-bottom: -20px;
-    color:#9B7A07;
+  font-family: 'Anuphan', sans-serif;
+ font-size:50px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#909779;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .dondeyCuando{
-font-family: 'Great Vibes', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 55px;
-
+  color:#909779;
+  font-size: 30px;
 }
 .dia{
   margin-top: -100px;
@@ -517,11 +524,10 @@ font-family: 'Great Vibes', cursive;
 @media (max-width:320px){
 
 .dondeyCuando{
-font-family: 'Great Vibes', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:#9B7A07;
-  font-size: 40px;
-
+  color:#909779;
+  font-size: 25px;
 }
 .dia{
   margin-top: -100px;
@@ -531,54 +537,62 @@ font-family: 'Great Vibes', cursive;
   color:#9B7A07;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color:#868787;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   line-height:2;
+  color:#868787;
 }
 .nompadres{
-  font-family: 'Tangerine', cursive;
-  font-size: 38px;
-    color:black;
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 25px;
+    color:#868787;
     font-weight: 570;
 }
 .and{
-  font-family: 'Arizonia', cursive;
- font-size:60px;
- margin-top: -18px;
- margin-bottom: -20px;
-    color:#9B7A07;
+  font-family: 'Anuphan', sans-serif;
+ font-size:40px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#909779;
 }
 
 }
 
 .familiaboleto{
-font-family: 'Dancing Script', cursive;
-  font-size: 45px;
+font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color:#868787;
+  letter-spacing: 3px;
 
 }
 .apellidos{
-font-family: 'EB Garamond', serif;
+font-family: 'Dancing Script', cursive;
   font-size: 38px;
-  border-bottom: 3px solid black;
+  color:#909779;
+ 
 }
 
 
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-
-}
-.numMesa{
-  font-size: 25px;
-font-family: 'Open Sans', sans-serif;
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 40px;
+  font-size: 20px;
+    color:#868787;
 }
 
 
@@ -590,13 +604,20 @@ font-family: 'Open Sans', sans-serif;
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .apellidos{
-font-family: 'EB Garamond', serif;
-  font-size: 35px;
-  border-bottom: 3px solid black;
+font-family: 'Dancing Script', cursive;
+  font-size: 38px;
+  color:#909779;
 }
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 34px;
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 }
 .numMesa{
@@ -605,7 +626,8 @@ font-family: 'Open Sans', sans-serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 40px;
+  font-size: 20px;
+    color:#868787;
 }
 .respetuosamente{
   font-size: 20px;
@@ -614,23 +636,26 @@ font-family: 'Open Sans', sans-serif;
 }
 @media (max-width:320px){
 
-.apellidos{
-font-family: 'EB Garamond', serif;
-  font-size: 24px;
-  border-bottom: 3px solid black;
-}
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 24px;
+font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 }
 .numMesa{
-  font-size: 20px;
+  font-size: 27px;
 font-family: 'Open Sans', sans-serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
+  font-size: 20px;
+    color:#868787;
 }
 .respetuosamente{
   font-size: 15px;
@@ -657,21 +682,35 @@ align-items: center;
   border-bottom: 0px solid #E5CA5E;
   border-right: 0px solid #E5CA5E;
   border-left: 0px solid #E5CA5E;
-  
+  box-shadow: 0 0 10px #868787;
 
-  box-shadow: 10px 10px 25px 10px rgba(0,0,0,0.5);
+
   background-color:white;
   text-align: center;
 
 }
 
+.portadaBautizo{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #909779;
+  
+  outline: 10px solid #fff;
+  box-shadow: 0 0 25px green;
+  background-color:white;
+  text-align: center;
+  margin-bottom: 140px;
+
+}
 .vestimenta{
 
   border-top: 3px solid black;
   border-bottom: 3px solid white;
   border-right: 3px solid white;
   border-left: 3px solid white;
-  border-color: #9B7A07;
+  border-color: #fff;
 
   color:white;
   background-color: transparent;
@@ -679,15 +718,15 @@ align-items: center;
 }
 
 .boletos{
-
+  background-color: white;
   box-shadow: 0 0 20px white;
   border-top: 3px solid black;
   border-bottom: 3px solid white;
   border-right: 3px solid white;
   border-left: 3px solid white;
   
-  border-radius: 15px 15px 15px 15px;
-  border-color: #9B7A07;
+ 
+  border-color: #fff;
 
   color:black;
   
@@ -700,7 +739,7 @@ align-items: center;
   border-right: 5px solid white;
   border-left: 5px solid white;
   
-  border-color: #9B7A07;
+  border-color: #909779;
 
   color:black;
   
@@ -719,7 +758,8 @@ align-items: center;
 
 .textodondeycuando{
   font-size: 15px;
-font-family: 'Noto Serif Khojki', serif;
+ font-family: 'Lora', serif;
+ color:#868787;
 
 }
 .carousel2 {
@@ -818,17 +858,14 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 }
 .mesaregalos{
-
   border-top: 2px solid #E5CA5E;
   border-bottom: 2px solid #E5CA5E;
   border-right: 2px solid #E5CA5E;
   border-left: 2px solid #E5CA5E;
-  border-color: #fff;
+  border-color: #909779;
   color:black;
-  background-color: #D6D0B4;
-  outline: 30px solid #D6D0B4;
-    box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-
+  background-color: #909779;
+box-shadow: 0 0 10px gray;
 }
 .titulo{
   
@@ -855,23 +892,24 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 .btn{
   text-decoration:none;
-  background-color: gray;
+  background-color: #909779;
   color:white;
-  border-color: #9B7A07;
+
 }
 
 
 .btn:hover{
   text-decoration:none;
   color: black;
-  border-color: #9B7A07;
+  border-color: #909779;
   background-color:white; 
  
 }
 .btnComoLlegar{
+  letter-spacing: 3px;
   text-decoration: none;
-  color:#6F7163;
-  background-color: #D6C5B2; 
+  color:#fff;
+  background-color: #909779; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -882,7 +920,28 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 .btnComoLlegar:hover{
   text-decoration: none;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#6F7163;
+  height: 45px;
+}
+.btnComoLlegar2{
+  letter-spacing: 3px;
+  text-decoration: none;
+  color:#fff;
   background-color: #D6D0B4; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnComoLlegar2:hover{
+  text-decoration: none;
+  background-color: #D6C5B2; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
   color:#6F7163;
@@ -1036,9 +1095,9 @@ margin-top: 0px;
   
 
   box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#9D927A;
+  background-color:#8F9677;
   text-align: center;
- margin-top: -10px;
+ margin-top: -100px;
 }
 @media (min-width: 1200px) { /*laptop*/
   .cuentaRegresiva{
@@ -1050,14 +1109,14 @@ margin-top: 0px;
   
 
   box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#9D927A;
+  background-color:#8F9677;
   text-align: center;
 
 }
   }
 @media (max-width:320px){
   .cuentaRegresiva{
-    margin-top: -200px;
+    margin-top: -115px;
   border-top: 0px solid #E5CA5E;
   border-bottom: 0px solid #E5CA5E;
   border-right: 0px solid #E5CA5E;
@@ -1065,7 +1124,7 @@ margin-top: 0px;
   
 
   box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#9D927A;
+  background-color:#8F9677;
   text-align: center;
 
 }
@@ -1210,19 +1269,19 @@ margin-bottom:;}
 
 .form-register {
   width: 100%;
-  background: #D3D3D3 ;
+  background: #fff ;
   padding: 30px;
   margin: auto;
   margin-top:;
   border-radius: 4px;
   font-family: 'calibri', serif;
-  color: #9B7A07;
-  box-shadow: 7px 13px 37px #9B7A07;
+  color: #868787;
+  box-shadow: 0 0 10px gray;
   border-top: 1px solid #9B7A07;
   border-bottom: 1px solid #9B7A07;
   border-right: 1px solid #9B7A07;
   border-left: 1px solid #9B7A07;
-  border-color: #9B7A07;
+  border-color: #8F9677;
 }
 
 .controls {
@@ -1233,8 +1292,8 @@ margin-bottom:;}
   margin-bottom: 16px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #9B7A07;
-  border-left: 3px solid #9B7A07;
+  border-bottom: 3px solid #909779;
+  border-left: 3px solid #909779;
   
 font-family: 'calibri', serif;
   font-size: 18px;
@@ -1249,7 +1308,7 @@ font-family: 'calibri', serif;
 }
 
 .form-register a {
-  color: #9B7A07;
+  color: #909779;
   text-decoration: none;
 }
 
@@ -1278,8 +1337,8 @@ font-family: 'calibri', serif;
   font-size: 20px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #9B7A07;
-  border-left: 3px solid #9B7A07;
+  border-bottom: 3px solid #909779;
+  border-left: 3px solid #909779;
 }
 
 .custom-select2 select {
@@ -1299,12 +1358,12 @@ font-family: 'calibri', serif;
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #9B7A07 transparent transparent transparent;
+  border-color: #909779 transparent transparent transparent;
 }
 
 /* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #9B7A07 transparent;
+  border-color: transparent transparent #909779 transparent;
   top: 7px;
 }
 
@@ -1313,7 +1372,7 @@ font-family: 'calibri', serif;
   color: black;
   margin-left: 10px;
   padding: ;
-  border: 1px solid #9B7A07;
+  border: 1px solid #909779;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
@@ -1500,4 +1559,32 @@ audio::-webkit-media-controls-seek-back-button{
   background-color: #D6C5B2;
   border-radius: 50%;
   color:white;
+}
+
+.flecha {
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.flecha span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:-7px;}
+  75%  {left:0px; top:-5px;}
+  100% {left:0px; top:0px;}
 }
