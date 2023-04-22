@@ -1018,13 +1018,13 @@ box-shadow: 0 0 10px gray;
 
 .btnWhatsNovios:hover{
   text-decoration:none;
-  background-color: #fff;
-  color: #9B7A07;
+  background-color: transparent;
+  color: #8F9677;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #9B7A07;
+  border-color: #8F9677;
  
 }
 

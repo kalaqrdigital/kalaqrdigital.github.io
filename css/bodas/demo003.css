@@ -1016,13 +1016,13 @@ margin-left: -10px;
 
 .btnWhatsNovios:hover{
   text-decoration:none;
-  background-color: #fff;
-  color: #E5CA5E;
+  background-color: transparent;
+  color: #6F7163;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #E5CA5E;
+  border-color: #6F7163;
  
 }
 
