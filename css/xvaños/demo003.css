@@ -637,9 +637,20 @@ display:flex;
 
 }
 
+
+
+
+
+.invitacionpara{
+
+font-family: 'EB Garamond', serif;
+  font-size: 35px;
+
+}
 .familiaboleto{
 font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
+  letter-spacing: 2px;
 
 
 }
@@ -648,14 +659,6 @@ font-family: 'Dancing Script', cursive;
   font-size: 50px;
   border-bottom: 3px solid white;
   color:#B68E74;
-}
-
-
-.invitacionpara{
-
-font-family: 'EB Garamond', serif;
-  font-size: 35px;
-
 }
 .numMesa{
 
@@ -684,7 +687,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
 
-
+letter-spacing:2px;
 }
 .apellidos{
 font-family: 'Dancing Script', cursive;
@@ -724,6 +727,7 @@ font-family: 'Open Sans', sans-serif;
 .familiaboleto{
 font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
+  letter-spacing: 2px;
 
 
 }
