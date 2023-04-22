@@ -1,12 +1,12 @@
  body{
-  color: white;
-background-color: #184547;
+  color: black;
+background-color: white;
   width: 100%;
  margin: 0;
   overflow-x: hidden;
 
-}
 
+}
 p{
   margin-bottom: 0px;
   margin-left: : 0px;
@@ -17,7 +17,7 @@ img{
   width: 100%;
 }
 a{
-  display: inline-block;
+   display: inline-block;
  
   text-decoration: none;
 
@@ -43,7 +43,7 @@ div.container-fluid{
 
 .portada{
 width: 100%;
-height: 700px;
+
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -59,13 +59,13 @@ z-index: 99px;
 }
 
 .playpause:hover {
-  background: #464646;
+  background: #f0f0f0;
 }
 
 .playpause .button {
   width: 25px;
   height: 25px;
-  background: #f0f0f0;
+  background: #9B7A07;
   transition: inherit;
   clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
 }
@@ -73,22 +73,68 @@ z-index: 99px;
 .playpause.playing .button {
    clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
 }
-.nombres{
+.mibautizo{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+color:#868787;
+  
+  font-size: 20px;
+
+
+
+
+}
+.nombres1{
+font-family: 'Great Vibes', cursive;
+ 
+  color:#C19090;
+  font-size: 65px;
+  font-weight: 570;
+
+}
+.and1{
 font-family: 'Arizonia', cursive;
-  margin-top:170px;
-  margin-bottom: 80px;
+margin-top: -40px;
   color:white;
   font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#9F5784;
+  font-size: 100px;
+;
 
 }
 .nuestraBoda{
- font-family: 'Cinzel Decorative', cursive;
-  margin-top:65px;
-  color:#621132;
-  font-size: 40px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 13px;
+background-color: #C19090; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
 
 }
+.diaBautizo{
+  font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#C19090;
+  font-size: 22px;
 
+
+
+}
 
 .faltan{
  font-family: 'Cormorant Garamond', serif;
@@ -103,30 +149,96 @@ font-family: 'Arizonia', cursive;
   margin-top: 10px;
   margin-bottom: 0px;
 }
-@media only screen and (max-width: 380px) and (min-width: 320px)  {
+.simply-section {
+  background: transparent;
+  width: 130px;
+  height: 80px;
+  margin: 0 80px;
+  margin:15px;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.nombres{
- font-family: 'Arizonia', cursive;
-  margin-top:80px;
-  margin-bottom: 40px;
+.simply-amount {
+  display: block;
+  font-size: 35px;
   color:white;
-  font-size: 60px;
+  font-weight: 1000;
+   font-family: 'Prata', serif;
+}
+
+.simply-word {
+  color:white;
+  font-weight: 400;
+  font-size: 20px;
+   font-family: 'Arapey', serif;
+}
+@media (min-width: 1200px) { /*laptop*/
+  .imagen1{
+    display: block;
+  margin: auto;
+  }
+  .imagen3{
+    display: block;
+  margin: auto;
+  }
+ 
+
 
 }
-.portada{
-width: 100%;
-height: 550px;
-margin-top: 0px;
-margin-bottom: 0px;
-position: center;
-z-index: 99px;
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.nombres1{
+font-family: 'Great Vibes', cursive;
+ 
+  color:#C19090;
+  font-size: 65px;
+  font-weight: 570;
+
+}
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -40px;
+  color:white;
+  font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#9B7A07;
+  font-size: 100px;
+;
 
 }
 .nuestraBoda{
-font-family: 'Cinzel Decorative', cursive;
-  margin-top:65px;
-  color:#621132;
-  font-size: 32px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 13px;
+background-color: #C19090; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+}
+.diaBautizo{
+   font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#C19090;
+  font-size: 22px;
+
+
 
 }
 #cuenta {
@@ -138,30 +250,73 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 @media (max-width:320px){
+.mibautizo{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+color:#868787;
+  
+  font-size: 16px;
 
-.nombres{
- font-family: 'Arizonia', cursive;
-  margin-top:80px;
-  margin-bottom: 40px;
-  color:white;
-  font-size: 45px;
+
+
 
 }
-.portada{
-width: 100%;
-height: 470px;
-margin-top: 0px;
-margin-bottom: 0px;
-position: center;
-z-index: 99px;
+.nombres1{
+font-family: 'Great Vibes', cursive;
+ 
+  color:#C19090;
+  font-size: 38px;
+  font-weight: 570;
+
+
+}
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -40px;
+  color:white;
+  font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#C19090;
+  font-size: 75px;
+;
 
 }
 .nuestraBoda{
-font-family: 'Cinzel Decorative', cursive;
-  margin-top:65px;
-  color:#621132;
-  font-size: 23px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 10px;
+background-color: #C19090; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
+
+
+
+}
+.diaBautizo{
+ font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#8F9677;
+  font-size: 15px;
+
+
+
+}
+
+.botonPause{
+  margin-bottom: -10px;
 }
 #cuenta {
   display: flex;
@@ -169,14 +324,13 @@ font-family: 'Cinzel Decorative', cursive;
   margin-top: 10px;
   margin-bottom: 0px;
 }
-}
 .simply-section {
-  background: #184547;
-  width: 170px;
-  height: 50px;
-  margin: 50 50px;
-  margin:10px;
-  border-radius: 100px;
+  background: transparent;
+  width: 100px;
+  height: 80px;
+  margin: 0 80px;
+  margin:8px;
+  border-radius: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,18 +338,22 @@ font-family: 'Cinzel Decorative', cursive;
 
 .simply-amount {
   display: block;
-  font-size: 20px;
+  font-size: 25px;
+  color:white;
   font-weight: 1000;
-  font-family: 'Open Sans', sans-serif;
+   font-family: 'Prata', serif;
 }
 
 .simply-word {
   color:white;
   font-weight: 400;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 50px;
+  font-size: 20px;
+   font-family: 'Arapey', serif;
 }
+}
+
+
+
 .fondoMeGradue{
 width: 100%;
 height: 100%;
@@ -249,45 +407,70 @@ font-family: 'Dancing Script', cursive;
 
 }
 }
+.itinerarioTexto{
+     font-family: 'Arapey', serif;
+    color:#091921; 
+    font-size: 20px;"
+}
 .dia{
-  color:white;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 130px;
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
   margin-bottom: -10px;
+  color:#9B7A07;
 }
 .mes{
-  border-top: 2px solid #184547;
-  border-bottom: 2px solid #184547;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
+  font-family: 'Arizonia', cursive;
+  font-size: 50px;
+  color:white;
 
 }
 .año{
-  border-top: 2px solid #184547;
-  border-bottom: 2px solid #184547;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
+  margin-top: -40px;
+font-family: 'Arizonia', cursive;
+  font-size: 50px;
+  color:white;
 }
 .dondeycuandotitulo{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 35px;
+  font-size: 22px;
+  color:#C19090;
 }
 .hora{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 35px;
+    font-family: 'Cinzel', cursive;
+  font-size: 22px;
+  color:#BF93B6;
 }
 .lugar{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 20px;
+ font-family: 'Arapey', serif;
+ color:#6F7163;
+  font-size: 15px;
+  background-color: #BF93B6; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 }
 .dondeycuando{
   background-color: white;
 }
 .dondeyCuando{
-font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:white;
-  font-size: 45px;
+  color:#C19090;
+  font-size: 30px;
+
+}
+.dondeyCuandoMesa{
+font-family: 'Great Vibes', cursive;
+  margin-top:10px;
+  color:#9B7A07;
+  font-size: 40px;
+  background-color: #9D927A; 
+height:60px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 }
 .padres{
@@ -304,103 +487,117 @@ font-family: 'Abril Fatface', cursive;
   text-align: center;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
+ font-family: 'Lora', serif;
+  font-size: 20px;
+  color:#868787;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-size: 22px;
   line-height:2;
+  color:#868787;
 }
 .nompadres{
-  font-family: 'Arizonia', cursive;
-  font-size: 45px;
-    color:white;
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 30px;
+    color:#868787;
+    font-weight: 570;
 }
 .and{
-  font-family: 'Arizonia', cursive;
- font-size:80px;
- margin-top: -18px;
- margin-bottom: -20px;
-    color:black;
+  font-family: 'Anuphan', sans-serif;
+ font-size:50px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#C19090;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .dondeyCuando{
-font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:white;
-  font-size: 45px;
-
+  color:#C19090;
+  font-size: 30px;
 }
 .dia{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 100px;
-  margin-bottom: -10px
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
+  margin-bottom: -10px;
+  color:#9B7A07;
 }
 }
 @media (max-width:320px){
 
 .dondeyCuando{
-font-family: 'Abril Fatface', cursive;
+font-family: 'Playfair Display', serif;
   margin-top:10px;
-  color:white;
-  font-size: 30px;
-
+  color:#C19090;
+  font-size: 25px;
 }
 .dia{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 100px;
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
   margin-bottom: -10px;
+  color:#9B7A07;
 }
 .porqueformas{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color:#868787;
 }
 .tespero{
-  font-family: 'Noto Serif Khojki', serif;
-  font-size: 13px;
+  font-family: 'Lora', serif;
+  font-size: 18px;
   line-height:2;
+  color:#868787;
 }
 .nompadres{
-  font-family: 'Arizonia', cursive;
-  font-size: 32px;
-    color:white;
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 25px;
+    color:#868787;
+    font-weight: 570;
 }
 .and{
-  font-family: 'Arizonia', cursive;
- font-size:50px;
- margin-top: -18px;
- margin-bottom: -20px;
-    color:black;
+  font-family: 'Anuphan', sans-serif;
+ font-size:40px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#C19090;
 }
 
 }
 
 .familiaboleto{
-font-family: 'Dancing Script', cursive;
-  font-size: 45px;
+font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color:#868787;
+  letter-spacing: 3px;
 
 }
 .apellidos{
-font-family: 'EB Garamond', serif;
+font-family: 'Dancing Script', cursive;
   font-size: 38px;
-  border-bottom: 3px solid white;
+  color:#C19090;
+ 
 }
 
 
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 35px;
-
-}
-.numMesa{
-  font-size: 25px;
-font-family: 'Open Sans', sans-serif;
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 40px;
+  font-size: 20px;
+    color:#868787;
 }
 
 
@@ -412,13 +609,20 @@ font-family: 'Open Sans', sans-serif;
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .apellidos{
-font-family: 'EB Garamond', serif;
-  font-size: 35px;
-  border-bottom: 3px solid white;
+font-family: 'Dancing Script', cursive;
+  font-size: 38px;
+  color:#909779;
 }
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 34px;
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 }
 .numMesa{
@@ -427,7 +631,8 @@ font-family: 'Open Sans', sans-serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 40px;
+  font-size: 20px;
+    color:#868787;
 }
 .respetuosamente{
   font-size: 20px;
@@ -436,71 +641,131 @@ font-family: 'Open Sans', sans-serif;
 }
 @media (max-width:320px){
 
-.apellidos{
-font-family: 'EB Garamond', serif;
-  font-size: 24px;
-  border-bottom: 3px solid white;
-}
 .invitacionpara{
-font-family: 'Dancing Script', cursive;
-  font-size: 24px;
+font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 }
 .numMesa{
-  font-size: 20px;
+  font-size: 27px;
 font-family: 'Open Sans', sans-serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
+  font-size: 20px;
+    color:#868787;
 }
 .respetuosamente{
   font-size: 15px;
 font-family: 'Open Sans', sans-serif;
 }
 }
+
 .formulario{
   margin-left: -10px;
   font-size: 15px;
 font-family: 'Open Sans', sans-serif;
 }
-
-.ceremoniaReligiosa{
-   box-shadow: 0 0 20px white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
-  border-color: white;
-
-  
-  background-color: 184547;
-  text-align: center;
+.lugar{
+font-family: 'Arapey', serif;
+ color:#fff;
+  font-size: 15px;
+  background-color: #BF93B6; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 }
 
+.ceremoniaReligiosa{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  box-shadow: 0 0 10px #868787;
+
+
+  background-color:white;
+  text-align: center;
+
+}
+
+
+.portadaBautizo{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #BF93B6;
+  
+  outline: 10px solid #fff;
+  box-shadow: 0 0 25px #C19090;
+  background-color:white;
+  text-align: center;
+  margin-bottom: 140px;
+
+}
 .vestimenta{
 
   border-top: 3px solid black;
   border-bottom: 3px solid white;
   border-right: 3px solid white;
   border-left: 3px solid white;
-  border-color: white;
+  border-color: #fff;
 
   color:white;
-  background-color: black;
+  background-color: transparent;
+  text-align: center;
+}
+.itinerario{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:white;
+  text-align: center;
+}
+.boletos{
+  background-color: white;
+  box-shadow: 0 0 20px white;
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  
+ 
+  border-color: #fff;
+
+  color:black;
+  
   text-align: center;
 }
 
-.boletos{
-
-  box-shadow: 0 0 20px white;
+.carousel{
+  border-top: 5px solid black;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
   
-  border-radius: 15px 15px 15px 15px;
-  border-color: white;
+  border-color: #C19090;
 
-  color:white;
+  color:black;
   
-  text-align: center;
+ 
+}
+#carousel .carousel-caption  h2 {
+  animation-duration: 1s;
+  animation-delay: 2s;
 }
 
 .imagen{
@@ -511,7 +776,9 @@ font-family: 'Open Sans', sans-serif;
 
 .textodondeycuando{
   font-size: 15px;
-font-family: 'Open Sans', sans-serif;
+ font-family: 'Lora', serif;
+ color:#868787;
+
 }
 .carousel2 {
   background: white;
@@ -608,6 +875,16 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   color:#AA006F;
 
 }
+.mesaregalos{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #C19090;
+  color:black;
+  background-color: #C19090;
+box-shadow: 0 0 10px gray;
+}
 .titulo{
   
   color: #7E4C0D ;
@@ -615,61 +892,78 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 
 }
-.btnWhatsNovios{
-  text-decoration:none;
-  color:#fff;
-  background-color: #184547;
-  border-top: 3px solid ;
-  border-bottom: 3px solid ;
-  border-right: 3px solid ;
-  border-left: 3px solid ;
-  border-color: #184547;
-  height: 45px;
-  font-size: 15px;
-  font-weight: bold;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.btnwhats .textowhats{
+  size:10px;
 }
-
-
-.btnWhatsNovios:hover{
-  text-decoration:none;
-  background-color: #fff;
-  color: #184547;
-  border-top: 3px solid ;
-  border-bottom: 3px solid ;
-  border-right: 3px solid ;
-  border-left: 3px solid ;
-  border-color: #000;
- 
-}
-.btn{
+.btnWhats{
   text-decoration:none;
   color:white;
-  border-color: white;
+  border-color: #25D366;
+  background-color: transparent;
+  height: 40px;
+  
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 99;
+}
+
+.btn{
+  text-decoration:none;
+  background-color: #C19090;
+  color:white;
+
 }
 
 
 .btn:hover{
   text-decoration:none;
   color: white;
-  border-color: white;
-  background-color:#184547; 
+  border-color: #909779;
+  background-color:#BF93B6; 
  
 }
-@media (min-width: 1200px) { /*laptop*/
-.imagen1{
-  width: 40%;
-  display: block;
-  margin: auto;
-}
-.imagen3{
-  width: 40%;
-  display: block;
-  margin: auto;
+.btnComoLlegar{
+  letter-spacing: 3px;
+  text-decoration: none;
+  color:#fff;
+  background-color: #C19090; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: #BF93B6; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#6F7163;
+  height: 45px;
+}
+.btnComoLlegar2{
+  letter-spacing: 3px;
+  text-decoration: none;
+  color:#fff;
+  background-color: #BF93B6; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnComoLlegar2:hover{
+  text-decoration: none;
+  background-color: #fff; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#BF93B6;
+  height: 45px;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
   .btn{
@@ -719,73 +1013,55 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
  
 }
 
-.btnForm{
-  border-top: 0px solid ;
-  border-bottom: 0px solid ;
-  border-right: 0px solid ;
-  border-left: 0px solid ;
-  border-color: #D6C5B2;
-  text-decoration: none;
-  color:#fff;
-  background-color: gray; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-   height: 45px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btnForm:hover{
-
-  border-top: 0px solid ;
-  border-bottom: 0px solid ;
-  border-right: 0px solid ;
-  border-left: 0px solid ;
-  border-color: gray;
-  text-decoration: none;
-  background-color: #fff; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-  color:gray;
+.btnWhatsNovios{
+  text-decoration:none;
+  color:white;
+  background-color: #C19090;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #C19090;
   height: 45px;
-}
-.btnComoLlegar{
-  text-decoration: none;
-  color:#6F7163;
-  background-color: #D6C5B2; 
-  font-family: 'Arapey', serif; 
   font-size: 15px;
-   height: 45px;
+  font-weight: bold;
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-top:-10px;
 }
 
-.btnComoLlegar:hover{
-  text-decoration: none;
-  background-color: #D6D0B4; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-  color:#6F7163;
-  height: 45px;
+
+.btnWhatsNovios:hover{
+  text-decoration:none;
+  background-color: transparent;
+  color: #C19090;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #C19090;
+ 
 }
-@media (min-width: 1200px) { /*laptop*/
-  .btnComoLlegar{
-  text-decoration: none;
-  color:#6F7163;
-  background-color: #D6C5B2; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-   height: 45px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-;
-  
+
+.btnHoteles{
+  text-decoration:none;
+  height: 50px;
+  font-size: 12px;
+border-color: white; 
+border-width:2px; 
+border-radius: 1px; 
+background-color:transparent; 
+color:white; 
 }
+
+
+.btnHoteles:hover{
+  text-decoration:none;
+  color: #9B7A07;
+  border-color: #9B7A07;
+ 
 }
+
 .menu{
   color: #121D25;
   font-family: 'Questrial', sans-serif;
@@ -829,8 +1105,48 @@ margin-top: 0px;
 
 
 }
-@media (max-width:320px){
+.cuentaRegresiva{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
   
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#C19090;
+  text-align: center;
+ margin-top: -100px;
+}
+@media (min-width: 1200px) { /*laptop*/
+  .cuentaRegresiva{
+    margin-top: -80px;
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#C19090;
+  text-align: center;
+
+}
+  }
+@media (max-width:320px){
+  .cuentaRegresiva{
+    margin-top: -115px;
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#C19090;
+  text-align: center;
+
+}
+
 .cuerpo2{
 
   font-family: 'Questrial', sans-serif;
@@ -892,7 +1208,7 @@ margin-top: 0px;
     width:50px;
     height:50px;
     background-color:gray;
-    border-color: white;
+    border-color: #9B7A07;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -916,12 +1232,23 @@ margin-top: 0px;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+
+.imagen2{
+  
+  background-color:#9B7A07 ;
+ border-top: 7px solid #9B7A07;
+  border-bottom: 7px solid #9B7A07;
+  border-right: 7px solid #9B7A07;
+  border-left: 7px solid #9B7A07;
+  border-color: #9B7A07;
+  width: 100%;
+}
 .collage{
   margin-top: -40px;
-  margin-bottom: -40px;
+  margin-bottom: -100px;
   border-color: black;
   color:black;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   z-index: 99;
 }
@@ -960,31 +1287,35 @@ margin-bottom:;}
 
 .form-register {
   width: 100%;
-  background: black;
+  background: #fff ;
   padding: 30px;
   margin: auto;
   margin-top:;
   border-radius: 4px;
-  font-family: 'calibri';
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-  border-top: 1px solid black;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
-  border-color: white;
+  font-family: 'calibri', serif;
+  color: #868787;
+  box-shadow: 0 0 10px gray;
+  border-top: 1px solid #9B7A07;
+  border-bottom: 1px solid #9B7A07;
+  border-right: 1px solid #9B7A07;
+  border-left: 1px solid #9B7A07;
+  border-color: #8F9677;
 }
 
 .controls {
   width: 100%;
-  background: #184547;
+  background: #E5E5E5 ;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid white;
-  font-family: 'calibri';
+  border-top: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 3px solid #C19090;
+  border-left: 3px solid #C19090;
+  
+font-family: 'calibri', serif;
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 .form-register p {
@@ -995,7 +1326,7 @@ margin-bottom:;}
 }
 
 .form-register a {
-  color: white;
+  color: #909779;
   text-decoration: none;
 }
 
@@ -1010,19 +1341,22 @@ margin-bottom:;}
   background: gray;
   border: none;
   padding: 12px;
-  color: white;
+  color: #9B7A07;
   margin: 16px 0;
   font-size: 16px;
 }
 
 /* The container must be positioned relative: */
 .custom-select2 {
-  height: 40px;
-  background-color: #184547;
-  color: white;
+  background-color: #E5E5E5;
+  color: #9B7A07;
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'calibri', serif;
   font-size: 20px;
+  border-top: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 3px solid #C19090;
+  border-left: 3px solid #C19090;
 }
 
 .custom-select2 select {
@@ -1042,21 +1376,21 @@ margin-bottom:;}
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: #C19090 transparent transparent transparent;
 }
 
 /* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent #C19090 transparent;
   top: 7px;
 }
 
 /* style the items (options), including the selected item: */
 .select-items div,.select-selected {
-  color: white;
+  color: black;
   margin-left: 10px;
   padding: ;
-  border: 1px solid white;
+  border: 1px solid #C19090;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
@@ -1064,7 +1398,7 @@ margin-bottom:;}
 /* Style items (options): */
 .select-items {
   position: absolute;
-  background-color: #184547;
+  background-color: #E5E5E5;
   top: 100%;
   height: 70px;
   left: 0;
@@ -1089,26 +1423,160 @@ margin-bottom:;}
             z-index: -1;
         }
 
-.cuentaRegresiva2{
-  border-top: 0px solid #E5CA5E;
-  border-bottom: 0px solid #E5CA5E;
-  border-right: 0px solid #E5CA5E;
-  border-left: 0px solid #E5CA5E;
-  
+/* INTRO SECTION
 
-  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#000;
-  text-align: center;
- margin-top: -20px;
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+
+  padding: 50px 0;
 }
-.itinerario{
-  border-top: 0px solid #E5CA5E;
-  border-bottom: 0px solid #E5CA5E;
-  border-right: 0px solid #E5CA5E;
-  border-left: 0px solid #E5CA5E;
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #9B7A07;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #9B7A07 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #9B7A07;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #9B7A07;
+}
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #9B7A07 transparent transparent;
+  }
+}
+
+audio::-webkit-media-controls-panel {
+
+  background-color: #fff;
+  border-color:#fff ;
+ 
   
-  background-color:white;
-  text-align: center;
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: #BF93B6;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #BF93B6;
+  border-radius: 50%;
+  color:white;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #BF93B6;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #000;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #000;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: #BF93B6;
+  color:white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+audio::-webkit-media-controls-seek-back-button{
+  background-color: #BF93B6;
+  border-radius: 50%;
+  color:white;
 }
 
 .flecha {
@@ -1137,39 +1605,4 @@ margin-bottom:;}
   50%  {left:0px; top:-7px;}
   75%  {left:0px; top:-5px;}
   100% {left:0px; top:0px;}
-}
-.btnComoLlegar{
-  text-decoration: none;
-  color:#6F7163;
-  background-color: #D6C5B2; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-   height: 45px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top:-10px;
-}
-
-.btnComoLlegar:hover{
-  text-decoration: none;
-  background-color: #D6D0B4; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-  color:#6F7163;
-  height: 45px;
-}
-@media (min-width: 1200px) { /*laptop*/
-  .btnComoLlegar{
-  text-decoration: none;
-  color:#6F7163;
-  background-color: #D6C5B2; 
-  font-family: 'Arapey', serif; 
-  font-size: 15px;
-   height: 45px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top:15px;
-}
 }
