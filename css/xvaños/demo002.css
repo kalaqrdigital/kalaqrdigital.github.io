@@ -617,13 +617,13 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 }
 .btnWhatsNovios{
   text-decoration:none;
-  color:#6F7163;
-  background-color: #B7AA80;
+  color:#fff;
+  background-color: #184547;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #B7AA80;
+  border-color: #184547;
   height: 45px;
   font-size: 15px;
   font-weight: bold;
@@ -636,7 +636,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 .btnWhatsNovios:hover{
   text-decoration:none;
   background-color: #fff;
-  color: #000;
+  color: #184547;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
@@ -657,6 +657,19 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-color: white;
   background-color:#184547; 
  
+}
+@media (min-width: 1200px) { /*laptop*/
+.imagen1{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
   .btn{
@@ -737,7 +750,42 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   color:gray;
   height: 45px;
 }
+.btnComoLlegar{
+  text-decoration: none;
+  color:#6F7163;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-10px;
+}
 
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: #D6D0B4; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#6F7163;
+  height: 45px;
+}
+@media (min-width: 1200px) { /*laptop*/
+  .btnComoLlegar{
+  text-decoration: none;
+  color:#6F7163;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+;
+  
+}
+}
 .menu{
   color: #121D25;
   font-family: 'Questrial', sans-serif;
