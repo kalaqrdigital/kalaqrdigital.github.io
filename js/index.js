@@ -50,6 +50,15 @@ sr.reveal('.tituloInvitaciones', {
 
 
 	}); 
+sr.reveal('.tituloInvitaciones2', {
+		duration: 2500, //tiempo
+		delay:100,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 sr.reveal('.cel', {
 		duration: 2000, //tiempo
 		//delay:1500,
