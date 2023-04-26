@@ -99,8 +99,8 @@ sr.reveal('.hagamos', {
 
 	sr.reveal('.lleva', {
 		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
+		origin: 'left', //origen
+		distance: '100px', //distancia
 		
 
 	});
