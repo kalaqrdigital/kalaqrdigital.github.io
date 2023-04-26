@@ -2,12 +2,11 @@ window.sr = ScrollReveal();
 
 	
 	sr.reveal('.nombres1', {
-	
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'bottom', //origen
-		distance: '100px' //distancia
-
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 
 	}); 
 	sr.reveal('.diaP', {
@@ -17,12 +16,16 @@ window.sr = ScrollReveal();
     },
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
+		origin: 'bottom', //origen
 		distance: '0px' //distancia
 
 
 	}); 
 sr.reveal('.imagenP', {
+	rotate: {
+        x: 100,
+        z: 100
+    },
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'bottom', //origen
@@ -58,12 +61,34 @@ sr.reveal('.mesP', {
 
 
 	}); 
-sr.reveal('.ceremoniaReligiosa', {
+sr.reveal('.mibautizo', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.music', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.diaBautizo', {
+	
+	rotate: {
+        x: 50,
+        z: 100
+    },
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		distance: '100px' //distancia
 
 
 	}); 
@@ -71,19 +96,12 @@ sr.reveal('.ceremoniaReligiosa', {
 	sr.reveal('.nuestraBoda', {
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'top', //origen
-		distance: '20px', //distancia
+		origin: 'left', //origen
+		distance: '100px', //distancia
 		
 
 	});
-	sr.reveal('.playpause', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'bottom', //origen
-		distance: '50px', //distancia
-		
-
-	});
+	
 	sr.reveal('.cuentaRegresiva', {
 		duration: 2000, //tiempo
 		//delay:1500,
@@ -95,15 +113,6 @@ sr.reveal('.ceremoniaReligiosa', {
 	}); 
 
 	sr.reveal('.mesaregalos', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-	sr.reveal('.lluvia', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'bottom', //origen
@@ -121,31 +130,6 @@ sr.reveal('.ceremoniaReligiosa', {
 
 
 	}); 
-	sr.reveal('.itinerario', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'bottom', //origen
-		
-		distance: '100px' //distancia
-
-
-	}); 
-	sr.reveal('.dresscode', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'bottom', //origen
-		
-		distance: '100px' //distancia
-
-
-	}); 
-	sr.reveal('.ornamenta', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //distancia
-		distance: '50px',
-
-	});
 		sr.reveal('.dondeycuandotitulo', {
 		duration: 2500, //tiempo
 		//delay:1500,
@@ -188,7 +172,95 @@ sr.reveal('.ceremoniaReligiosa', {
 
 
 	}); 
-		sr.reveal('.f1', {
+		sr.reveal('.año', {
+		duration: 1500, //tiempo
+		delay:100,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+	
+	sr.reveal('.ceremoniaReligiosa', {
+		duration: 1500, //tiempo
+		///delay:1000,
+		origin: 'top', //origen
+		scale: 0.30,
+		distance: '-0' //distancia
+		
+
+	});
+		sr.reveal('.hotel4', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		distance: '150px', //distancia
+		
+
+	});
+			sr.reveal('.hotel3', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'right', //origen
+		distance: '150px', //distancia
+		
+
+	});
+	sr.reveal('.mapas', {
+		duration: 2000, //tiempo
+		//delay:100,
+		origin: 'top', //origen
+		distance: '200px', //distancia
+		
+
+	});
+	sr.reveal('.vestimenta', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+		
+
+	});
+	
+	sr.reveal('.imagen1', {
+		duration: 1000, //tiempo
+		//delay:800,
+		origin: 'top', //origen
+		distance: '300px', //distancia
+		
+
+	});
+	sr.reveal('.collage', {
+		duration: 1000, //tiempo
+		///delay:1000,
+		origin: 'top', //origen
+		scale: 0.50,
+		distance: '-0' //distancia
+		
+
+	});
+		sr.reveal('.imagen3', {
+		duration: 1000, //tiempo
+		//delay:500,
+		origin: 'bottom', //origen
+		distance: '200px', //distancia
+		
+
+	});
+
+			sr.reveal('.apellidos', {
+		duration: 1500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+			sr.reveal('.f1', {
 		duration: 1500, //tiempo
 		delay:100,
 		origin: 'top', //origen
@@ -233,95 +305,7 @@ sr.reveal('.ceremoniaReligiosa', {
 
 
 	}); 
-		sr.reveal('.año', {
-		duration: 1500, //tiempo
-		delay:100,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
 
-
-	}); 
-	
-	sr.reveal('.ceremonia', {
-		duration: 1500, //tiempo
-		///delay:1000,
-		origin: 'top', //origen
-		scale: 0.30,
-		distance: '-0' //distancia
-		
-
-	});
-		sr.reveal('.hotel4', {
-		duration: 1500, //tiempo
-		//delay:1500,
-		origin: 'left', //origen
-		distance: '150px', //distancia
-		
-
-	});
-			sr.reveal('.hotel3', {
-		duration: 1500, //tiempo
-		//delay:1500,
-		origin: 'right', //origen
-		distance: '150px', //distancia
-		
-
-	});
-	sr.reveal('.mapas', {
-		duration: 2000, //tiempo
-		//delay:100,
-		origin: 'top', //origen
-		distance: '200px', //distancia
-		
-
-	});
-	sr.reveal('.vestimenta', {
-		duration: 1500, //tiempo
-		///delay:1000,
-		origin: 'left', //origen
-		
-		distance: '150px' //distancia
-		
-
-	});
-	
-	sr.reveal('.imagen1', {
-		duration: 1000, //tiempo
-		//delay:800,
-		origin: 'top', //origen
-		distance: '300px', //distancia
-		
-
-	});
-	sr.reveal('.collage', {
-		duration: 1000, //tiempo
-		///delay:1000,
-		origin: 'top', //origen
-		scale: 0.50,
-		distance: '-0' //distancia
-		
-
-	});
-		sr.reveal('.imagen3', {
-		duration: 1000, //tiempo
-		//delay:500,
-		origin: 'bottom', //origen
-		distance: '200px', //distancia
-		
-
-	});
-
-			sr.reveal('.apellidos', {
-		duration: 1500, //tiempo
-		//delay:700,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-	
 			sr.reveal('.form-register', {
 		duration: 1000, //tiempo
 		//delay:800,

@@ -74,11 +74,18 @@ z-index: 99px;
    clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
 }
 .mibautizo{
- font-family: 'Arapey', serif;
- letter-spacing: 4px;
-color:#868787;
-  
-  font-size: 20px;
+ font-family: "Montserrat",Sans-serif;
+ letter-spacing: 2px;
+color:#000;
+  margin-top:-6px;
+  font-size: 16px;
+  background: linear-gradient(to right, #ABABAB, #DBDBDB);
+  opacity: 0.7;
+height:45px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
 
 
 
@@ -86,11 +93,38 @@ color:#868787;
 }
 .nombres1{
 font-family: 'Great Vibes', cursive;
- 
-  color:#8F9677;
-  font-size: 65px;
+  margin-top:40px;
+  color:#868787;
+  font-size: 55px;
   font-weight: 570;
 
+}
+.diaP{
+font-family: "Montserrat",Sans-serif;
+font-size: 45px;
+color:#868787;
+
+}
+.linea{
+    border-top: 5px solid #DBDBDB;
+}
+.linea2{
+    border-bottom: 5px solid #DBDBDB;
+}
+.mesP{
+ 
+font-family: "Montserrat",Sans-serif;
+font-size: 25px;
+color:#868787;
+  
+    letter-spacing: 3px;
+}
+.añoP{
+font-family: "Montserrat",Sans-serif;
+font-size: 25px;
+color:#868787;
+    
+    letter-spacing: 3px;
 }
 .and1{
 font-family: 'Arizonia', cursive;
@@ -115,7 +149,8 @@ margin-top: -40px;
   margin-top:0px;
   color:white;
   font-size: 13px;
-background-color: #909779; 
+background: linear-gradient(to right, #B4DEEE, #E6C8E0);
+  opacity: 0.5;
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -150,30 +185,39 @@ align-items: center;
   margin-bottom: 0px;
 }
 .simply-section {
-  background: transparent;
-  width: 130px;
+ background: transparent;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border: 1px solid rgba(0,0,0,0.4);
+  padding: 15px;
+  background: white;
+  width: 100%;
   height: 80px;
-  margin: 0 80px;
-  margin:15px;
-  border-radius: 150px;
+  margin: 0 50px;
+  margin:5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .simply-amount {
+
   display: block;
-  font-size: 35px;
-  color:white;
-  font-weight: 1000;
-   font-family: 'Prata', serif;
+  font-size: 40px;
+  color:#091921;
+  font-weight: 700;
+   font-family: "Montserrat",Sans-serif;
 }
 
 .simply-word {
-  color:white;
-  font-weight: 400;
-  font-size: 20px;
-   font-family: 'Arapey', serif;
+  text-transform: uppercase;
+  color:#F4C0D5;
+  font-weight: 700;
+  font-size: 15px;
+   font-family: "Montserrat",Sans-serif;
+   margin-bottom: 10px;
 }
 @media (min-width: 1200px) { /*laptop*/
   .imagen1{
@@ -193,11 +237,12 @@ align-items: center;
 .nombres1{
 font-family: 'Great Vibes', cursive;
  
-  color:#8F9677;
+  color:#868787;
   font-size: 65px;
   font-weight: 570;
 
 }
+
 .and1{
 font-family: 'Arizonia', cursive;
 margin-top: -40px;
@@ -251,11 +296,17 @@ align-items: center;
 
 @media (max-width:320px){
 .mibautizo{
- font-family: 'Arapey', serif;
- letter-spacing: 4px;
-color:#868787;
-  
-  font-size: 16px;
+  font-family: "Montserrat",Sans-serif;
+ letter-spacing: 2px;
+color:#000;
+  margin-top:-6px;
+  font-size: 14px;
+  background: linear-gradient(to right, #ABABAB, #DBDBDB);
+  opacity: 0.7;
+height:45px; 
+display:flex;
+justify-content: center; 
+align-items: center;
 
 
 
@@ -263,12 +314,38 @@ color:#868787;
 }
 .nombres1{
 font-family: 'Great Vibes', cursive;
- 
-  color:#8F9677;
-  font-size: 38px;
+  margin-top:40px;
+  color:#868787;
+  font-size: 50px;
   font-weight: 570;
 
-
+}
+.diaP{
+font-family: "Montserrat",Sans-serif;
+font-size: 45px;
+color:#868787;
+    
+}
+.linea{
+    border-top: 5px solid #DBDBDB;
+}
+.linea2{
+    border-bottom: 5px solid #DBDBDB;
+}
+.mesP{
+ 
+font-family: "Montserrat",Sans-serif;
+font-size: 20px;
+color:#868787;
+letter-spacing: 3px;
+margin:0 auto;
+}
+.añoP{
+font-family: "Montserrat",Sans-serif;
+font-size: 25px;
+color:#868787;
+    
+    letter-spacing: 3px;
 }
 .and1{
 font-family: 'Arizonia', cursive;
@@ -325,30 +402,39 @@ align-items: center;
   margin-bottom: 0px;
 }
 .simply-section {
-  background: transparent;
-  width: 100px;
+ background: transparent;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border: 1px solid rgba(0,0,0,0.4);
+  padding: 3px;
+  background: white;
+  width: 100%;
   height: 80px;
-  margin: 0 80px;
-  margin:8px;
-  border-radius: 150px;
+  margin: 0 50px;
+  margin:5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .simply-amount {
+
   display: block;
-  font-size: 25px;
-  color:white;
-  font-weight: 1000;
-   font-family: 'Prata', serif;
+  font-size: 40px;
+  color:#091921;
+  font-weight: 700;
+   font-family: "Montserrat",Sans-serif;
 }
 
 .simply-word {
-  color:white;
-  font-weight: 400;
-  font-size: 20px;
-   font-family: 'Arapey', serif;
+  text-transform: uppercase;
+  color:#F4C0D5;
+  font-weight: 700;
+  font-size: 15px;
+   font-family: "Montserrat",Sans-serif;
+   margin-bottom: 10px;
 }
 }
 
@@ -427,20 +513,23 @@ font-family: 'Arizonia', cursive;
   color:white;
 }
 .dondeycuandotitulo{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
-  color:#909779;
+  font-family: "Montserrat",Sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color:#868787;
 }
 .hora{
-    font-family: 'Cinzel', cursive;
+    font-family: "Montserrat",Sans-serif;
   font-size: 22px;
-  color:#D6D0B4;
+  opacity:0.7;
+  color:#000;
 }
 .lugar{
- font-family: 'Arapey', serif;
- color:#6F7163;
+ font-family: 'Lora', serif;
+letter-spacing: 2px;
+ color:#000;
   font-size: 15px;
-  background-color: #D6D0B4; 
+  background-color:#DBDBDB;
 height:50px; 
 display:flex;
 justify-content: center; 
@@ -450,10 +539,19 @@ align-items: center;
   background-color: white;
 }
 .dondeyCuando{
-font-family: 'Playfair Display', serif;
+font-family: "Montserrat",Sans-serif;
   margin-top:10px;
-  color:#909779;
-  font-size: 30px;
+  color:#091921;
+  font-size: 15px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #FA72AD, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
 
 }
 .dondeyCuandoMesa{
@@ -503,15 +601,24 @@ align-items: center;
  font-size:50px;
  margin-top: 0px;
  margin-bottom: 0px;
-    color:#909779;
+    color:#3700F1; opacity: 0.5;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
 
 .dondeyCuando{
-font-family: 'Playfair Display', serif;
+font-family: "Montserrat",Sans-serif;
   margin-top:10px;
-  color:#909779;
-  font-size: 30px;
+  color:#091921;
+  font-size: 14px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #FA72AD, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
 }
 .dia{
   margin-top: -100px;
@@ -524,10 +631,19 @@ font-family: 'Playfair Display', serif;
 @media (max-width:320px){
 
 .dondeyCuando{
-font-family: 'Playfair Display', serif;
+font-family: "Montserrat",Sans-serif;
   margin-top:10px;
-  color:#909779;
-  font-size: 25px;
+  color:#091921;
+  font-size: 12px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #FA72AD, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
 }
 .dia{
   margin-top: -100px;
@@ -558,7 +674,7 @@ font-family: 'Playfair Display', serif;
  font-size:40px;
  margin-top: 0px;
  margin-bottom: 0px;
-    color:#909779;
+    color:#3700F1; opacity: 0.5;
 }
 
 }
@@ -573,7 +689,7 @@ font-family: 'EB Garamond', serif;
 .apellidos{
 font-family: 'Dancing Script', cursive;
   font-size: 38px;
-  color:#909779;
+  color:#000;
  
 }
 
@@ -661,25 +777,28 @@ font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 font-family: 'Open Sans', sans-serif;
 }
-.dondeycuandotitulo{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
-  color:#909779;
-}
-.hora{
-    font-family: 'Cinzel', cursive;
-  font-size: 17px;
-  color:#D6D0B4;
-}
 .lugar{
- font-family: 'Arapey', serif;
- color:#6F7163;
-  font-size: 11px;
-  background-color: #D6D0B4; 
+font-family: 'Lora', serif;
+letter-spacing: 2px;
+ color:#000;
+  font-size: 12px;
+  background-color:#DBDBDB;
 height:50px; 
 display:flex;
 justify-content: center; 
 align-items: center;
+}
+.dondeycuandotitulo{
+  font-family: "Montserrat",Sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color:#868787;
+}
+.hora{
+    font-family: "Montserrat",Sans-serif;
+  font-size: 18px;
+  opacity:0.7;
+  color:#000;
 }
 }
 
@@ -705,14 +824,19 @@ font-family: 'Open Sans', sans-serif;
 
 
 .portadaBautizo{
-  border-top: 2px solid #E5CA5E;
-  border-bottom: 2px solid #E5CA5E;
-  border-right: 2px solid #E5CA5E;
-  border-left: 2px solid #E5CA5E;
-  border-color: #909779;
+
   
-  outline: 10px solid #fff;
-  box-shadow: 0 0 25px green;
+  
+  box-shadow: 0 0 25px gray;
+  background-color:white;
+  text-align: center;
+ 
+}
+.portadaBautizo2{
+
+  
+  
+  
   background-color:white;
   text-align: center;
   margin-bottom: 140px;
@@ -727,13 +851,13 @@ font-family: 'Open Sans', sans-serif;
   border-color: #fff;
 
   color:white;
-  background-color: transparent;
+  background-color: #fff;
   text-align: center;
 }
 
 .boletos{
   background-color: white;
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px gray;
   border-top: 3px solid black;
   border-bottom: 3px solid white;
   border-right: 3px solid white;
@@ -876,9 +1000,9 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-bottom: 2px solid #E5CA5E;
   border-right: 2px solid #E5CA5E;
   border-left: 2px solid #E5CA5E;
-  border-color: #909779;
+  border-color: #fff;
   color:black;
-  background-color: #909779;
+  background-color: #fff;
 box-shadow: 0 0 10px gray;
 }
 .titulo{
@@ -906,8 +1030,9 @@ box-shadow: 0 0 10px gray;
 
 .btn{
   text-decoration:none;
-  background-color: #909779;
-  color:white;
+  background: linear-gradient(#67D2EB, #FA72AD);
+  opacity:0.7;
+  color:black;
 
 }
 
@@ -917,13 +1042,14 @@ box-shadow: 0 0 10px gray;
   color: black;
   border-color: #909779;
   background-color:white; 
- 
+
 }
 .btnComoLlegar{
   letter-spacing: 3px;
   text-decoration: none;
-  color:#fff;
-  background-color: #909779; 
+  color:#000;
+  background: linear-gradient(#67D2EB, #FA72AD);
+  opacity:0.7;
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -937,14 +1063,15 @@ box-shadow: 0 0 10px gray;
   background-color: #D6C5B2; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
-  color:#6F7163;
+  color:#fff;
   height: 45px;
 }
 .btnComoLlegar2{
   letter-spacing: 3px;
   text-decoration: none;
-  color:#fff;
-  background-color: #D6D0B4; 
+  color:#000;
+  background: linear-gradient(#67D2EB, #FA72AD);
+  opacity:0.7;
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -958,7 +1085,7 @@ box-shadow: 0 0 10px gray;
   background-color: #D6C5B2; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
-  color:#6F7163;
+  color:#fff;
   height: 45px;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
@@ -1011,13 +1138,13 @@ box-shadow: 0 0 10px gray;
 
 .btnWhatsNovios{
   text-decoration:none;
-  color:white;
-  background-color: #8F9677;
+  color:black;
+  background: linear-gradient(#67D2EB, #FA72AD);
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #8F9677;
+  border-color: transparent;
   height: 45px;
   font-size: 15px;
   font-weight: bold;
@@ -1030,12 +1157,12 @@ box-shadow: 0 0 10px gray;
 .btnWhatsNovios:hover{
   text-decoration:none;
   background-color: transparent;
-  color: #8F9677;
+  color: #fff;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #8F9677;
+  border-color: #fff;
  
 }
 
@@ -1108,37 +1235,37 @@ margin-top: 0px;
   border-left: 0px solid #E5CA5E;
   
 
-  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#8F9677;
+ 
+  background-color:transparent;
   text-align: center;
- margin-top: -100px;
+ margin-top: 0;
 }
 @media (min-width: 1200px) { /*laptop*/
   .cuentaRegresiva{
-    margin-top: -80px;
+    margin-top: 0;
   border-top: 0px solid #E5CA5E;
   border-bottom: 0px solid #E5CA5E;
   border-right: 0px solid #E5CA5E;
   border-left: 0px solid #E5CA5E;
   
 
-  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#8F9677;
+  
+  background-color:transparent;
   text-align: center;
 
 }
   }
 @media (max-width:320px){
   .cuentaRegresiva{
-    margin-top: -115px;
+    margin-top: 0;
   border-top: 0px solid #E5CA5E;
   border-bottom: 0px solid #E5CA5E;
   border-right: 0px solid #E5CA5E;
   border-left: 0px solid #E5CA5E;
   
 
-  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
-  background-color:#8F9677;
+  
+  background-color:transparent;
   text-align: center;
 
 }
@@ -1293,8 +1420,8 @@ margin-bottom:;}
   box-shadow: 0 0 10px gray;
   border-top: 1px solid #9B7A07;
   border-bottom: 1px solid #9B7A07;
-  border-right: 1px solid #9B7A07;
-  border-left: 1px solid #9B7A07;
+  border-right: 1px solid #67D2EB;
+  border-left: 1px solid #67D2EB;
   border-color: #8F9677;
 }
 
@@ -1306,8 +1433,8 @@ margin-bottom:;}
   margin-bottom: 16px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #909779;
-  border-left: 3px solid #909779;
+  border-bottom: 3px solid #67D2EB;
+  border-left: 3px solid #67D2EB;
   
 font-family: 'calibri', serif;
   font-size: 18px;
@@ -1322,7 +1449,7 @@ font-family: 'calibri', serif;
 }
 
 .form-register a {
-  color: #909779;
+  color: #67D2EB;
   text-decoration: none;
 }
 
@@ -1351,8 +1478,8 @@ font-family: 'calibri', serif;
   font-size: 20px;
   border-top: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
-  border-bottom: 3px solid #909779;
-  border-left: 3px solid #909779;
+  border-bottom: 3px solid #67D2EB;
+  border-left: 3px solid #67D2EB;
 }
 
 .custom-select2 select {
@@ -1535,25 +1662,28 @@ time {
     border-color: transparent #9B7A07 transparent transparent;
   }
 }
-
+audio{
+  background: linear-gradient(to right, #FA72AD, #67D2EB);
+  
+}
 audio::-webkit-media-controls-panel {
 
-  background-color: #fff;
-  border-color:#fff ;
+  background: linear-gradient(to right, #FA72AD, #67D2EB);
+  
  
   
 }
 audio::-webkit-media-controls-mute-button {
-  background-color: #D6D0B4;
+  background-color: #fff;
   border-radius: 50%;
 }
 audio::-webkit-media-controls-play-button{
-  background-color: #D6D0B4;
+  background-color: #fff;
   border-radius: 50%;
   color:white;
 }
 audio::-webkit-media-controls-play-button:hover {
-  background-color: #D6D0B4;
+  background-color: #fff;
 }
 audio::-webkit-media-controls-current-time-display {
   color: #000;
@@ -1562,7 +1692,7 @@ audio::-webkit-media-controls-time-remaining-display {
   color: #000;
 }
 audio::-webkit-media-controls-timeline {
-  background-color: #D6D0B4;
+  background-color: #fff;
   color:white;
   border-radius: 25px;
   margin-left: 15px;
@@ -1570,7 +1700,7 @@ audio::-webkit-media-controls-timeline {
   padding: 5px;
 }
 audio::-webkit-media-controls-seek-back-button{
-  background-color: #D6C5B2;
+  background-color: #fff;
   border-radius: 50%;
   color:white;
 }
