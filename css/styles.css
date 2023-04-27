@@ -148,18 +148,25 @@ nav{
 .tituloContenedor{
   margin-top: 55px;
 }
+#icono{
+  margin-top: -20px;
+}
 .tituloInvitaciones{
   font-family: 'Cinzel', serif;
-  font-size: 28px;
-  margin-top: 150px;
+  font-size: 26px;
+  margin-top: 100px;
 }
 .tituloInvitaciones2{
-  font-family: 'Cinzel', serif;
-  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px; 
+  font-size: 26px;
+   text-shadow: 1px 1px 1px #DBDBDB;
   margin-top: -8px;
+  color:#323232;
 }
 .laNuevaForma{
-  font-family: 'Playfair Display', serif; font-size:25px;
+  font-family: 'Playfair Display', serif; 
+  font-size:25px;
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
   .tituloInvitaciones{
