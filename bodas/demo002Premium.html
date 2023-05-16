@@ -496,9 +496,9 @@
 </div>
     <form class="form-register mt-4 col-md-8" name="submit-form" id="form-register">
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;">Nombre completo del invitado</h2>
-        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="">
+        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="" required>
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;">Teléfono</h2>
-        <input class="controls" type="number" name="Telefono" id="apellidos" placeholder="">
+        <input class="controls" type="number" name="Telefono" id="telefono" placeholder="" required>
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#6F7163;   font-family: 'Arapey', serif;">¿Podrás asistir? Selecciona una opción</h2>
   
         <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: #6F7163; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
@@ -515,7 +515,7 @@
         </select>
     
         <h2 class="formulario col-12 col-lg-12 mt-4 text-left"  style="color:#6F7163;   font-family: 'Arapey', serif;">Mensaje para los novios</h2>
-        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="nombres" placeholder=""></textarea>
+        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="mensaje" placeholder="" required></textarea>
 
         <div class="row justify-content-center">
             <button type="submit" class="btnForm col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope mr-2"></i> ENVIAR</button> 
@@ -679,7 +679,14 @@
  <script>
 
  function bloquear(){
-     document.getElementById("loading").style.display = "block";
+         nombre = document.getElementById("nombres").value;
+         apellidos = document.getElementById("telefono").value;
+         mensaje = document.getElementById("mensaje").value;
+        //la condición
+        if (nombre.length == 0 || apellidos.length == 0 ||  mensaje.length == 0) {
+            return false;
+        }else{
+             document.getElementById("loading").style.display = "block";
      document.getElementById("botonForm").style.opacity = 0.7;
      document.getElementById("botonForm").textContent = 'Enviando espere por favor...';
           document.getElementById("botonForm").style.zIndex=-100;
@@ -691,6 +698,8 @@
         
         }, 3000);
  }
+
+        }
 
  
     document.getElementById("respuestaEnviada").style.display = "none";
