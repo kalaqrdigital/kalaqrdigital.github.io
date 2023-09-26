@@ -1,0 +1,1755 @@
+ body{
+  color: black;
+background-color: black;
+  width: 100%;
+ margin: 0;
+  overflow-x: hidden;
+
+}
+
+p{
+  margin-bottom: 0px;
+  margin-left: : 0px;
+  font-size: 1.2rem;
+}
+
+img{
+  width: 100%;
+}
+a{
+  display: inline-block;
+ 
+  text-decoration: none;
+
+}
+
+h3{
+  color:#121D25;
+}
+
+ul{
+  text-align: center;
+  z-index: 99;
+
+  
+}
+div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+
+.portada{
+width: 100%;
+height: 750px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+}
+.playpause {
+  padding: 15px;
+  border-radius: 50%;
+  background: #transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.playpause:hover {
+  background: #9A1913;
+}
+
+.playpause .button {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  transition: inherit;
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
+}
+
+.playpause.playing .button {
+   clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
+}
+.imagenPortada{
+  margin-top:-30px;
+ 
+}
+.linea{
+
+}
+.nombres1{
+ font-family: 'Rye', cursive;
+  
+  color:#9A1913;
+  font-size: 35px;
+  font-weight: 570;
+ z-index: 10000;
+}
+.and1{
+font-family: 'Anuphan', sans-serif;
+margin-top: -30px;
+  color:#fff;
+  font-size: 38px;
+  background-color: #6F7163;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display:flex;
+justify-content: center; 
+align-items: center;
+z-index: -1000;
+}
+.nombres2{
+font-family: 'Mr De Haviland', cursive;
+
+margin-top: -30px;
+  z-index: 10000;
+  color:#B7AA80;
+  font-size: 60px;
+;
+
+}
+.nuestraBoda{
+font-family: 'Creepster', cursive;
+  margin-top:220px;
+  color:#fff;
+  font-size: 60px;
+  letter-spacing: 6px;
+
+
+}
+
+
+.faltan{
+ font-family: 'Cormorant Garamond', serif;
+  margin-top:120px;
+  color:#621132;
+  font-size: 25px;
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.simply-section {
+  background: #9A1913;
+  width: 120px;
+  height: 80px;
+  margin: 0 50px;
+  margin:5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 30px;
+  color:white;
+  font-weight: 1000;
+  font-family: 'Rye', cursive;
+}
+
+.simply-word {
+  color:white;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Rye', cursive;
+}
+@media (min-width: 1200px) { /*laptop*/
+
+.portada{
+width: 35%;
+height: 750px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+ margin: 0 auto;
+
+}
+.portada3{
+width: 35%;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+ margin: 0 auto;
+
+}
+.portada4{
+width: 35%;
+height: 600px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+ margin: 0 auto;
+
+}
+.nombresContenedor{
+
+  margin-left:auto;
+    margin-right: auto;
+
+}
+
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.nombres1{
+font-family: 'Rye', cursive;
+  
+  color:#9A1913;
+  margin-top:0px;
+  font-size: 35px;
+  font-weight: 570;
+ z-index: 10000;
+}
+.and1{
+font-family: 'Anuphan', sans-serif;
+margin-top: -30px;
+  color:#fff;
+  font-size: 38px;
+  background-color: #6F7163;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display:flex;
+justify-content: center; 
+align-items: center;
+z-index: -1000;
+}
+.nombres2{
+font-family: 'Mr De Haviland', cursive;
+
+margin-top: -30px;
+  z-index: 10000;
+  color:#B7AA80;
+  font-size: 60px;
+;
+
+}
+.nuestraBoda{
+font-family: 'Creepster', cursive;
+  margin-top:220px;
+  color:#fff;
+  font-size: 60px;
+  letter-spacing: 6px;
+
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+}
+
+@media (max-width:320px){
+
+.nombres1{
+font-family: 'Rye', cursive;
+  
+  color:#9A1913;
+  font-size: 30px;
+  font-weight: 570;
+ z-index: 10000;
+}
+.and1{
+font-family: 'Anuphan', sans-serif;
+margin-top: -30px;
+  color:#fff;
+  font-size: 38px;
+  background-color: #6F7163;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display:flex;
+justify-content: center; 
+align-items: center;
+z-index: -1000;
+}
+.nombres2{
+font-family: 'Mr De Haviland', cursive;
+
+margin-top: -30px;
+  z-index: 10000;
+  color:#B7AA80;
+  font-size: 50px;
+;
+
+}
+.nuestraBoda{
+font-family: 'Creepster', cursive;
+  margin-top:250px;
+  color:#fff;
+  font-size: 40px;
+  letter-spacing: 6px;
+
+
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.simply-section {
+  background: #9A1913;
+  width: 120px;
+  height: 80px;
+  margin: 0 50px;
+  margin:5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 20px;
+  color:white;
+  font-weight: 1000;
+ font-family: 'Rye', cursive;
+}
+
+.simply-word {
+  color:white;
+  font-weight: 400;
+  font-size: 15px;
+   font-family: 'Rye', cursive;
+}
+}
+
+
+
+.fondoMeGradue{
+width: 100%;
+height: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+
+}
+.nosCasamos{
+font-family: 'Cinzel', cursive;
+  margin-top:;
+  color:white;
+  font-size: 30px;
+
+}
+.textoNosCasamos{
+  font-family: 'Arapey', serif; 
+  font-weight: 400;
+  margin-top:0px;
+  color:white;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+.estasinvitado{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color:white;
+  font-size: 35px;
+
+
+}
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:120px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 35px;
+
+}
+@media (max-width:376px){
+
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:30px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+}
+.imagen2{
+  
+  background-color:#D6D0B4 ;
+ border-top: 7px solid #D6D0B4;
+  border-bottom: 7px solid #D6D0B4;
+  border-right: 7px solid #D6D0B4;
+  border-left: 7px solid #D6D0B4;
+  border-color: #D6D0B4;
+  width: 100%;
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+.collage{
+
+  margin-top: -40px;
+  margin-bottom: -100px;
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  text-align: center;
+  z-index: 99;
+}
+.dia{
+  color:white;
+   font-family: 'Rye', cursive;
+  font-size: 100px;
+  margin-top: -0px;
+  margin-bottom: -5px;
+  z-index:9999;
+}
+.mes{
+  
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+  color: #E43B01;
+
+}
+.año{
+  
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+  color: black;
+}
+.dondeycuandotitulo{
+  font-family: 'Rye', cursive;
+  font-size: 35px;
+  color:#E43B01;
+}
+.hora{
+   font-family: 'Creepster', cursive;
+  font-size: 40px;
+  color:#fff;
+}
+.lugar{
+font-family: 'Rye', cursive;
+ color:#fff;
+  font-size: 20px;
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+}
+
+.dondeycuando{
+  background-color: black;
+}
+.dondeyCuando{
+font-family: 'Creepster', cursive;
+  margin-top:10px;
+  color:white;
+  font-size: 60px;
+
+}
+.padresypadrinos{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #D6D0B4;
+
+  
+  background-color: transparent;
+  opacity: 1;
+  text-align: center;
+}
+.padresnovios{
+font-family: 'Arapey', serif;
+letter-spacing: 6px;
+  font-size: 18px;
+  color:#6F7163;
+  background-color:#B7AA80 ;
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+}
+.porqueformas{
+   font-family: 'Mr De Haviland', cursive;
+  font-size: 45px;
+  color:#D6D0B4;
+}
+.tespero{
+  font-family: 'Noto Serif Khojki', serif; 
+  font-size: 18px;
+  line-height:2;
+}
+.nompadres{
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 35px;
+    color:white;
+    font-weight: 570;
+}
+.and{
+  font-family: 'Anuphan', sans-serif;
+ font-size:60px;
+ margin-top: -15px;
+ margin-bottom: -10px;
+    color:#D6D0B4;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+.tespero{
+  font-family: 'Noto Serif Khojki', serif; 
+  font-size: 18px;
+  line-height:2;
+}
+.dondeyCuando{
+font-family: 'Creepster', cursive;
+  margin-top:10px;
+  color:black;
+  font-size: 60px;
+
+}
+.dia{
+  margin-top: -10px;
+  font-family: 'Rye', cursive;
+  font-size: 100px;
+  color:white;
+}
+.porqueformas{
+   font-family: 'Mr De Haviland', cursive;
+  font-size: 45px;
+  color:#D6D0B4;
+}
+
+}
+@media (max-width:320px){
+.textoNosCasamos{
+  font-family: 'Arapey', serif; 
+  font-weight: 400;
+  margin-top:0px;
+  color:white;
+  font-size: 15px;
+  margin-bottom: 10px;
+
+}
+.dondeyCuando{
+font-family: 'Creepster', cursive;
+  margin-top:10px;
+  color:black;
+  font-size: 40px;
+
+}
+.dia{
+  margin-top: -10px;
+  font-family: 'Rye', cursive;
+  font-size: 70px;
+
+  color:white;
+}
+.mes{
+  font-family: 'Rye', cursive;
+  font-size: 35px;
+  color: #E43B01;
+
+}
+.año{
+ font-family: 'Rye', cursive;
+  font-size: 40px;
+  color: black;
+}
+.dondeycuandotitulo{
+  font-family: 'Rye', cursive;
+  font-size: 20px;
+  color:#E43B01;
+}
+.lugar{
+  font-family: 'Rye', cursive;
+ color:#fff;
+  font-size: 15px;
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+}
+.tespero{
+  font-family: 'Noto Serif Khojki', serif; 
+  font-size: 15px;
+  line-height:2;
+}
+.nompadres{
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+    color:white;
+    font-weight: 570;
+}
+.and{
+  font-family: 'Great Vibes', cursive;
+ font-size:60px;
+ margin-top: -10px;
+ margin-bottom: -10px;
+    color:#D6D0B4;
+}
+
+.hora{
+   font-family: 'Creepster', cursive;
+  font-size: 30px;
+  color:#fff;
+}
+
+}
+
+.familiaboleto{
+  overflow: hidden;
+font-family: 'Arapey', serif;
+  font-size: 25px;
+  color:#6F7163;
+  background-color: #B7AA80; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+ font-family: 'Mr De Haviland', cursive;
+  font-size: 40px;
+  color:#B7AA80;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color:white;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color:white;
+}
+
+
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.familiaboleto{
+font-family: 'Arapey', serif;
+  font-size: 30px;
+  color:white;
+  background-color: #9D927A; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color:white;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color:white;
+}
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+@media (max-width:320px){
+
+.familiaboleto{
+font-family: 'Arapey', serif;
+  font-size: 22px;
+  color:white;
+  background-color: #9D927A; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color:white;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color:white;
+}
+.respetuosamente{
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.formulario{
+  margin-left: -10px;
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+.padres{
+   box-shadow: 0 0 20px white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: white;
+
+  
+  background-color: 184547;
+  text-align: center;
+}
+.ceremoniaReligiosa{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  
+  background-color:transparent;
+  text-align: center;
+}
+
+.itinerario{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+  background-color:white;
+  text-align: center;
+}
+
+.fechaInicio{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#B7AA80;
+  text-align: center;
+  margin-bottom: -200px;
+}
+
+.cuentaRegresiva{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#6B882F;
+  text-align: center;
+ margin-top: -80px;
+}
+
+.cuentaRegresiva2{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#B7AA80;
+  text-align: center;
+ margin-top: -110px;
+}
+
+.cuentaRegresiva3{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color:#B7AA80;
+  text-align: center;
+ margin-top: -10px;
+}
+
+.vestimenta{
+
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: transparent;
+  color:black;
+  background-color: transparent;
+  outline: 15px solid transparent;
+
+}
+.mesaregalos{
+  color:black;
+  background-color: #B7AA80;
+
+
+}
+.lluvia{
+  
+  color:#D6D0B4;
+  background-color: #6F7163;
+  
+}
+.boletos{
+
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  
+  border-color: #29050F;
+
+  color:#D6D0B4;
+  
+  text-align: center;
+}
+
+.boletos2{
+
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  
+  border-color: #B7AA80;
+
+  color:#D6D0B4;
+  
+  text-align: center;
+}
+
+
+.carousel{
+  border-top: 6px solid black;
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+  border-left: 6px solid white;
+  
+  border-color: #B7AA80;
+
+  color:black;
+  
+ 
+}
+#slider2{
+  border-top: 8px solid black;
+  border-bottom: 8px solid white;
+  border-right: 8px solid white;
+  border-left: 8px solid white;
+  
+  border-color: #6F7163;
+
+  color:black;
+  
+ 
+}
+#carousel .carousel-caption  h2 {
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+.imagen{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.textodondeycuando{
+  color:#6F7163;
+  font-size: 16px;
+font-family: 'Playfair Display', serif;
+
+}
+.carousel2 {
+  background: white;
+  border-radius: 10px; 
+box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+
+  }
+  .carousel2 .carousel-item {
+    height: 300px;
+    border-radius: 5px;  
+
+  }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px; 
+      top: 0;
+      left: 0;
+      border-color: black;
+
+       }
+@media (min-width: 1000px) {
+    .carousel2 .carousel-item {
+    height: 500px; }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+       }
+}
+
+.padrinos{
+  border-radius: 50%;
+}
+
+.textoSeccionPadrinos{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 20px;
+  margin-bottom: 50px;
+
+}
+
+.mesaRegalos{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 12px;
+  margin-bottom: 50px;
+
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+
+.datosBancarios{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.Tituloasistencia{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color:#AA006F;
+
+}
+
+.textoasistencia{
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 400;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+.Tituloasistenciaespero{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin-bottom: 80px;
+  color:#AA006F;
+
+}
+.titulo{
+  
+  color: #7E4C0D ;
+  
+
+
+}
+.btnwhats .textowhats{
+  size:10px;
+}
+.btnWhats{
+  text-decoration:none;
+  color:white;
+  border-color: #25D366;
+  background-color: transparent;
+  height: 40px;
+  
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 99;
+}
+
+.btnForm{
+  border-top: 0px solid ;
+  border-bottom: 0px solid ;
+  border-right: 0px solid ;
+  border-left: 0px solid ;
+  border-color: #D6C5B2;
+  text-decoration: none;
+  color:#6F7163;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnForm:hover{
+
+  border-top: 0px solid ;
+  border-bottom: 0px solid ;
+  border-right: 0px solid ;
+  border-left: 0px solid ;
+  border-color: #6F7163;
+  text-decoration: none;
+  background-color: #6F7163; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#D6D0B4;
+  height: 45px;
+}
+.btnComoLlegar{
+  text-decoration: none;
+  color:#fff;
+  background-color: #9A1913; 
+  font-family: 'Rye', cursive;
+  font-size: 20px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 100px;
+}
+
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: #E43B01; 
+  font-family: 'Rye', cursive;
+  font-size: 20px;
+  color:#fff;
+  height: 45px;
+}
+.mujeres{
+color:#6F7163;  
+font-family: 'Arapey', serif;
+}
+.hombres{
+color:#6F7163;  
+font-family: 'Arapey', serif;
+}
+
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 15px;
+}
+}
+@media (max-width:320px){
+.mujeres{
+color:#6F7163;  
+font-family: 'Arapey', serif;
+font-size: 15px;
+margin-left: -10px;
+}
+.hombres{
+color:#6F7163;  
+font-family: 'Arapey', serif;
+font-size: 15px;
+margin-left: -10px;
+}
+.btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 12px;
+}
+.btnComoLlegar{
+   text-decoration: none;
+  color:#fff;
+  background-color: #9A1913; 
+  font-family: 'Rye', cursive;
+  font-size: 15px;
+   height: 35px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 27px;
+}
+
+}
+@media (min-width: 1200px) { /*laptop*/
+  .btnComoLlegar{
+  text-decoration: none;
+  color:#fff;
+  background-color: #9A1913; 
+  font-family: 'Rye', cursive;
+  font-size: 20px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom: 27px;
+  
+}
+
+}
+.btnWhats{
+  text-decoration:none;
+  color:#25D366;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #25D366;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhats:hover{
+  text-decoration:none;
+  background-color: #25D366;
+  color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: white;
+ 
+}
+.btnWhatsNovios{
+  text-decoration:none;
+  color:#fff;
+  background-color: transparent;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9A1913;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhatsNovios:hover{
+  text-decoration:none;
+  background-color: #9A1913;
+  color: #fff;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9A1913;
+ 
+}
+.confirmar{
+  margin-top: 100px;
+}
+.btnHoteles{
+  text-decoration:none;
+  height: 50px;
+  font-size: 12px;
+border-color: white; 
+border-width:2px; 
+border-radius: 1px; 
+background-color:transparent; 
+color:white; 
+}
+
+
+.btnHoteles:hover{
+  text-decoration:none;
+  color: #E5CA5E;
+  border-color: #E5CA5E;
+ 
+}
+
+.menu{
+  color: #121D25;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 0px;
+}
+.table {
+  background: black;
+  position: sticky;
+  color:black;
+  margin-bottom: 9px;
+  top:0; 
+}
+
+.badge{
+  background-color: black;
+}
+.cuerpo{
+width: 100%;
+  background: transparent; 
+  color:#121D25;
+z-index: -1;
+margin-top: 0px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+
+
+}
+
+.desactivado{
+    margin-top: 320px;
+  font-size: 35px;
+
+
+
+}
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
+
+
+
+}
+@media (max-width:320px){
+  
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 10px;
+
+}
+.badge{
+  font-size: 9px;
+ 
+}
+}
+
+.precio{
+
+  margin-left: -20px;
+}
+
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #FFE8F7;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+  .loader_bg img{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top: -40px;
+    margin-left: 8px;
+    animation-name:pulse_animation;animation-duration:2500ms;
+    transform-origin:50% 50%;animation-timing-function:ease-in-out}
+    @media (min-width: 375px){
+.loader_bg img{max-width:180px !important;max-height:180px !important}}
+@keyframes pulse_animation{0%{transform:scale(1)}100%{transform:scale(1.7)}}
+   
+ 
+.progress{position:relative;height:4px;display:block;width:100%;background-color:#F4F4F4;border-radius:2px;background-clip:padding-box;margin:0 auto;overflow:hidden}
+.progress .loading-bar{background-color:#797d80}
+.progress .indeterminate:before{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite}
+.progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}
+@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}
+
+
+#scroll {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:gray;
+    border-color: #9B7A07;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+    z-index:9999px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#505050;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+.pie{
+  background: #621132;
+  border-top: solid 1px white;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color:white;
+  height: 100px;
+  position:relative;
+  z-index: -1;
+  text-decoration:none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.piepag {
+  font-size: 2rem;
+  text-align: center;
+  z-index: -1;
+  color:#121D25;
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+
+}
+.center{display:table;width:100%;background-color: black;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:#909090;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid rgba(167,146,129,.4);cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#fff;border:1px solid #ccc}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}
+
+.form-register {
+  width: 100%;
+  background: #B7AA80 ;
+  padding: 30px;
+  margin: auto;
+  margin-top:;
+
+  font-family: 'calibri', serif;
+  color: #6F7163;
+}
+
+.controls {
+  width: 100%;
+  background: #fff ;
+  padding: 10px;
+  
+  margin-bottom: 16px;
+  border-top: 0px solid #E5E5E5;
+  border-right: 0px solid #E5E5E5;
+  border-bottom: 3px solid #6F7163;
+  border-left: 3px solid #6F7163;
+  
+font-family: 'calibri', serif;
+  font-size: 18px;
+  color: black;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: #9B7A07;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  align-self: center;
+  background: white;
+  border: none;
+  padding: 12px;
+  color: #9B7A07;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* The container must be positioned relative: */
+.custom-select2 {
+  background-color: #fff;
+  color: #9B7A07;
+  position: relative;
+  font-family: 'calibri', serif;
+  font-size: 20px;
+  border-top: 0px solid #E5E5E5;
+  border-right: 0px solid #E5E5E5;
+  border-bottom: 3px solid #6F7163;
+  border-left: 3px solid #6F7163;
+}
+
+.custom-select2 select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #E5E5E5 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #E5E5E5 transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: black;
+  margin-left: 10px;
+  padding: ;
+  border: 1px solid #E5E5E5;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #E5E5E5;
+  top: 100%;
+  height: 70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  #particles-js{
+            background: transparent;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+        }
+
+/* INTRO SECTION
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #000;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 100;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #E5CA5E;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #E5CA5E transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #E5CA5E;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #E5CA5E;
+}
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #E5CA5E transparent transparent;
+  }
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #29050F;
+  border-color:#29050F ;
+ 
+  
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: #B7AA80;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #B7AA80;
+  border-radius: 50%;
+  color:white;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #D6D0B4;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: #B7AA80;
+  color:white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+audio::-webkit-media-controls-seek-back-button{
+  background-color: #B7AA80;
+  border-radius: 50%;
+  color:white;
+}
+
+.iniciales{
+  font-family: 'Arapey', serif;
+  color:#D6D0B4;
+  font-size: 50px;
+  height: 80px;
+  background-color:#6F7163;
+  text-align: center;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px #696969;
+}
+.inicialesFoto{
+  color:#BFB291;
+ 
+  background-color:#D6D0B4;
+  text-align: center;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.textoIniciales{
+  font-size: 35px;
+  font-weight: 500;
+}
+@media (max-width:320px){
+  .textoIniciales{
+  font-size: 30px;
+  font-weight: 500;
+  position: sticky;top: 20px;
+}
+.entrada{
+  margin-top: -400px;
+}
+
+}
+
+
+.flecha {
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.flecha span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:-7px;}
+  75%  {left:0px; top:-5px;}
+  100% {left:0px; top:0px;}
+}
