@@ -276,18 +276,35 @@ $(document).ready(function(){
   });
 });
 
+ $("#pills-contact-tab2").on("click", function(){
+  	$("#pills-home-tab").css("color", "#3b414a")
+  	$("#pills-profile-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab2").css("color", "#9B7A07")
+    	
+});
+
 	$("#pills-profile-tab").on("click", function(){
-  	$("#pills-home-tab").css("color", "white")
+  	$("#pills-home-tab").css("color", "#3b414a")
+  	$("#pills-profile-tab").css("color", "#9B7A07")
+  	$("#pills-contact-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab2").css("color", "#3b414a")
     	
 });
   
 	$("#pills-contact-tab").on("click", function(){
-  	$("#pills-home-tab").css("color", "white")
+  	$("#pills-home-tab").css("color", "#3b414a")
+  	$("#pills-profile-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab").css("color", "#9B7A07")
+  	$("#pills-contact-tab2").css("color", "#3b414a")
     	
 });
   
 $("#pills-home-tab").on("click", function(){
   	$(this).css("color", "#9B7A07")
+  	$("#pills-profile-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab").css("color", "#3b414a")
+  	$("#pills-contact-tab2").css("color", "#3b414a")
     	
 });
 
