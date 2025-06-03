@@ -147,13 +147,7 @@ sr.reveal('.izquierda2', {
 		
 
 	});
-sr.reveal('.codigo', {
-		duration: 2000, //tiempo
-		origin: 'right', //origen
-		distance: '100px', //distancia
-		
 
-	});
 sr.reveal('.contacto2', {
 		duration: 2000, //tiempo
 		origin: 'left', //origen
@@ -168,28 +162,7 @@ sr.reveal('.contacto3', {
 		
 
 	});
-sr.reveal('.horario', {
-		duration: 2000, //tiempo
-		origin: 'top', //origen
-		distance: '100px', //distancia
-		
 
-	});
-sr.reveal('.laviernes', {
-		duration: 2000, //tiempo
-		origin: 'top', //origen
-		distance: '100px', //distancia
-		
-
-	});
-sr.reveal('.piepagina', {
-		duration: 1000, //tiempo
-		delay:500,
-		origin: 'left', //origen
-		distance: '100px', //distancia
-		
-
-	}); 
 
 	sr.reveal('.float', {
 		duration: 1500, //tiempo

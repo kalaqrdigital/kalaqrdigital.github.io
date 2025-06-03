@@ -282,7 +282,9 @@ ul{
 
   
 }
-
+.celular2 img{
+  filter: drop-shadow(-15px 11px 6px #424242);
+}
 .celular img{
   filter: drop-shadow(-15px 11px 6px #424242);
 }
