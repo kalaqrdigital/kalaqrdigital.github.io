@@ -35,9 +35,7 @@
  display:flex;
   justify-content: center;
   align-items: center;
-box-shadow: 1px 8px 32px 4px rgba(162,162,162,0.59);
--webkit-box-shadow: 1px 8px 32px 4px rgba(162,162,162,0.59);
--moz-box-shadow: 1px 8px 32px 4px rgba(162,162,162,0.59);
+
 
 }
 
@@ -187,8 +185,9 @@ display:flex;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 25px;
-  margin-top: 100px;
+  margin-top: 00px;
   letter-spacing: 1px;
+  text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
 }
 .tituloInvitaciones2{
   font-family: 'Playfair Display', serif;
@@ -392,7 +391,7 @@ display:flex;
 -webkit-box-shadow: 1px 8px 32px 4px rgba(162,162,162,0.59);
 -moz-box-shadow: 1px 8px 32px 4px rgba(162,162,162,0.59);
   text-decoration:none;
-  color: #323232;
+  color: #fff;
   background-color: transparent;
 
   
@@ -1855,4 +1854,149 @@ a {
   50%  {left:0px; top:-7px;}
   75%  {left:0px; top:-5px;}
   100% {left:0px; top:0px;}
+}
+
+h1 {
+
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+  z-index: 9999;
+}
+
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "D"; }
+  2.2791%, 25.0698% { content: "Di"; }
+  3.4186%, 23.9302% { content: "Dig"; }
+  4.5581%, 22.7907% { content: "Digi"; }
+  5.6977%, 21.6512% { content: "Digit"; }
+  6.8372%, 20.5116% { content: "Digita"; }
+  7.9767%, 19.3721% { content: "Digital"; }
+ 9.1163%, 18.2326% { content: "Digitale"; }
+  10.2558%, 17.0930% { content: "Digitales"; }
+
+  30.7674%, 61.2791% { content: ""; }
+  31.9070%, 60.1395% { content: "I"; }
+  33.0465%, 59.0000% { content: "In"; }
+  34.1860%, 57.8605% { content: "Int"; }
+  35.3256%, 56.7209% { content: "Inte"; }
+  36.4651%, 55.5814% { content: "Intel"; }
+  37.6047%, 54.4419% { content: "Inteli"; }
+    38.8047%, 53.2419% { content: "Intelig"; }
+      39.0047%, 52.0419% { content: "Intelige"; }
+        40.2047%, 51.8419% { content: "Inteligen"; }
+          41.4047%,50.6419% { content: "Inteligent"; }
+            42.6047%, 49.4419% { content: "Inteligente"; }
+              43.8047%, 48.2419% { content: "Inteligentes"; }
+
+  64.6977%, 85.2093% { content: ""; }
+  65.8372%, 84.0698% { content: "D"; }
+  66.9767%, 82.9302% { content: "Di"; }
+  68.1163%, 81.7907% { content: "Dig"; }
+  69.2558%, 80.6512% { content: "Digi"; }
+  70.3953%, 79.5116% { content: "Digit"; }
+  71.5349%, 78.3721% { content: "Digita"; }
+  72.7349%, 77.0721% { content: "Digital"; }
+  73.9349%, 76.8721% { content: "Digitale"; }
+  74.1349%, 75.6721% { content: "Digitales"; }
+
+  88.6279%, 106.8605% { content: ""; }
+  89.7674%, 105.7209% { content: "I"; }
+  90.9070%, 104.5814% { content: "In"; }
+  92.0465%, 103.4419% { content: "Int"; }
+  93.1860%, 102.3023% { content: "Inte"; }
+  94.3256%, 101.1628% { content: "Intel"; }
+  95.5256%, 100.8628% { content: "Inteli"; }
+
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "Bautizo"; }
+    25% { content: "1er Añito"; }
+    50% { content: "Bautizo"; }
+    75% { content: "1er Añito"; }
+  }
+
+  .typewriter::before {
+    content: "Bautizo";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+
+/**/
+
+.wave-text span {
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.wave-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.wave-text span:nth-child(6) {
+    animation-delay: 0.10s;
+}
+
+
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
